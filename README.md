@@ -4,6 +4,12 @@ Eine interaktive Lerneinheit zum Wandel der Lesekultur, ausgehend von Jorge Luis
 
 Erst erleben, dann am Text prüfen: elf frei zugängliche Räume über Textflut, Aufmerksamkeit, Untergangserzählungen, soziale Zugänge, Delegation, Algorithmen, Bookishness, Medien, Resonanz und die eigene zukünftige Lesekultur. Für die Sekundarstufe II, ab ungefähr 15 Jahren. Vorschlag für zwei Lektionen in der Website unter „Für den Unterricht“.
 
+## Direkt durch die Regale fahren
+
+Die Startseite ist eine räumliche Bibliothek aus elf sechseckigen Galerien und Gängen. Am Bildschirmrand gleitet die Ansicht mit dem Cursor weiter. Mit Maus oder Finger lässt sie sich ziehen; das Mausrad verschiebt sie, Ctrl/Command plus Mausrad zoomt. Pfeiltasten und die kleine Raumkarte bieten weitere Zugänge. Leuchtende Buchrücken öffnen Fragen, Versuche und Ressourcen in einem Buchfenster über dem Raum.
+
+Jeder Raum enthält Frage- und Versuchsangebote sowie passende Ressourcen. Alle 16 unterschiedlichen Quellen sind über die Regale erreichbar. Das Fenster lässt sich mit Escape oder „Buch zurückstellen“ schliessen. Geschriebene Reflexionen werden dabei lokal behalten. Beim Wechsel zum Logbuch und zurück bleibt die Ansicht während dieser Sitzung am zuletzt besuchten Ort. Im Ruhemodus und bei reduzierter Bewegung gleitet die Bibliothek nicht automatisch.
+
 ## Start
 
 Statische Website ohne Build oder Bibliotheksinstallation. `index.html` direkt öffnen oder im Projektordner ausführen:
@@ -45,3 +51,5 @@ Konkrete Klasse, verfügbare Lesezeit, Leistungsnachweis und Zugangs-/Nutzungsre
 ## Prüfung dieser Version
 
 JavaScript-Syntaxprüfung mit `node --check app.js`. Im Browser wurden alle elf Räume geöffnet und ihre zentralen Interaktionen ausgeführt: Regalsuche, sechs Gerichtsakten, beide Aufmerksamkeitsdurchgänge, vier historische Klagen, Ressourcenverteilung, fehlerhafte Kurzfassung mit Originalprüfung, Empfehlungsregal, Bücherinszenierung, Medienwechsel, Perspektivwechsel und Zeitbudget. Logbuch-Speichern, Fortbestand nach Neuladen und zweistufiges Löschen wurden geprüft. Die mobile Borges-Ansicht zeigte keinen horizontalen Überlauf. Die Stichproben erzeugten keine JavaScript-Fehler im Browserprotokoll. Dies ist keine vollständige Screenreader-Prüfung.
+
+Die räumliche Erweiterung wurde zusätzlich mit Drag-Bewegung, Raumkarte, Regal-Frage, automatischer lokaler Notizspeicherung, eingebettetem Gericht, Originalprüfung und Ressourcenwechsel geprüft. Frühere direkte Raumlinks funktionieren weiter. Die Website besteht nun zusätzlich aus `explorer.js`, das der GitHub-Pages-Workflow mit publiziert.
