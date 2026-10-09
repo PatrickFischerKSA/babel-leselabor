@@ -36,8 +36,12 @@ Alle Räume sind ohne Zeitsperre zugänglich. Ruhemodus, freiwillige Unterbrechu
 
 ## Bilder
 
-`assets/babel.jpg`: mit dem integrierten Imagegen-Werkzeug generierte Bibliotheksillustration. Prompt und Herkunft in [ASSETS.md](ASSETS.md). Linienillustrationen und Buchobjekte: eigene SVG-/CSS-Gestaltungen in `app.js` und `style.css`; keine übernommenen Borges-Illustrationen. Forschungsdateien sind bewusst durch `.gitignore` von der Veröffentlichung ausgeschlossen.
+`assets/babel.jpg` und `assets/borges-folge.jpg`: mit dem integrierten Imagegen-Werkzeug generierte Bibliotheksillustration und fünfteilige Bildfolge. Prompt und Herkunft in [ASSETS.md](ASSETS.md). Linienillustrationen und Buchobjekte: eigene SVG-/CSS-Gestaltungen in `app.js` und `style.css`; keine übernommenen Borges-Illustrationen. Forschungsdateien sind bewusst durch `.gitignore` von der Veröffentlichung ausgeschlossen.
 
 ## Noch festzulegen
 
 Konkrete Klasse, verfügbare Lesezeit, Leistungsnachweis und Zugangs-/Nutzungsrechte an den Originalen. Diese Ausgabe setzt freie Exploration und ein persönliches Logbuch voraus.
+
+## Prüfung dieser Version
+
+JavaScript-Syntaxprüfung mit `node --check app.js`. Im Browser wurden alle elf Räume geöffnet und ihre zentralen Interaktionen ausgeführt: Regalsuche, sechs Gerichtsakten, beide Aufmerksamkeitsdurchgänge, vier historische Klagen, Ressourcenverteilung, fehlerhafte Kurzfassung mit Originalprüfung, Empfehlungsregal, Bücherinszenierung, Medienwechsel, Perspektivwechsel und Zeitbudget. Logbuch-Speichern, Fortbestand nach Neuladen und zweistufiges Löschen wurden geprüft. Die mobile Borges-Ansicht zeigte keinen horizontalen Überlauf. Die Stichproben erzeugten keine JavaScript-Fehler im Browserprotokoll. Dies ist keine vollständige Screenreader-Prüfung.

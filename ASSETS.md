@@ -10,7 +10,7 @@ Prompt:
 
 ## Linienbilder
 
-Die Motive Bibliothek, Satzbruch, Uhr, Tür, Apparat, Netz, Bücher, Welle, Auge und Keim werden als eigene SVG-Grafiken von der Funktion `art()` in `app.js` gezeichnet. Fünf davon begleiten die Borges-Leseaufträge. Das Bücherbild im Bookishness-Raum ist eine eigene CSS-Gestaltung mit erfundenen Titeln. Das Hexagon-Logo liegt in `assets/mark.svg`.
+Die Motive Bibliothek, Satzbruch, Uhr, Tür, Apparat, Netz, Bücher, Welle, Auge und Keim werden als eigene SVG-Grafiken von der Funktion `art()` in `app.js` gezeichnet. Die Raumkarte verwendet diese Motive. Die fünf Borges-Leseaufträge begleitet das separate Bildpanorama. Das Bücherbild im Bookishness-Raum ist eine eigene CSS-Gestaltung mit erfundenen Titeln. Das Hexagon-Logo liegt in `assets/mark.svg`.
 
 ## assets/borges-folge.jpg
 
