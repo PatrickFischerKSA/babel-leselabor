@@ -11,3 +11,11 @@ Prompt:
 ## Linienbilder
 
 Die Motive Bibliothek, Satzbruch, Uhr, Tür, Apparat, Netz, Bücher, Welle, Auge und Keim werden als eigene SVG-Grafiken von der Funktion `art()` in `app.js` gezeichnet. Fünf davon begleiten die Borges-Leseaufträge. Das Bücherbild im Bookishness-Raum ist eine eigene CSS-Gestaltung mit erfundenen Titeln. Das Hexagon-Logo liegt in `assets/mark.svg`.
+
+## assets/borges-folge.jpg
+
+Ein einziges Panorama mit fünf Szenen, erzeugt mit dem integrierten Imagegen-Werkzeug am 09.10.2026. Die Website zeigt die fünf Bereiche durch CSS-Bildausschnitte.
+
+Prompt:
+
+> Use case: illustration-story. Asset type: a single panoramic five-panel accordion illustration for a Borges Library of Babel literary website. Five equally wide vertical panels, arranged left to right, edge to edge, no gutters or text. Unified richly detailed antique etching and painterly chiaroscuro style in ink navy, muted teal, parchment gold, copper. Panel 1: solitary tiny librarian on a hexagonal gallery over a towering abyss, shelves extending into darkness. Panel 2: extreme close up of a mysterious open old book with tiny indistinct illegible marks, worn paper, lamp illuminating it. Panel 3: labyrinth of cascading catalogue cards and interconnected books, a searching human hand. Panel 4: shadowy robed librarians arguing around stacks of books, one trying to remove books while another protects them, dramatic tension. Panel 5: repeating hexagonal galleries becoming a cosmic spiral constellation, fragile amber light and a single small reader facing infinity. Landscape panoramic format, five panels of equal width. No readable lettering, no labels, no watermark. Original symbolic interpretation, not a reproduction of existing artwork.
