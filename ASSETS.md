@@ -19,3 +19,17 @@ Ein einziges Panorama mit fünf Szenen, erzeugt mit dem integrierten Imagegen-We
 Prompt:
 
 > Use case: illustration-story. Asset type: a single panoramic five-panel accordion illustration for a Borges Library of Babel literary website. Five equally wide vertical panels, arranged left to right, edge to edge, no gutters or text. Unified richly detailed antique etching and painterly chiaroscuro style in ink navy, muted teal, parchment gold, copper. Panel 1: solitary tiny librarian on a hexagonal gallery over a towering abyss, shelves extending into darkness. Panel 2: extreme close up of a mysterious open old book with tiny indistinct illegible marks, worn paper, lamp illuminating it. Panel 3: labyrinth of cascading catalogue cards and interconnected books, a searching human hand. Panel 4: shadowy robed librarians arguing around stacks of books, one trying to remove books while another protects them, dramatic tension. Panel 5: repeating hexagonal galleries becoming a cosmic spiral constellation, fragile amber light and a single small reader facing infinity. Landscape panoramic format, five panels of equal width. No readable lettering, no labels, no watermark. Original symbolic interpretation, not a reproduction of existing artwork.
+
+## assets/bookwall.jpg
+
+Erzeugt am 10.10.2026 mit dem integrierten Imagegen-Werkzeug, mit dem vom Nutzer angehängten Bücherwandfoto als visueller Referenz. Das Referenzfoto wird nicht im Repository veröffentlicht. Das generierte Bild dient als Material der 3D-Regalwände.
+
+Prompt:
+
+> Create a realistic straight-on architectural texture for a navigable 3D Borges Library of Babel, inspired by the attached reference photo of a densely filled wooden bookcase. This is a texture asset covering an entire monumental library bookcase wall, not an interface. Perfect frontal orthographic view, square composition, full-bleed, 5 vertical wooden bays and 9 horizontal shelves, completely densely filled with hundreds of individually varied antique leather and cloth books, subtle faded spine gold decorations, worn ochre, russet, olive, oxblood, navy and parchment colors. Warm aged walnut joinery and timber cornices, real grain and surface imperfections, dusty patina, faint warm neutral diffuse illumination for texture mapping. No perspective distortion, no doors, no floor, no people, no statues, no readable text, no icons, no labels, no UI. Rich photographic detail, tasteful old residential library feeling from reference enlarged into Borges hexagonal architecture. Entire image consists only of shelves of books and their walnut frame.
+
+Holzboden und beschriftete Buchrücken entstehen als eigene Canvas-Materialien in `explorer.js`. Architektur, Regalbretter, Geländer, Treppen und Buchobjekte sind dort als 3D-Geometrie gebaut. Lederdecke und offene Papierseiten sind eigene CSS-Gestaltungen.
+
+## assets/vendor/
+
+Three.js 0.180.0, lokal gebündelte Module aus dem offiziellen npm-Paket `three`. MIT-Lizenz: `assets/vendor/THREE-LICENSE.txt`.

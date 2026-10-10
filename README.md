@@ -4,15 +4,17 @@ Eine interaktive Lerneinheit zum Wandel der Lesekultur, ausgehend von Jorge Luis
 
 Erst erleben, dann am Text prüfen: elf frei zugängliche Räume über Textflut, Aufmerksamkeit, Untergangserzählungen, soziale Zugänge, Delegation, Algorithmen, Bookishness, Medien, Resonanz und die eigene zukünftige Lesekultur. Für die Sekundarstufe II, ab ungefähr 15 Jahren. Vorschlag für zwei Lektionen in der Website unter „Für den Unterricht“.
 
-## Direkt durch die Regale fahren
+## Durch die Bibliothek wandeln
 
-Die Startseite ist eine räumliche Bibliothek aus elf sechseckigen Galerien und Gängen. Am Bildschirmrand gleitet die Ansicht mit dem Cursor weiter. Mit Maus oder Finger lässt sie sich ziehen; das Mausrad verschiebt sie, Ctrl/Command plus Mausrad zoomt. Pfeiltasten und die kleine Raumkarte bieten weitere Zugänge. Leuchtende Buchrücken öffnen Fragen, Versuche und Ressourcen in einem Buchfenster über dem Raum.
+Die Startseite ist ein begehbares 3D-Interieur aus elf sechseckigen Galerien, hohen Bücherwänden, Holzstegen und einem zentralen Schacht mit Wendeltreppe. Maus oder Finger ziehen dreht den Blick; am Bildschirmrand dreht er sich mit dem Cursor weiter. Pfeile oder WASD und das Mausrad bewegen die Person. Die Bildschirmtasten funktionieren auch auf Touchgeräten. Durchgänge verbinden die Galerien; die Galerieauswahl erlaubt einen direkten Wechsel.
 
-Jeder Raum enthält Frage- und Versuchsangebote sowie passende Ressourcen. Alle 16 unterschiedlichen Quellen sind über die Regale erreichbar. Das Fenster lässt sich mit Escape oder „Buch zurückstellen“ schliessen. Geschriebene Reflexionen werden dabei lokal behalten. Beim Wechsel zum Logbuch und zurück bleibt die Ansicht während dieser Sitzung am zuletzt besuchten Ort. Im Ruhemodus und bei reduzierter Bewegung gleitet die Bibliothek nicht automatisch.
+Beschriftete Bände stehen zwischen den Büchern. Beim Anklicken gleitet ein Band aus dem Regal und öffnet sich als Buch mit Lederdecke, Papierseiten und Buchfalz. Fragen, Versuche und Ressourcen erscheinen auf seinen Seiten. Alle 16 unterschiedlichen Quellen sind erreichbar. Escape oder das Lesezeichen „Buch zurückstellen“ schliesst das Buch und behält geschriebene Reflexionen lokal. Seiten lassen sich blättern oder scrollen. Beim Wechsel zum Logbuch und zurück bleibt der zuletzt besuchte Ort erhalten. Ruhemodus und reduzierte Bewegung unterbinden das automatische Drehen.
+
+Three.js 0.180.0 ist lokal unter `assets/vendor/` gebündelt (MIT-Lizenz liegt bei). Ohne WebGL wird eine bebilderte Bücherwand mit bedienbaren Bänden angezeigt.
 
 ## Start
 
-Statische Website ohne Build oder Bibliotheksinstallation. `index.html` direkt öffnen oder im Projektordner ausführen:
+Statische Website ohne Build oder Bibliotheksinstallation. Im Projektordner einen lokalen Webserver starten (die 3D-Module benötigen HTTP):
 
 ```sh
 python3 -m http.server 8769
@@ -42,7 +44,7 @@ Alle Räume sind ohne Zeitsperre zugänglich. Ruhemodus, freiwillige Unterbrechu
 
 ## Bilder
 
-`assets/babel.jpg` und `assets/borges-folge.jpg`: mit dem integrierten Imagegen-Werkzeug generierte Bibliotheksillustration und fünfteilige Bildfolge. Prompt und Herkunft in [ASSETS.md](ASSETS.md). Linienillustrationen und Buchobjekte: eigene SVG-/CSS-Gestaltungen in `app.js` und `style.css`; keine übernommenen Borges-Illustrationen. Forschungsdateien sind bewusst durch `.gitignore` von der Veröffentlichung ausgeschlossen.
+`assets/bookwall.jpg`, `assets/babel.jpg` und `assets/borges-folge.jpg`: mit dem integrierten Imagegen-Werkzeug generierte Bibliotheksillustration und fünfteilige Bildfolge. Prompt und Herkunft in [ASSETS.md](ASSETS.md). Linienillustrationen und Buchobjekte: eigene SVG-/CSS-Gestaltungen in `app.js` und `style.css`; keine übernommenen Borges-Illustrationen. Forschungsdateien sind bewusst durch `.gitignore` von der Veröffentlichung ausgeschlossen.
 
 ## Noch festzulegen
 
@@ -52,4 +54,4 @@ Konkrete Klasse, verfügbare Lesezeit, Leistungsnachweis und Zugangs-/Nutzungsre
 
 JavaScript-Syntaxprüfung mit `node --check app.js`. Im Browser wurden alle elf Räume geöffnet und ihre zentralen Interaktionen ausgeführt: Regalsuche, sechs Gerichtsakten, beide Aufmerksamkeitsdurchgänge, vier historische Klagen, Ressourcenverteilung, fehlerhafte Kurzfassung mit Originalprüfung, Empfehlungsregal, Bücherinszenierung, Medienwechsel, Perspektivwechsel und Zeitbudget. Logbuch-Speichern, Fortbestand nach Neuladen und zweistufiges Löschen wurden geprüft. Die mobile Borges-Ansicht zeigte keinen horizontalen Überlauf. Die Stichproben erzeugten keine JavaScript-Fehler im Browserprotokoll. Dies ist keine vollständige Screenreader-Prüfung.
 
-Die räumliche Erweiterung wurde zusätzlich mit Drag-Bewegung, Raumkarte, Regal-Frage, automatischer lokaler Notizspeicherung, eingebettetem Gericht, Originalprüfung und Ressourcenwechsel geprüft. Frühere direkte Raumlinks funktionieren weiter. Die Website besteht nun zusätzlich aus `explorer.js`, das der GitHub-Pages-Workflow mit publiziert.
+Die 3D-Fassung wurde zusätzlich auf sichtbare Bücherwände, Galerieübergänge, das Herausziehen und Öffnen der Bände, Buchseiten und Ressourcen geprüft. Frühere direkte Raumlinks funktionieren weiter. `explorer.js`, Bilder und die lokal gebündelte 3D-Bibliothek werden vom GitHub-Pages-Workflow publiziert.
