@@ -64,8 +64,12 @@ Die Foliant-Erweiterung wurde im Browser durch alle elf Räume mit ihren drei Bu
 
 Die 3D-Fassung wurde zusätzlich auf sichtbare Bücherwände, Galerieübergänge, das Herausziehen und Öffnen der Bände, Buchseiten und Ressourcen geprüft. Frühere direkte Raumlinks funktionieren weiter. `explorer.js`, Bilder und die lokal gebündelte 3D-Bibliothek werden vom GitHub-Pages-Workflow publiziert.
 
-## Freie Bibliotheksflügel
+## Bücher mit festen Regalplätzen
 
-Projekt Gutenberg: vollständiger Import des öffentlichen A–Z-Titelverzeichnisses vom 10.10.2026, 13.138 unterschiedliche Werklinks. Nur Titel, Autor und Original-Link werden gespeichert. `scripts/update-gutenberg.py` aktualisiert den Bestand. In den 3D-Galerien stehen zusätzliche Originalwerke; die Gutenberg-Regale öffnen den gesamten Bestand als durchsuchbare, blätterbare Bücherwände. Jeder Band öffnet den Originalvolltext, ohne Lernauftrag oder Fortschrittsänderung der Lesetour.
+Der vollständige Gutenberg-Titelbestand vom 10.10.2026 (13.138 unterschiedliche Werklinks) steht in 110 zusätzlichen begehbaren Galerien mit je bis zu 120 Büchern. Jedes Werk hat eine dauerhafte Adresse: Galerie, Wand, Fach und Band. Der nächste Durchgang führt automatisch zur folgenden Galerie. Die Titelsuche führt direkt zum Regal und richtet den Blick auf das gesuchte Werk. Es gibt keine separate Katalogansicht und keine Schaltflächen für Gutenberg- oder Google-Regale.
 
-Google Books: durchsuchbarer Flügel mit paginierten Ergebnissen der offiziellen Volumes-API. Volltext, Teilvorschau und bibliografischer Eintrag werden unterschieden. Ein vollständig exportierbarer Google-Gesamtkatalog wird nicht angeboten. Bei API-Limits bleibt die direkte, mit der Anfrage vorbereitete Google-Buchsuche zugänglich. Es werden keine erfundenen Treffer und keine Volltextverfügbarkeit behauptet. Suchanfragen werden bei Nutzung dieses Flügels an Google übertragen.
+Um Speicher und Bildrate zu schonen, nutzt die Darstellung ein wiederverwendbares Interieur für diese zusätzlichen Galerien. Die Zuordnung der Werke zu ihren Plätzen bleibt dabei unverändert. Alle Bücher werden beim Betreten ihrer Galerie als herausziehbare Bände dargestellt; nach dem Öffnen führen Original-Links zum vollständigen Werk. Die freien Bücher haben keine Leseaufträge und verändern den Fortschritt der Lernstationen nicht.
+
+Google Books stellt keinen abrufbaren Gesamtkatalog bereit; die öffentliche Suchschnittstelle war beim Test gesperrt (HTTP 429). Deshalb werden keine Google-Gesamtbestände vorgetäuscht. Die einzelnen Gutenberg-Werke bieten zusätzlich einen Link zur Suche nach weiteren Ausgaben bei Google Books.
+
+`scripts/update-gutenberg.py` aktualisiert die öffentlichen Titel-, Autoren- und Link-Metadaten. Volltexte werden nicht gespiegelt.

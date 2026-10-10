@@ -20,3 +20,6 @@
 .archive-spine span{font-size:14px;font-weight:bold;max-height:145px;overflow:hidden}.archive-spine small{font-size:10px;max-height:140px;overflow:hidden}
 .archive-open-book{background:#fff6dc;border:1px solid #bda36d;padding:28px;box-shadow:inset 12px 0 16px #83602b22,0 10px 25px #3d291622;margin:30px 0}.archive-open-book h2{font-size:32px}
 @media(max-width:650px){.archive-shelves{grid-template-columns:repeat(6,minmax(0,1fr))}.archive-spine span{font-size:12px}.archive-wing .actions{flex-wrap:wrap}}
+.interior-actions input[type=search]{width:190px;max-width:27vw;background:#1e1912;color:#e4cba0;border:1px solid #8d7449;border-radius:3px;padding:10px;font:12px inherit}.interior-actions input::placeholder{color:#c8b48c}
+.interior-top h1{max-width:550px;font-size:clamp(22px,2.5vw,36px);line-height:1.14}.archive-open-book{background:#fff6dc;border:1px solid #bda36d;padding:28px;box-shadow:inset 12px 0 16px #83602b22;margin:24px 0}
+#interior-hitbooks.physical-fallback-stacks{position:absolute;inset:165px 4% 115px;display:grid;grid-template-columns:repeat(12,minmax(60px,1fr));gap:9px;overflow:auto;pointer-events:auto;padding:15px;background:#3a281be8}.physical-fallback-stacks .fallback-book{position:static;min-height:140px;max-height:180px;overflow:hidden;padding:8px;font-size:12px}
