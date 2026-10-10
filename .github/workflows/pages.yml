@@ -22,7 +22,7 @@ jobs:
       - name: Prepare public files only
         run: |
           mkdir _site
-          cp index.html app.js explorer.js librarian.js catalog.js style.css _site/
+          cp index.html app.js explorer.js librarian.js reader.js catalog.js style.css _site/
           cp -r assets _site/
       - uses: actions/upload-pages-artifact@v3
         with:
