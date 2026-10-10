@@ -1,113 +1,3263 @@
 [
   {
-    "id": "babel",
+    "id": "c2301c1df531db237c5a",
     "text": "Bevor wir durch meine Bibliothek reisen, lesen wir Borges. Lies zuerst die ganze Erzählung „Die Bibliothek von Babel“. Danach untersuchen wir ihre Ordnung, die Suche nach Sinn und den Erzähler. Meine Bilder kommen erst anschliessend: Sie sind eine Deutung, die du am Text prüfen sollst.",
-    "file": "assets/foliant-audio/babel.mp3",
+    "file": "assets/foliant-audio/speech-c2301c1df531db237c5a.mp3",
     "voice": "Piper · Thorsten",
     "provider": "Piper"
   },
   {
-    "id": "attention",
+    "id": "ee4f7481b7c705684438",
+    "text": "Du hast Borges gelesen und untersucht. Gehe jetzt durch die fünf Bilder. Wähle ein Detail, das du aus dem Text wiedererkennst.",
+    "file": "assets/foliant-audio/speech-ee4f7481b7c705684438.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "666442d30119b1e51f86",
+    "text": "Vergleiche das Bild mit deiner notierten Textstelle: Was stellt unsere Inszenierung dar, was ergänzt oder verändert sie?",
+    "file": "assets/foliant-audio/speech-666442d30119b1e51f86.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "ba0f33c6f2add2fd4d77",
+    "text": "Durchsuche ein zufälliges Regal. Nimm deine offene Borges-Frage mit in die nächste Galerie.",
+    "file": "assets/foliant-audio/speech-ba0f33c6f2add2fd4d77.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "0434eca85d6062fba1ed",
+    "text": "Öffne das Borges-PDF und lies die gesamte Erzählung zunächst ohne die Bildfolge. Notiere eine erste Irritation oder Frage.",
+    "file": "assets/foliant-audio/speech-0434eca85d6062fba1ed.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "2cff750c7f4950b443ce",
+    "text": "Lies gezielt noch einmal: Wie ist die Bibliothek aufgebaut? Was folgt aus der Behauptung, dass sie alle möglichen Bücher enthält? Suche zu beiden Fragen eine konkrete Textstelle.",
+    "file": "assets/foliant-audio/speech-2cff750c7f4950b443ce.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "63e9629d025c5013fc6b",
+    "text": "Untersuche den Erzähler: Was weiss er, was vermutet oder glaubt er? Wähle eine Stelle zur Suche nach Sinn und eine zum Umgang der Menschen mit der Bibliothek.",
+    "file": "assets/foliant-audio/speech-63e9629d025c5013fc6b.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "9239ee37fd00110bdd15",
+    "text": "Halte dein Borges-Studium fest: 1. Beschreibe die Ordnung der Bibliothek mit einer Textstelle. 2. Erkläre, warum vollständiger Bestand noch kein Verstehen bedeutet, und belege das am Text. 3. Unterscheide an einer Stelle Wissen, Vermutung oder Hoffnung des Erzählers. Ergänze eine offene Frage, die du auf die Reise mitnimmst. Seitenzahlen oder kurze Textanfänge genügen als Belege.",
+    "file": "assets/foliant-audio/speech-9239ee37fd00110bdd15.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "086e280c46f8c0b51410",
+    "text": "„Die Bibliothek ist … Die Stelle auf Seite … zeigt … Obwohl alle Bücher vorhanden sind, … Der Erzähler weiss / vermutet / hofft hier … Meine offene Frage lautet …“",
+    "file": "assets/foliant-audio/speech-086e280c46f8c0b51410.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "0112c4107e26456bb304",
+    "text": "Jetzt beginnt die Reise aus Borges heraus: Seine Bibliothek enthält alles, doch ihre Bewohner finden nicht ohne Weiteres Sinn. In der nächsten Galerie prüfen wir eine erste Bedingung dafür – Aufmerksamkeit.",
+    "file": "assets/foliant-audio/speech-0112c4107e26456bb304.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "f455d9ed8f68a0e5553f",
     "text": "Amlinger fragt nach den Bedingungen des Lesens, Freiwald unterscheidet Alltagslektüre von langen, schwierigen Texten. Deshalb zählen wir hier keine Seiten. Wir beobachten, was eine Unterbrechung mit einem Gedanken macht.",
-    "file": "assets/foliant-audio/attention.mp3",
+    "file": "assets/foliant-audio/speech-f455d9ed8f68a0e5553f.mp3",
     "voice": "Piper · Thorsten",
     "provider": "Piper"
   },
   {
-    "id": "court",
+    "id": "0b0321ba7df37a6b4ded",
+    "text": "Klicke „Versuch beginnen“. Du liest zwei kurze Szenen. Unterbrechungen darfst du ausschalten.",
+    "file": "assets/foliant-audio/speech-0b0321ba7df37a6b4ded.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "a48b7eb582355b7e5e0e",
+    "text": "Klicke nach jeder Szene „Gelesen“, schätze die Anstrengung ein und beantworte die Erinnerungsfrage.",
+    "file": "assets/foliant-audio/speech-a48b7eb582355b7e5e0e.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "d38b5c8949b856a8a4ae",
+    "text": "Vergleiche die beiden Ergebnisse. Notiere auch, wenn du keinen Unterschied merkst.",
+    "file": "assets/foliant-audio/speech-d38b5c8949b856a8a4ae.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "5fc9db2a9d0a9162d217",
+    "text": "Lies Freiwald, PDF S. 4–6: Tempo und unterschiedliche Arten des Lesens.",
+    "file": "assets/foliant-audio/speech-5fc9db2a9d0a9162d217.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "15b29a01d2946b2d81a7",
+    "text": "Vergleiche deinen Versuch mit der Unterscheidung zwischen Alltagslektüre und längeren, anspruchsvollen Texten.",
+    "file": "assets/foliant-audio/speech-15b29a01d2946b2d81a7.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "4fd1c92da4eb6c695435",
+    "text": "Lies Köck als Gegenstimme zur Vorstellung, jede Lesezeit müsse einen messbaren Ertrag haben.",
+    "file": "assets/foliant-audio/speech-4fd1c92da4eb6c695435.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "b81c6be5eda715ba2035",
+    "text": "Notiere: Was fiel dir beim Lesen auf? Welches Ergebnis hast du im Versuch erhalten? Welche Behauptung aus dem Artikel kannst du damit noch NICHT beweisen? Zur Raumfrage „Was fehlte dir eher?“: Bleibst du bei deiner Antwort oder änderst du sie? Begründe das mit deinem Erlebnis in der Bibliothek und einer konkreten Stelle aus einem der hier angebotenen Originaltexte.",
+    "file": "assets/foliant-audio/speech-b81c6be5eda715ba2035.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "c7f3e45e7c54ed33b05d",
+    "text": "„Mit Unterbrechungen bemerkte ich … Mein Ergebnis war … Daraus kann ich noch nicht schliessen, dass alle Menschen …“ Beobachtung und allgemeine Aussage sind zwei verschiedene Dinge.",
+    "file": "assets/foliant-audio/speech-c7f3e45e7c54ed33b05d.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "0aa5f06739b230c70d59",
+    "text": "Fehlte dir Ruhe oder ein packender Text? Nimm den Unterschied mit ins Gericht: Eine Erfahrung ist noch keine Diagnose für alle.",
+    "file": "assets/foliant-audio/speech-0aa5f06739b230c70d59.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "9a252060413ee33fd53d",
     "text": "Mein Stempel „Kulturverfall“ ist zu gross. Freiwald bestreitet die universelle lesende Gesellschaft von früher und nimmt heutige Leseschwierigkeiten trotzdem ernst. Amlinger untersucht die Bedingungen einer bestimmten Lesekultur. Das sind unterschiedliche Fragen. Im Gericht muss jede Anklage sagen, wen und welche Praxis sie meint.",
-    "file": "assets/foliant-audio/court.mp3",
+    "file": "assets/foliant-audio/speech-9a252060413ee33fd53d.mp3",
     "voice": "Piper · Thorsten",
     "provider": "Piper"
   },
   {
-    "id": "nostalgia",
+    "id": "7adcae42cce3e151f746",
+    "text": "Stelle den Regler auf dein erstes Urteil und klicke „Erstes Urteil festhalten“.",
+    "file": "assets/foliant-audio/speech-7adcae42cce3e151f746.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "e9a8e9c4cfce409e5f58",
+    "text": "Öffne alle sechs Akten. Finde eine, die für eine Krise spricht, und eine, die das Bild komplizierter macht.",
+    "file": "assets/foliant-audio/speech-e9a8e9c4cfce409e5f58.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "69d19ea80e2c3cf6e29b",
+    "text": "Gib danach dein zweites Urteil ab. Merke dir, welches Argument etwas verändert hat.",
+    "file": "assets/foliant-audio/speech-69d19ea80e2c3cf6e29b.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "ad8fe5ae81b4a6029812",
+    "text": "Öffne „Verlernen wir zu lesen_.pdf“ von Bent Freiwald. Lies S. 5–8 und S. 9–11.",
+    "file": "assets/foliant-audio/speech-ad8fe5ae81b4a6029812.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "c2e0af3f880e1e6edad7",
+    "text": "Markiere eine Stelle über tatsächliche Leseschwierigkeiten und eine über einen problematischen Vergleich mit früher.",
+    "file": "assets/foliant-audio/speech-c2e0af3f880e1e6edad7.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "076941c50a5dde741c0f",
+    "text": "Prüfe die Akten daran. Lies als Gegenposition den Einstieg von Horowitch in „The_End_of_Reading_Werbefrei.pdf“.",
+    "file": "assets/foliant-audio/speech-076941c50a5dde741c0f.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "ed24575a95cf56ecf398",
+    "text": "Vervollständige: „Gefährdet ist vielleicht … Freiwald zeigt an der Stelle … Eine ernst zu nehmende Gegenposition lautet … Mein Urteil ist deshalb …“ Sage konkret, welche Art des Lesens du meinst. Zur Raumfrage „Welche Anklage willst du prüfen?“: Bleibst du bei deiner Antwort oder änderst du sie? Begründe das mit deinem Erlebnis in der Bibliothek und einer konkreten Stelle aus einem der hier angebotenen Originaltexte.",
+    "file": "assets/foliant-audio/speech-ed24575a95cf56ecf398.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "e0f7dd44ea8ef549db88",
+    "text": "Ein mögliches Gerüst: „Ich unterscheide kurze Alltagslektüre und lange schwierige Texte. Für … spricht die Stelle auf Seite … Dagegen könnte man einwenden …“ Die Textbelege und dein Urteil musst du selbst wählen.",
+    "file": "assets/foliant-audio/speech-e0f7dd44ea8ef549db88.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "ee25f8bc59e0ff47ca2d",
+    "text": "Welche Art des Lesens hast du angeklagt? Jetzt testen wir, wie das angeblich goldene Gestern diese Anklage färbt.",
+    "file": "assets/foliant-audio/speech-ee25f8bc59e0ff47ca2d.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "f7a8013e81498ddd1ebd",
     "text": "Ich habe das Gestern frisch poliert. Früher fürchtete man zu viel Lesen, heute zu wenig: Freiwald stört diese hübsche Erinnerung. Aber Petrowskaja erinnert an Verbote und Weitergabe, Karahasan an die Freiheit des stillen Lesens. Geschichte ist mehr als eine alte Medienpanik.",
-    "file": "assets/foliant-audio/nostalgia.mp3",
+    "file": "assets/foliant-audio/speech-f7a8013e81498ddd1ebd.mp3",
     "voice": "Piper · Thorsten",
     "provider": "Piper"
   },
   {
-    "id": "access",
+    "id": "5ec75b821a7790122822",
+    "text": "Schalte die Zeitmaschine ein. Ordne die vier Klagen einem Jahr zu.",
+    "file": "assets/foliant-audio/speech-5ec75b821a7790122822.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "39672e2b9ad58197e9e8",
+    "text": "Lies nach jeder Wahl die Auflösung. Achte darauf, welches Medium jeweils schuld sein soll.",
+    "file": "assets/foliant-audio/speech-39672e2b9ad58197e9e8.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "e88fff042457b9c9da5f",
+    "text": "Hebe danach die beiden Erinnerungsauswahlen auf. Was wurde vorher weggelassen?",
+    "file": "assets/foliant-audio/speech-e88fff042457b9c9da5f.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "4b1b8d1fe7b54bcc22e6",
+    "text": "Lies bei Freiwald S. 2–3 zu historischen Leseängsten.",
+    "file": "assets/foliant-audio/speech-4b1b8d1fe7b54bcc22e6.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "50c28e088a5f5a000883",
+    "text": "Wähle eine frühere Warnung. Worin ähnelt sie einer Warnung, die du heute kennst?",
+    "file": "assets/foliant-audio/speech-50c28e088a5f5a000883.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "5ec55e559c27d07da706",
+    "text": "Eine wiederholte Warnung kann trotzdem zutreffen. Suche, welchen aktuellen Beleg man zur Prüfung bräuchte.",
+    "file": "assets/foliant-audio/speech-5ec55e559c27d07da706.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "9d528c55057d16135dd0",
+    "text": "Wähle eine Warnung aus dem Raum. Warum klang sie glaubwürdig? Welche konkrete Information bräuchtest du, um zu prüfen, ob Lesen tatsächlich schlechter geworden ist? Zur Raumfrage „Was fehlt im goldenen Gestern?“: Bleibst du bei deiner Antwort oder änderst du sie? Begründe das mit deinem Erlebnis in der Bibliothek und einer konkreten Stelle aus einem der hier angebotenen Originaltexte.",
+    "file": "assets/foliant-audio/speech-9d528c55057d16135dd0.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "3a051dd9efe5187f7031",
+    "text": "„Die Warnung über … überzeugte mich zunächst, weil … Zum Prüfen bräuchte ich einen Vergleich von … in den Jahren … bei derselben Gruppe.“",
+    "file": "assets/foliant-audio/speech-3a051dd9efe5187f7031.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "13f8713c471d4d60e8d7",
+    "text": "Wer fehlt in deiner Erinnerung? Diese Menschen stehen jetzt vor der Tür ohne Klinke.",
+    "file": "assets/foliant-audio/speech-13f8713c471d4d60e8d7.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "e073755512cc61c0bcce",
     "text": "Amlinger lässt mich meinen Lieblingssatz zurücknehmen: Mehr Auswahl bedeutet nicht automatisch gleiche Chancen. Lesen kann verbinden und soziale Herkunft sichtbar machen. Für manche beginnt es mit einer freien Stunde, für andere damit, dass jemand mitliest.",
-    "file": "assets/foliant-audio/access.mp3",
+    "file": "assets/foliant-audio/speech-e073755512cc61c0bcce.mp3",
     "voice": "Piper · Thorsten",
     "provider": "Piper"
   },
   {
-    "id": "delegate",
+    "id": "7f58d85d78c578826d0a",
+    "text": "Lies die Ausgangslage der vier erfundenen Personen.",
+    "file": "assets/foliant-audio/speech-7f58d85d78c578826d0a.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "1e2331cc29533edea120",
+    "text": "Verteile die vier Unterstützungsangebote. Schau, wie sich ihre Möglichkeiten verändern.",
+    "file": "assets/foliant-audio/speech-1e2331cc29533edea120.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "ca179be9b667595f454d",
+    "text": "Klicke „Die Türen öffnen“. Wähle danach unten eine Barriere, die unser einfaches Modell noch nicht berücksichtigt.",
+    "file": "assets/foliant-audio/speech-ca179be9b667595f454d.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "ab12cbd37c2d3bb06e93",
+    "text": "Öffne Amlingers „CarolinAmlinger_Lesen.docx“ oder das zugehörige Audio. Prüfe unklare Transkriptstellen am Audio.",
+    "file": "assets/foliant-audio/speech-ab12cbd37c2d3bb06e93.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "38c185e4d9b4723b5e28",
+    "text": "Lies oder höre den Anfang und Schluss: Welche Rolle spielen Zeit, Lebensbedingungen und Bücherbesitz?",
+    "file": "assets/foliant-audio/speech-38c185e4d9b4723b5e28.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "e2503caad860027ba3da",
+    "text": "Finde einen Gedanken, der eine Entscheidung in deinem Versuch erklärt oder infrage stellt.",
+    "file": "assets/foliant-audio/speech-e2503caad860027ba3da.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "9848aca43290b3508477",
+    "text": "Wem hast du welche Hilfe gegeben – und warum? Welche Bedingung blieb trotzdem schwierig? Verknüpfe eine Entscheidung mit einem Gedanken aus Amlinger. Zur Raumfrage „Was öffnest du zuerst?“: Bleibst du bei deiner Antwort oder änderst du sie? Begründe das mit deinem Erlebnis in der Bibliothek und einer konkreten Stelle aus einem der hier angebotenen Originaltexte.",
+    "file": "assets/foliant-audio/speech-9848aca43290b3508477.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "8d1a2b6c8f94115f0e1e",
+    "text": "„Ich gab … die Hilfe …, weil … Trotzdem blieb … Amlinger hilft mir, das zu verstehen, indem sie …“ Die Personen sind erfunden; dein Ergebnis ist keine Statistik.",
+    "file": "assets/foliant-audio/speech-8d1a2b6c8f94115f0e1e.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "1f95d35cd27b135137f1",
+    "text": "Zeit und Begleitung sind knapp. Gleich biete ich dir an, für dich zu lesen. Prüfe meinen Preis.",
+    "file": "assets/foliant-audio/speech-1f95d35cd27b135137f1.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "478b64f699d2b19ae28e",
     "text": "Freiwald hält Delegieren nicht pauschal für falsch: Wir müssen nicht jeden Text selbst lesen. Doch irgendjemand liest und wählt für uns. Auch ich, Herr Dr. Foliant, bin ein solcher Filter. Heute findest du heraus, wann du mir vertrauen und wann du mich unterbrechen solltest.",
-    "file": "assets/foliant-audio/delegate.mp3",
+    "file": "assets/foliant-audio/speech-478b64f699d2b19ae28e.mp3",
     "voice": "Piper · Thorsten",
     "provider": "Piper"
   },
   {
-    "id": "bubble",
+    "id": "06da0b038d16a9b24f46",
+    "text": "Lies zuerst die Kurzfassung und bilde ein vorläufiges Urteil.",
+    "file": "assets/foliant-audio/speech-06da0b038d16a9b24f46.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "d5c5d4d641bf6c267be4",
+    "text": "Öffne dann den Originaltext im Versuch. Suche, was in der Kurzfassung fehlt oder falsch dargestellt ist.",
+    "file": "assets/foliant-audio/speech-d5c5d4d641bf6c267be4.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "ef347d7d76703d0d08e4",
+    "text": "Vergleiche deine Urteile. Welche Information hätte der Stellvertreter unbedingt mitliefern müssen?",
+    "file": "assets/foliant-audio/speech-ef347d7d76703d0d08e4.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "29f8a0102bdbed15c55e",
+    "text": "Lies Freiwald, PDF S. 9–11 über Delegation.",
+    "file": "assets/foliant-audio/speech-29f8a0102bdbed15c55e.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "28c868659e9fa79cf42b",
+    "text": "Welche Vermittlung ist sinnvoll, wann entstehen Abhängigkeiten? Suche eine konkrete Stelle.",
+    "file": "assets/foliant-audio/speech-28c868659e9fa79cf42b.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "f0ef0730c60175530c23",
+    "text": "Vergleiche mit Engemanns „Ein Neues Latein“: Wo unterscheiden sich die Diagnosen?",
+    "file": "assets/foliant-audio/speech-f0ef0730c60175530c23.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "2c1426e8f0d441503a3f",
+    "text": "Was hast du nach der Kurzfassung angenommen? Was änderte der Originaltext? Formuliere eine konkrete Prüfregel für Zusammenfassungen und verbinde sie mit Engemann. Zur Raumfrage „Wo willst du selbst nachlesen?“: Bleibst du bei deiner Antwort oder änderst du sie? Begründe das mit deinem Erlebnis in der Bibliothek und einer konkreten Stelle aus einem der hier angebotenen Originaltexte.",
+    "file": "assets/foliant-audio/speech-2c1426e8f0d441503a3f.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "7f386ef87f21df3213a8",
+    "text": "„Zuerst dachte ich … Im Original stand jedoch … Bevor ich eine Kurzfassung übernehme, werde ich …“ Eine Prüfregel kann etwa festlegen, welche Stelle du selbst nachliest.",
+    "file": "assets/foliant-audio/speech-7f386ef87f21df3213a8.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "f339aeee5efcece47e84",
+    "text": "Du weisst jetzt, wann du einem Vermittler vertrauen willst. Gleich lernst du, wie deine Wünsche seine Auswahl verändern.",
+    "file": "assets/foliant-audio/speech-f339aeee5efcece47e84.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "d5077eed11ffe9c9b4cd",
     "text": "Du hast mir schon Wünsche gegeben. Ich gewichte Titel, Autoren und deine Antworten. Das macht mich hilfreich und begrenzt meinen Blick. Amlingers offenere Geschmacksordnungen beseitigen Unterschiede nicht einfach. Heute darfst du meinen Kompass absichtlich stören.",
-    "file": "assets/foliant-audio/bubble.mp3",
+    "file": "assets/foliant-audio/speech-d5077eed11ffe9c9b4cd.mp3",
     "voice": "Piper · Thorsten",
     "provider": "Piper"
   },
   {
-    "id": "bookish",
+    "id": "ab6cdc398af87fbd8884",
+    "text": "Wähle im Empfehlungsregal mehrere Texte, die dich ansprechen.",
+    "file": "assets/foliant-audio/speech-ab6cdc398af87fbd8884.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "42d17030ba79dcd35bf0",
+    "text": "Beobachte, wie sich die angebotenen Titel verändern.",
+    "file": "assets/foliant-audio/speech-42d17030ba79dcd35bf0.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "61a272220d232ed4e423",
+    "text": "Nutze die Möglichkeit, die Auswahl zu öffnen. Welche neue Sicht taucht auf?",
+    "file": "assets/foliant-audio/speech-61a272220d232ed4e423.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "fbe274aeb3f764eb4047",
+    "text": "Öffne Lauers „Lesen im digitalen Zeitalter“. Schau in die Kapitel 3, 5 oder 8.",
+    "file": "assets/foliant-audio/speech-fbe274aeb3f764eb4047.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "a3d4f385d19bcb39e81e",
+    "text": "Suche eine Passage zu digitalen Lese- oder Schreibgemeinschaften.",
+    "file": "assets/foliant-audio/speech-a3d4f385d19bcb39e81e.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "ca5e111fcc60b84eb141",
+    "text": "Vergleiche Chancen der Gemeinschaft mit der Auswahlverengung im Versuch.",
+    "file": "assets/foliant-audio/speech-ca5e111fcc60b84eb141.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "4a1fde8ae073021de9a5",
+    "text": "Welche Auswahl hast du selbst getroffen? Was hat das Regal daraufhin verstärkt? Nenne einen Gewinn und einen möglichen Verlust und beziehe einen Gedanken von Lauer ein. Zur Raumfrage „Wie soll ich dich jetzt begleiten?“: Bleibst du bei deiner Antwort oder änderst du sie? Begründe das mit deinem Erlebnis in der Bibliothek und einer konkreten Stelle aus einem der hier angebotenen Originaltexte.",
+    "file": "assets/foliant-audio/speech-4a1fde8ae073021de9a5.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "dba60844a3013ab369db",
+    "text": "„Ich wählte oft … Danach sah ich mehr … Hilfreich war … Gefehlt hat … Bei Lauer finde ich dazu …“ Unser Regal ist eine vereinfachte Simulation.",
+    "file": "assets/foliant-audio/speech-dba60844a3013ab369db.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "8a5759d0588df80ff03a",
+    "text": "Habe ich deinen Geschmack bestätigt oder gestört? Jetzt prüfen wir, was dein sichtbares Bücherbild anderen verspricht.",
+    "file": "assets/foliant-audio/speech-8a5759d0588df80ff03a.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "6b101cff2670face3b41",
     "text": "Amlinger beginnt mit angesammelten Büchern. Hagner zeigt einen Leser, dem der bürgerliche Blick das Lesen kaum zutraut. Die schöne Wand hinter mir beweist gar nichts über dich. Auch unsere Inszenierung kann zum blossen Bücherbild werden.",
-    "file": "assets/foliant-audio/bookish.mp3",
+    "file": "assets/foliant-audio/speech-6b101cff2670face3b41.mp3",
     "voice": "Piper · Thorsten",
     "provider": "Piper"
   },
   {
-    "id": "media",
+    "id": "7573d3cdc36ce715292a",
+    "text": "Gestalte dein Bücherbild mit den angebotenen Ansichten und Reglern.",
+    "file": "assets/foliant-audio/speech-7573d3cdc36ce715292a.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "8f9982c3f14bf82b81bf",
+    "text": "Vergleiche Bücherbesitz und gelesene Bücher. Verändert sich der Eindruck?",
+    "file": "assets/foliant-audio/speech-8f9982c3f14bf82b81bf.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "71d587fd818de16c81f8",
+    "text": "Sammle unten die Leseformen deines Tages. Welche fehlen auf einem Foto vom Regal?",
+    "file": "assets/foliant-audio/speech-71d587fd818de16c81f8.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "9f56ecf8e62c27629552",
+    "text": "Öffne Amlingers lokal hinterlegten Text oder das Audio.",
+    "file": "assets/foliant-audio/speech-9f56ecf8e62c27629552.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "b39c93821e7d6bfd4461",
+    "text": "Suche Bücherbesitz, Bookishness und die Bedingungen freier Lesezeit.",
+    "file": "assets/foliant-audio/speech-b39c93821e7d6bfd4461.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "faa3c967b5176019d4ba",
+    "text": "Vergleiche mit Hagners Leser-Porträt: Was beweist das sichtbare Buch, was nicht?",
+    "file": "assets/foliant-audio/speech-faa3c967b5176019d4ba.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "0cee6b85eba32c9b465a",
+    "text": "Was erzählt dein Bücherbild über dich? Was lässt es über dein tatsächliches Lesen offen? Erkläre „Bookishness“ an einem konkreten Detail des Bildes. Zur Raumfrage „Was soll dein Bücherbild zeigen?“: Bleibst du bei deiner Antwort oder änderst du sie? Begründe das mit deinem Erlebnis in der Bibliothek und einer konkreten Stelle aus einem der hier angebotenen Originaltexte.",
+    "file": "assets/foliant-audio/speech-0cee6b85eba32c9b465a.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "c37c445d1a4d82f51b8a",
+    "text": "„Mein Bild zeigt … Man kann daraus aber nicht erkennen, ob … Mit Bookishness lässt sich das Detail … beschreiben, weil …“",
+    "file": "assets/foliant-audio/speech-c37c445d1a4d82f51b8a.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "84940147e3cc5a87336a",
+    "text": "Das Regalbild konnte deine Lektüre nicht beweisen. Nun wechseln wir vom sichtbaren Buch zum Klang und Rhythmus der Zeichen.",
+    "file": "assets/foliant-audio/speech-84940147e3cc5a87336a.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "5c6e2036617a95dfd9ad",
     "text": "Amlinger verbindet Lesen mit der Anordnung seiner Medien. Diese Bibliothek lenkt deinen Blick ebenfalls: warmes Licht, grosse Wände, meine Stimme. Nun wechseln wir die Form. Kein Werkzeug ist unsichtbar, auch das gedruckte Buch nicht.",
-    "file": "assets/foliant-audio/media.mp3",
+    "file": "assets/foliant-audio/speech-5c6e2036617a95dfd9ad.mp3",
     "voice": "Piper · Thorsten",
     "provider": "Piper"
   },
   {
-    "id": "resonance",
+    "id": "277360302eb366a9832e",
+    "text": "Gib denselben Gedanken nacheinander in Buchseite, Feed, Zeichenapparat und Stimme.",
+    "file": "assets/foliant-audio/speech-277360302eb366a9832e.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "4f1bd42e55297b13b9d1",
+    "text": "Lege mindestens zwei Versionen ins Protokoll. Bei der Stimme kannst du freiwillig vorlesen lassen.",
+    "file": "assets/foliant-audio/speech-4f1bd42e55297b13b9d1.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "822a176e977df0163c55",
+    "text": "Vergleiche ein Detail: Welche Nuance blieb, welche ging verloren?",
+    "file": "assets/foliant-audio/speech-822a176e977df0163c55.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "02595f7ecb8a25c362fd",
+    "text": "Öffne „Schreiben und Lesen“ von Julia Nantke: PDF „bda8476b-8a9e-4f83-851f-e7afa6a08639.pdf“.",
+    "file": "assets/foliant-audio/speech-02595f7ecb8a25c362fd.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "ab7639ddf541a00c9d3d",
+    "text": "Lies den Einstieg mit Nietzsche und seinen Schreibwerkzeugen.",
+    "file": "assets/foliant-audio/speech-ab7639ddf541a00c9d3d.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "c30ee0bf525dffd05742",
+    "text": "Suche einen Gedanken darüber, wie Werkzeuge am Schreiben und Denken mitwirken.",
+    "file": "assets/foliant-audio/speech-c30ee0bf525dffd05742.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "25397ecc9f5d084af0c5",
+    "text": "Vergleiche zwei deiner Versionen an konkreten Wörtern. Was wurde leichter, was ging verloren? Wer entscheidet über die Regeln des Werkzeugs? Verbinde das mit Nantke. Zur Raumfrage „Worauf hörst du zuerst?“: Bleibst du bei deiner Antwort oder änderst du sie? Begründe das mit deinem Erlebnis in der Bibliothek und einer konkreten Stelle aus einem der hier angebotenen Originaltexte.",
+    "file": "assets/foliant-audio/speech-25397ecc9f5d084af0c5.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "3fb488461a8ac00fa3f3",
+    "text": "„In der Buchversion steht … Im Feed fehlt … Dadurch wirkt … Die Beschränkung wurde von … festgelegt.“",
+    "file": "assets/foliant-audio/speech-3fb488461a8ac00fa3f3.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "27e24071909b6395eba7",
+    "text": "Welche Form hat deinen Gedanken verändert? Gleich prüfen wir, ob ein Text auch deinen Blick auf einen Menschen verändert.",
+    "file": "assets/foliant-audio/speech-27e24071909b6395eba7.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "6b6705e7d7d6db4882d8",
     "text": "Rosa beschreibt, wie narrative Resonanz die Beziehung zur Welt verändern kann. Illouz zeigt auch geliehene Muster, Stepanova die riskante fremde Haut. Ich verspreche dir deshalb keine automatische Empathie. Erst lesen, dann merken, wo du ergänzt und urteilst.",
-    "file": "assets/foliant-audio/resonance.mp3",
+    "file": "assets/foliant-audio/speech-6b6705e7d7d6db4882d8.mp3",
     "voice": "Piper · Thorsten",
     "provider": "Piper"
   },
   {
-    "id": "future",
+    "id": "aa58bd3fe661f7efe052",
+    "text": "Lies die kurze Szene mit der Frau und dem Buch. Wähle deine erste Vermutung.",
+    "file": "assets/foliant-audio/speech-aa58bd3fe661f7efe052.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "c59257927e92a19f0c24",
+    "text": "Schreibe zwei Sätze aus Sicht des Mannes.",
+    "file": "assets/foliant-audio/speech-c59257927e92a19f0c24.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "00865ea23b3d8a88a31b",
+    "text": "Erfinde einen Satz der Frau, der deiner ersten Vermutung widerspricht.",
+    "file": "assets/foliant-audio/speech-00865ea23b3d8a88a31b.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "f405eb728a6df0ca9429",
+    "text": "Öffne Hartmut Rosas Einzelbeitrag „Vom Wunder narrativer Resonanz“ direkt als PDF. Weitere Stimmen stehen als eigene Bände in den Regalen und im Stimmenverzeichnis.",
+    "file": "assets/foliant-audio/speech-f405eb728a6df0ca9429.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "1ea99a685f5b4295a3d6",
+    "text": "Lies einen zugänglichen Abschnitt und finde einen Grund fürs Lesen, der dich anspricht.",
+    "file": "assets/foliant-audio/speech-1ea99a685f5b4295a3d6.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "d06a2b9f2bbe22b5b52e",
+    "text": "Überlege eine Situation, in der dieser Grund nicht für alle gilt.",
+    "file": "assets/foliant-audio/speech-d06a2b9f2bbe22b5b52e.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "1e05eb77b5fd8f3f3e57",
+    "text": "Welche Annahme hast du zuerst über die Frau gemacht? Was hat den Blickwechsel ausgelöst? Formuliere einen persönlichen Grund fürs Lesen und nenne eine Grenze dieses Grundes. Zur Raumfrage „Was hat dich beim Lesen erwischt?“: Bleibst du bei deiner Antwort oder änderst du sie? Begründe das mit deinem Erlebnis in der Bibliothek und einer konkreten Stelle aus einem der hier angebotenen Originaltexte.",
+    "file": "assets/foliant-audio/speech-1e05eb77b5fd8f3f3e57.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "ecb042b904fb7c2ef5ff",
+    "text": "„Ich nahm an … Der Text sagte eigentlich nur … Beim Perspektivwechsel bemerkte ich … Für mich ist Lesen …, aber nicht in jeder Situation …“",
+    "file": "assets/foliant-audio/speech-ecb042b904fb7c2ef5ff.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "21863ab923de5bfabc62",
+    "text": "Vertrautes Muster oder Irritation? Nimm beides mit. Im letzten Raum entscheidest du, welche Bedingungen dein künftiges Lesen braucht.",
+    "file": "assets/foliant-audio/speech-21863ab923de5bfabc62.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "00d59758cdd709e638e6",
     "text": "Ich nehme meine erste Behauptung zurück: Vollständige Regale genügen nicht. Freiwald macht aus dem vermeintlichen Untergang eine Aufgabe für Lesefähigkeit; Amlinger verlangt den Blick auf Zeit und soziale Unterschiede. Die Essays geben keine einheitliche Pflicht zum Lesen. Du entscheidest, welche Bibliothek wir daraus machen.",
-    "file": "assets/foliant-audio/future.mp3",
+    "file": "assets/foliant-audio/speech-00d59758cdd709e638e6.mp3",
     "voice": "Piper · Thorsten",
     "provider": "Piper"
   },
   {
-    "id": "debate-0",
+    "id": "3860531086ae4b32ff32",
+    "text": "Verteile genau 100 Minuten auf die vier Leseformen.",
+    "file": "assets/foliant-audio/speech-3860531086ae4b32ff32.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "68fcc1358b326d40c357",
+    "text": "Übernimm den Entwurf ins Logbuch und ergänze fünf konkrete Regeln für den nächsten Monat.",
+    "file": "assets/foliant-audio/speech-68fcc1358b326d40c357.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "9ca6401eb9f3f832abc4",
+    "text": "Prüfe: Welche Möglichkeit gewinnt Zeit – und welche muss dafür zurückstehen?",
+    "file": "assets/foliant-audio/speech-9ca6401eb9f3f832abc4.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "6751ed954f50e1f2413d",
+    "text": "Kehre zu Freiwald S. 9–11 und einer selbst gewählten Borges-Stelle zurück.",
+    "file": "assets/foliant-audio/speech-6751ed954f50e1f2413d.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "65b2fb958c4e84267675",
+    "text": "Suche bei Freiwald einen Gedanken zu Förderung oder delegiertem Lesen.",
+    "file": "assets/foliant-audio/speech-65b2fb958c4e84267675.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "3d27d97c9ccfacc9f0be",
+    "text": "Verbinde eine deiner Regeln mit Freiwald und eine andere mit Borges.",
+    "file": "assets/foliant-audio/speech-3d27d97c9ccfacc9f0be.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "b4f3ad69968314208f65",
+    "text": "Welche Antwort aus deiner Tour würdest du ändern? Nenne den Ausgangsgedanken, eine konkrete Erfahrung und eine Originalstelle bei Freiwald, Amlinger oder einem Essay. Formuliere danach eine umsetzbare Regel für dich und eine Handlung, die jemand anderem Lesen ermöglicht.",
+    "file": "assets/foliant-audio/speech-b4f3ad69968314208f65.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "11d14160fdc2ef999969",
+    "text": "„Nächste Woche werde ich …, damit … Das passt zu Freiwalds Gedanken … Meine zweite Regel reagiert auf Borges’ … Nach einem Monat prüfe ich …“",
+    "file": "assets/foliant-audio/speech-11d14160fdc2ef999969.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "ee1d765717e05dffe726",
+    "text": "Unsere Bibliothek bleibt offen. Deine Regeln dürfen sich beim nächsten Buch verändern.",
+    "file": "assets/foliant-audio/speech-ee1d765717e05dffe726.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "4af106debe73b2625937",
+    "text": "I · Das Versprechen",
+    "file": "assets/foliant-audio/speech-4af106debe73b2625937.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "eb43f0c11b1d934b0673",
+    "text": "Alles vorhanden. Noch nichts gewonnen.",
+    "file": "assets/foliant-audio/speech-eb43f0c11b1d934b0673.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "593c18d28f362866a2b8",
+    "text": "Zuerst das Original vollständig lesen und mit Textbelegen studieren. Erst danach die Bücherwände und Bilder mit Borges vergleichen. Deine offene Frage begleitet die ganze Tour.",
+    "file": "assets/foliant-audio/speech-593c18d28f362866a2b8.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "782c5f73b7cb60905793",
+    "text": "Was soll diese Bibliothek dir zuerst geben?",
+    "file": "assets/foliant-audio/speech-782c5f73b7cb60905793.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "6f6bbca76484cc4eb1cf",
+    "text": "Einen Weg durch die Fülle",
+    "file": "assets/foliant-audio/speech-6f6bbca76484cc4eb1cf.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "b79d7fef3208a65e59c0",
+    "text": "Die Freiheit, mich zu verlieren",
+    "file": "assets/foliant-audio/speech-b79d7fef3208a65e59c0.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "db6af022da1058fc664a",
+    "text": "Dann schulde ich dir Orientierung. Später prüfst du, ob meine Auswahl dir auch etwas vorenthält.",
+    "file": "assets/foliant-audio/speech-db6af022da1058fc664a.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "3ee409e1b9e759a16dfa",
+    "text": "Dann lasse ich Umwege zu. Später prüfen wir, ob Freiheit ohne Zeit und Hilfe wirklich für alle dieselbe ist.",
+    "file": "assets/foliant-audio/speech-3ee409e1b9e759a16dfa.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "0fb0e67b64c19919d089",
+    "text": "Alle Bücher, keine Menschen?",
+    "file": "assets/foliant-audio/speech-0fb0e67b64c19919d089.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "406e41c1925f25ceb9fa",
+    "text": "Stell dir vor, die Bibliothek gehörte nur dir. Lies Henry Bemis: Welche Stelle lässt deinen Wunsch kippen?",
+    "file": "assets/foliant-audio/speech-406e41c1925f25ceb9fa.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "f7fe2e5df848336fedb5",
+    "text": "Auch die Welt hat Schriftzüge.",
+    "file": "assets/foliant-audio/speech-f7fe2e5df848336fedb5.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "63d3276fc5dab94e1d78",
+    "text": "Suche erst ein Detail im Raum. Lies danach „Pfad“: Was lässt sich dort erst mit Erinnerung und Wissen erkennen?",
+    "file": "assets/foliant-audio/speech-63d3276fc5dab94e1d78.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "72c5e82ce4561749aa7c",
+    "text": "Borges: Anfang und Suche nach sinnvollen Büchern. Amlinger: Bücherberg und Babel-Metapher im Einstieg.",
+    "file": "assets/foliant-audio/speech-72c5e82ce4561749aa7c.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "aaeeab74295f4999e5a7",
+    "text": "Ich kann dir Bücher geben. Kann ich dir Zeit geben?",
+    "file": "assets/foliant-audio/speech-aaeeab74295f4999e5a7.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "fb6c984595211ba7ae0e",
+    "text": "Vor dem Versuch: Lies einen Absatz eines freien Bands. Leg ihn gedanklich beiseite und schaue drei andere Buchrücken an. Geh zum ersten zurück. Findest du den Gedanken wieder? Im Versuchsbuch kannst du Unterbrechungen auch ausschalten.",
+    "file": "assets/foliant-audio/speech-fb6c984595211ba7ae0e.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "98b5eb96136cb2cd9cd4",
+    "text": "Was fehlte dir eher?",
+    "file": "assets/foliant-audio/speech-98b5eb96136cb2cd9cd4.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "44a44ba6c6a3ea2e43c9",
+    "text": "Ein ungestörter Moment",
+    "file": "assets/foliant-audio/speech-44a44ba6c6a3ea2e43c9.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "1adcee445e071f50768c",
+    "text": "Ein Text, der mich festhält",
+    "file": "assets/foliant-audio/speech-1adcee445e071f50768c.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "ece8282ceec238582660",
+    "text": "Dann ist nicht dein Wille allein das Problem. Nimm diese fehlende Ruhe später mit zur Tür ohne Klinke.",
+    "file": "assets/foliant-audio/speech-ece8282ceec238582660.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "9d7cad17d9490f3e838c",
+    "text": "Dann probieren wir später Resonanz. Ein Text kann dich packen; erzwingen kann ich das nicht.",
+    "file": "assets/foliant-audio/speech-9d7cad17d9490f3e838c.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "e9d267f96fe2761d8e92",
+    "text": "Zeit ohne Nutzennachweis.",
+    "file": "assets/foliant-audio/speech-e9d267f96fe2761d8e92.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "c0d14aa0eb94b9072f34",
+    "text": "Lies einen Abschnitt ohne Markieren und ohne Antwortpflicht. Darfst du Zeit dafür verbrauchen, auch wenn kein Ergebnis entsteht?",
+    "file": "assets/foliant-audio/speech-c0d14aa0eb94b9072f34.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "e9a1bd9696c772e00f05",
+    "text": "Ein Buch als Unterschlupf.",
+    "file": "assets/foliant-audio/speech-e9a1bd9696c772e00f05.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "49f5c156cc7724fa8bc5",
+    "text": "Lies die Campingszene. Vergleiche Ablenkung mit Schutz: Wann brauchst du Abstand zur Welt?",
+    "file": "assets/foliant-audio/speech-49f5c156cc7724fa8bc5.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "ab1db8de670992e8e552",
+    "text": "Freiwald, PDF S. 4–6: Tempo und unterschiedliche Arten des Lesens. Amlinger: freie Zeit als soziale Ressource.",
+    "file": "assets/foliant-audio/speech-ab1db8de670992e8e552.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "717f0651f55445080de2",
+    "text": "II · Die Risse",
+    "file": "assets/foliant-audio/speech-717f0651f55445080de2.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "87a85bf1223a3483f90b",
+    "text": "Das Lesen stirbt. Welches Lesen?",
+    "file": "assets/foliant-audio/speech-87a85bf1223a3483f90b.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "593538763b60bf9f60c1",
+    "text": "Vor den Akten: Formuliere die Anklage mit einer konkreten Gruppe und Leseform. Nach den Akten streiche alles, was du nicht belegen kannst. Keine pauschale Freisprechung, keine pauschale Todesanzeige.",
+    "file": "assets/foliant-audio/speech-593538763b60bf9f60c1.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "e479857101e8b9842943",
+    "text": "Welche Anklage willst du prüfen?",
+    "file": "assets/foliant-audio/speech-e479857101e8b9842943.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "7922ed8f5ad10b4642f8",
+    "text": "Lange Texte werden schwieriger",
+    "file": "assets/foliant-audio/speech-7922ed8f5ad10b4642f8.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "cf5a0141c927e0a27377",
+    "text": "Lesen wird sozial ungleich verteilt",
+    "file": "assets/foliant-audio/speech-cf5a0141c927e0a27377.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "2e7e8cd3bb712974511e",
+    "text": "Dann brauche ich Belege zu dieser Fähigkeit, nicht bloss weniger verkaufte Papierbücher.",
+    "file": "assets/foliant-audio/speech-2e7e8cd3bb712974511e.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "29f2689883426cc6bf5b",
+    "text": "Dann zählen Zeit, Bildung und Lebensbedingungen. Ein offenes Regal allein widerlegt die Anklage nicht.",
+    "file": "assets/foliant-audio/speech-29f2689883426cc6bf5b.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "2e7fd411c5c447b19d42",
+    "text": "Was bleibt im Krieg von einer Bibliothek?",
+    "file": "assets/foliant-audio/speech-2e7fd411c5c447b19d42.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "2d952bd74c53a8941199",
+    "text": "Lies die beschädigte Schulbibliothek. Welche Bedeutung hat das Mitnehmen der Gedichtbände, obwohl es Schlimmeres gibt?",
+    "file": "assets/foliant-audio/speech-2d952bd74c53a8941199.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "b1a1cb4693102389419e",
+    "text": "Lesen macht noch keine bessere Welt.",
+    "file": "assets/foliant-audio/speech-b1a1cb4693102389419e.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "8f45b4450c229a5b238d",
+    "text": "Suche die Grenze zwischen Weltvorstellung und Veränderung. Welche Handlung müsste zu deiner Lektüre hinzukommen?",
+    "file": "assets/foliant-audio/speech-8f45b4450c229a5b238d.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "4d4f99a12937885e29db",
+    "text": "Freiwald, PDF S. 5–11: Kompetenz, Vergleich und Delegation. Amlinger: gleichzeitige Öffnung und neue Ungleichheit.",
+    "file": "assets/foliant-audio/speech-4d4f99a12937885e29db.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "ff8d71bbf9ad8c44d009",
+    "text": "Dieses Regal erinnert sich zu schön.",
+    "file": "assets/foliant-audio/speech-ff8d71bbf9ad8c44d009.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "0b4272574bd54224fadc",
+    "text": "Wähle einen alten Band aus der Wand. Bevor du ihn öffnest: Wer hätte ihn damals lesen dürfen, gekonnt und bezahlt? Im Museum prüfst du dann, warum vertraute Warnungen so glaubwürdig klingen.",
+    "file": "assets/foliant-audio/speech-0b4272574bd54224fadc.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "464c1d5fe1952f4ab1c8",
+    "text": "Was fehlt im goldenen Gestern?",
+    "file": "assets/foliant-audio/speech-464c1d5fe1952f4ab1c8.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "ea863128d8767dd1b950",
+    "text": "Die Menschen ohne Zugang",
+    "file": "assets/foliant-audio/speech-ea863128d8767dd1b950.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "b6d60593ef4562036d2c",
+    "text": "Die riskanten und freien Lesemomente",
+    "file": "assets/foliant-audio/speech-b6d60593ef4562036d2c.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "b0963b1cb3916904c2a1",
+    "text": "Merke dir diese unsichtbaren Personen. Die nächste Tür verlangt mehr als einen Schlüssel.",
+    "file": "assets/foliant-audio/speech-b0963b1cb3916904c2a1.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "9e98081eb76c5e74da89",
+    "text": "Dann darf Kritik an Nostalgie nicht jede Erinnerung wegwischen. Suche ihre konkreten Bedingungen.",
+    "file": "assets/foliant-audio/speech-9e98081eb76c5e74da89.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "4185fab7011a93c2768f",
+    "text": "Ein weitergereichtes Buch kann gefährlich sein.",
+    "file": "assets/foliant-audio/speech-4185fab7011a93c2768f.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "c9b01aa28c373dfcf215",
+    "text": "Suche die Passage über den Vater und Pasternak. Was verändert sich, wenn Lesen verdächtig ist?",
+    "file": "assets/foliant-audio/speech-c9b01aa28c373dfcf215.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "d1927477cb393a4bed6d",
+    "text": "Still lesen, bei sich und ausser sich sein.",
+    "file": "assets/foliant-audio/speech-d1927477cb393a4bed6d.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "e438193527be1d2c0283",
+    "text": "Lies die Ambrosius-Szene und einen späteren Abschnitt. Was ermöglicht die Stille, das ein öffentliches Urteil nicht erfasst?",
+    "file": "assets/foliant-audio/speech-e438193527be1d2c0283.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "016a246a0ce2383060f4",
+    "text": "Freiwald, PDF S. 2–3 und 6–9: wiederkehrende Ängste und problematische Rückblicke.",
+    "file": "assets/foliant-audio/speech-016a246a0ce2383060f4.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "811f08ec65c65596ef8b",
+    "text": "Die Tür steht offen. Wer kommt wirklich hinein?",
+    "file": "assets/foliant-audio/speech-811f08ec65c65596ef8b.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "225fdbc50b5dad965897",
+    "text": "Betrachte dieselbe Bücherwand einmal als Mensch mit freiem Nachmittag und einmal als Mensch mit Betreuungspflichten und wenig Übung. Verteilt im Versuch nicht nur Bücher, sondern Zeit, Hilfe und Ruhe. Die Figuren sind ein Gedankenmodell.",
+    "file": "assets/foliant-audio/speech-225fdbc50b5dad965897.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "957c573efce100db98f4",
+    "text": "Was öffnest du zuerst?",
+    "file": "assets/foliant-audio/speech-957c573efce100db98f4.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "7abd3a7ad9d5acf741fd",
+    "text": "Zeit und einen geschützten Ort",
+    "file": "assets/foliant-audio/speech-7abd3a7ad9d5acf741fd.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "2434fbad8399810a6be1",
+    "text": "Begleitung und passende Einstiege",
+    "file": "assets/foliant-audio/speech-2434fbad8399810a6be1.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "b8cb7afae4f5e5b70622",
+    "text": "Gut. Aber Zeit allein hilft nicht jedem Menschen. Prüfe beim Verteilen, wer zusätzliche Unterstützung braucht.",
+    "file": "assets/foliant-audio/speech-b8cb7afae4f5e5b70622.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "5d4764d09e419aa3a957",
+    "text": "Gut. Aber Begleitung kann nicht jede fehlende Stunde ersetzen. Lass keine Barriere verschwinden, nur weil unser Modell einfach ist.",
+    "file": "assets/foliant-audio/speech-5d4764d09e419aa3a957.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "bbfaab2010f3b40bcc8b",
+    "text": "Aufmerksamkeit wird gelernt.",
+    "file": "assets/foliant-audio/speech-bbfaab2010f3b40bcc8b.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "1665550037b23605b2b4",
+    "text": "Suche den Gedanken vom Lesen als kultureller Praxis. Welche Gewohnheit könnte eine Bibliothek ermöglichen statt voraussetzen?",
+    "file": "assets/foliant-audio/speech-1665550037b23605b2b4.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "77ec75f2b165b5b497db",
+    "text": "Die Bücherwand verbindet und trennt.",
+    "file": "assets/foliant-audio/speech-77ec75f2b165b5b497db.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "021c6c2c050b46e09460",
+    "text": "Lies den Besuch der Cousine. Schau dann nochmals unsere Wand an: Einladung oder soziale Grenze?",
+    "file": "assets/foliant-audio/speech-021c6c2c050b46e09460.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "192a3c0d983224457942",
+    "text": "Das Kind hilft dem lesenden Vater.",
+    "file": "assets/foliant-audio/speech-192a3c0d983224457942.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "3506c4db6e14aec9bdab",
+    "text": "Lies die Szene mit dem französischen Maulwurfbuch. Wer bringt hier wem das Lesen bei?",
+    "file": "assets/foliant-audio/speech-3506c4db6e14aec9bdab.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "2f33b99c0d62de6695e0",
+    "text": "Amlinger: Anton Reiser, Hilla Palm, soziale Mobilität und freie Zeit; Einstieg und Schluss des lokal gespeicherten Beitrags.",
+    "file": "assets/foliant-audio/speech-2f33b99c0d62de6695e0.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "00e04bd44b9f3c533f47",
+    "text": "III · Die Versuchungen",
+    "file": "assets/foliant-audio/speech-00e04bd44b9f3c533f47.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "db843b369d7df6586507",
+    "text": "Ich lese für dich. Wem gehört dann dein Urteil?",
+    "file": "assets/foliant-audio/speech-db843b369d7df6586507.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "8286b1859fbf23789122",
+    "text": "Lies zunächst nur meine Beschreibung eines empfohlenen Bands. Forme eine Erwartung. Zieh den Band heraus und lies selbst einen Absatz. Was konnte meine Beschreibung vermitteln, was begann erst beim Lesen?",
+    "file": "assets/foliant-audio/speech-8286b1859fbf23789122.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "3a9f5666795ffaf08656",
+    "text": "Wo willst du selbst nachlesen?",
+    "file": "assets/foliant-audio/speech-3a9f5666795ffaf08656.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "e98133868e2f185beacf",
+    "text": "Bei einer entscheidenden Behauptung",
+    "file": "assets/foliant-audio/speech-e98133868e2f185beacf.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "cb7e4813c3095b4abdd3",
+    "text": "Wenn Ton und Erfahrung verloren gehen",
+    "file": "assets/foliant-audio/speech-cb7e4813c3095b4abdd3.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "b96946bc75d5a9d05fe2",
+    "text": "Dann verlange die überprüfbare Stelle. Ein selbstsicherer Vermittler ist noch kein Beleg.",
+    "file": "assets/foliant-audio/speech-b96946bc75d5a9d05fe2.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "b1d145560101ecf749b8",
+    "text": "Dann ersetzt auch eine richtige Zusammenfassung nicht jede Leseerfahrung. Höre auf Rhythmus, Bilder und Pausen.",
+    "file": "assets/foliant-audio/speech-b1d145560101ecf749b8.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "3b00e6df09e6190bf0c7",
+    "text": "Zeichen öffnen immaterielle Wirklichkeiten.",
+    "file": "assets/foliant-audio/speech-3b00e6df09e6190bf0c7.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "642c3c5db9a08dd016ce",
+    "text": "Suche eine Passage über symbolisch vermittelte Wirklichkeit. Was entsteht zwischen Zeichen und deinem eigenen Vorstellen?",
+    "file": "assets/foliant-audio/speech-642c3c5db9a08dd016ce.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "4fdcc4841a76162fb18c",
+    "text": "Zwei Seiten können zwei Stunden sein.",
+    "file": "assets/foliant-audio/speech-4fdcc4841a76162fb18c.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "ea3e73913ab6e18b187e",
+    "text": "Lies einen Übergang laut. Fasse ihn zusammen. Was verschwindet zwischen den beiden Fassungen?",
+    "file": "assets/foliant-audio/speech-ea3e73913ab6e18b187e.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "95da9acbbb7be7795bc6",
+    "text": "Freiwald, PDF S. 9–11: Delegation, Vertrauen und ungleich verteilte Lesefähigkeit; Engemann als weitere Gegenposition.",
+    "file": "assets/foliant-audio/speech-95da9acbbb7be7795bc6.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "59d1ed3aa4e88ef7c1dd",
+    "text": "Mein guter Geschmack ist eine Auswahlmaschine.",
+    "file": "assets/foliant-audio/speech-59d1ed3aa4e88ef7c1dd.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "564709b5bcbf67335b48",
+    "text": "Nimm eine Empfehlung an oder lehne sie ab. Schau auf die begründete nächste Wahl. Zieh danach mit der Regalsuche einen Band von einem dir unbekannten Autor heraus. Der Zufallsweg ist kein Auftrag für dieses freie Werk; Zurückstellen ist erlaubt.",
+    "file": "assets/foliant-audio/speech-564709b5bcbf67335b48.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "fc84ddb2c69d40e08d43",
+    "text": "Wie soll ich dich jetzt begleiten?",
+    "file": "assets/foliant-audio/speech-fc84ddb2c69d40e08d43.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "380a6c0ecf24a920985d",
+    "text": "An meinem Geschmack anknüpfen",
+    "file": "assets/foliant-audio/speech-380a6c0ecf24a920985d.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "cecd0755ee82d7034364",
+    "text": "Meine Gewohnheit unterbrechen",
+    "file": "assets/foliant-audio/speech-cecd0755ee82d7034364.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "891353df33e4941a86dc",
+    "text": "Dann benenne ich meine Auswahlgründe. Du prüfst, was dadurch immer wieder fehlt.",
+    "file": "assets/foliant-audio/speech-891353df33e4941a86dc.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "a2acbdd603508adc6a1b",
+    "text": "Dann such dir gerade keinen vertrauten Namen. Ein fremder Rücken garantiert aber noch keine fremde Sicht.",
+    "file": "assets/foliant-audio/speech-a2acbdd603508adc6a1b.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "fa625800a3556dabb3d2",
+    "text": "Mehr als ein nützlicher Informationskanal.",
+    "file": "assets/foliant-audio/speech-fa625800a3556dabb3d2.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "281c86c659d21cade0cd",
+    "text": "Suche gegen Ende den Gedanken zur literarischen Erfahrung. Was würde eine reine Informationsauswahl übersehen?",
+    "file": "assets/foliant-audio/speech-281c86c659d21cade0cd.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "8dcb4dd281c8a265cff3",
+    "text": "Amlinger: Vielfalt der Genres und fortbestehende Distinktion. Freiwald: Wer liest und auswählt, wenn andere delegieren?",
+    "file": "assets/foliant-audio/speech-8dcb4dd281c8a265cff3.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "27bda5ef0de7d4592ecd",
+    "text": "Du siehst eine Bibliothek. Siehst du Leser?",
+    "file": "assets/foliant-audio/speech-27bda5ef0de7d4592ecd.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "a6baeba5dd6befc29574",
+    "text": "Schau zehn Sekunden auf diese Wand, ohne einen Band zu öffnen. Danach lies zehn Sekunden in einem Band. Halte fest, was auf einem Foto der Bibliothek von diesen beiden Momenten zu unterscheiden wäre.",
+    "file": "assets/foliant-audio/speech-a6baeba5dd6befc29574.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "033f503fb95718118264",
+    "text": "Was soll dein Bücherbild zeigen?",
+    "file": "assets/foliant-audio/speech-033f503fb95718118264.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "3b2741c96d96d2ecfbb9",
+    "text": "Zugehörigkeit und Geschmack",
+    "file": "assets/foliant-audio/speech-3b2741c96d96d2ecfbb9.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "b9994628d670a5fd2e86",
+    "text": "Eine konkrete Leseerfahrung",
+    "file": "assets/foliant-audio/speech-b9994628d670a5fd2e86.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "6ed525207c5d8f618daa",
+    "text": "Das ist nicht verboten. Aber wer fühlt sich von diesem Zeichen ausgeschlossen?",
+    "file": "assets/foliant-audio/speech-6ed525207c5d8f618daa.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "33ab96e87641e243ea57",
+    "text": "Dann zeig auch die Unsicherheit, Unterbrechung oder Freude, die kein prachtvoller Rücken verrät.",
+    "file": "assets/foliant-audio/speech-33ab96e87641e243ea57.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "8a08798b24dbcce6ec2f",
+    "text": "Ein Foto ist kein Beweis für gelesene Seiten.",
+    "file": "assets/foliant-audio/speech-8a08798b24dbcce6ec2f.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "92137ad84fd91963ae47",
+    "text": "Betrachte Lionel auf der Postkarte. Was weisst du, was vermutest du – und welche Vorurteile stecken darin?",
+    "file": "assets/foliant-audio/speech-92137ad84fd91963ae47.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "84dd98c325261bd484b7",
+    "text": "Lewitscharoff",
+    "file": "assets/foliant-audio/speech-84dd98c325261bd484b7.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "874cbc4ff733a6e2da0c",
+    "text": "Das Leseherz bleibt unsichtbar.",
+    "file": "assets/foliant-audio/speech-874cbc4ff733a6e2da0c.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "96f679bf76092b62c234",
+    "text": "Suche eine körperliche oder emotionale Leseerfahrung. Was kann ein Regalbild davon nicht zeigen?",
+    "file": "assets/foliant-audio/speech-96f679bf76092b62c234.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "40881a92465670c7fa84",
+    "text": "Amlinger: Besitz, Bookishness und soziale Selbstbilder. Pressman: das Buch als sichtbares kulturelles Objekt.",
+    "file": "assets/foliant-audio/speech-40881a92465670c7fa84.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "63810c239c83c264392c",
+    "text": "IV · Was beim Lesen geschieht",
+    "file": "assets/foliant-audio/speech-63810c239c83c264392c.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "3f955c0f9f0d78f03d41",
+    "text": "Der Gedanke wechselt seinen Körper.",
+    "file": "assets/foliant-audio/speech-3f955c0f9f0d78f03d41.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "1707a1f724787059b770",
+    "text": "Lies denselben Gedanken still und dann laut. Achte auf eine Stelle, an der du anders betonst oder innehältst. In der Stimmenmaschine vergleiche weitere Formen. Es gibt keinen vorgegebenen Sieger.",
+    "file": "assets/foliant-audio/speech-1707a1f724787059b770.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "5b84c52f73517b6bf3bf",
+    "text": "Worauf hörst du zuerst?",
+    "file": "assets/foliant-audio/speech-5b84c52f73517b6bf3bf.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "539b549fcf54b84a04e0",
+    "text": "Rhythmus, Stimme und Körper",
+    "file": "assets/foliant-audio/speech-539b549fcf54b84a04e0.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "cbf1e5ee96505d77e333",
+    "text": "Was die Form hervorhebt oder abschneidet",
+    "file": "assets/foliant-audio/speech-cbf1e5ee96505d77e333.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "be8a592840bfa6f6e659",
+    "text": "Dann darf ein Gedicht sich deiner schnellen Zusammenfassung widersetzen.",
+    "file": "assets/foliant-audio/speech-be8a592840bfa6f6e659.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "8c917d33b0f4f4641f9a",
+    "text": "Dann untersuche auch diese Bibliothek: Was rückt ihr schönes Interieur in den Vordergrund?",
+    "file": "assets/foliant-audio/speech-8c917d33b0f4f4641f9a.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "41eeabea23451a06f88f",
+    "text": "Welt erklären oder Welt zum Klingen bringen?",
+    "file": "assets/foliant-audio/speech-41eeabea23451a06f88f.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "3e59767e6c1d4d36dc88",
+    "text": "Lies den kurzen Beitrag laut und still. Lass ein Bild stehen, statt es sofort in eine These zu übersetzen.",
+    "file": "assets/foliant-audio/speech-3e59767e6c1d4d36dc88.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "c78c9a57085725ee6e9d",
+    "text": "Eine Fähigkeit und ihre Verletzlichkeit.",
+    "file": "assets/foliant-audio/speech-c78c9a57085725ee6e9d.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "60dab8b382a82bd0a72a",
+    "text": "Suche die Geschichte der Mutter und ihrer Bücher. Was fehlt, wenn nur die Bücher wieder da sind?",
+    "file": "assets/foliant-audio/speech-60dab8b382a82bd0a72a.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "e8ad7d04baaa9d587c53",
+    "text": "Proust, Comic und ein leeres Notizbuch.",
+    "file": "assets/foliant-audio/speech-e8ad7d04baaa9d587c53.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "606d9d7cf8a7be45f598",
+    "text": "Betrachte PDF-Seite 3. Warum erhält das leere Notizbuch die besten Bewertungen? Was verspottet der Vergleich?",
+    "file": "assets/foliant-audio/speech-606d9d7cf8a7be45f598.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "46aea7be7470f5c11eac",
+    "text": "Amlinger: Umblättern, Scrollen und materielle Nähe; Nantke und Kittler: Werkzeuge wirken am Denken mit.",
+    "file": "assets/foliant-audio/speech-46aea7be7470f5c11eac.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "65163467de5830c62aed",
+    "text": "Ein fremdes Leben. Meine eigenen Muster.",
+    "file": "assets/foliant-audio/speech-65163467de5830c62aed.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "be6f7605f8ae30a0b567",
+    "text": "Lies die Szene im Versuch. Sage deine Vermutung laut. Lies nochmals nur das, was wirklich dasteht. Erfinde danach eine Gegenstimme. Hat der Text dich verändert oder hast du ihn in deine alte Geschichte eingepasst?",
+    "file": "assets/foliant-audio/speech-be6f7605f8ae30a0b567.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "5e1a6d44c5c3e4957376",
+    "text": "Was hat dich beim Lesen erwischt?",
+    "file": "assets/foliant-audio/speech-5e1a6d44c5c3e4957376.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "812356e01378e7a90381",
+    "text": "Ein vertrautes Muster",
+    "file": "assets/foliant-audio/speech-812356e01378e7a90381.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "70fd8d88d2270e25bf37",
+    "text": "Etwas, das meinem Muster widerspricht",
+    "file": "assets/foliant-audio/speech-70fd8d88d2270e25bf37.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "c51010109f8be5b721bd",
+    "text": "Illouz hilft uns, solche geliehenen Plots zu erkennen. Vertrautheit kann tragen und täuschen.",
+    "file": "assets/foliant-audio/speech-c51010109f8be5b721bd.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "1411d93a40ad9f1d3668",
+    "text": "Bei Rosa kann daraus eine veränderte Weltbeziehung entstehen. Aber eine einzelne Irritation beweist das noch nicht.",
+    "file": "assets/foliant-audio/speech-1411d93a40ad9f1d3668.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "0de5368c4364ac446012",
+    "text": "Liebesgeschichten können Erwartungen vorgeben.",
+    "file": "assets/foliant-audio/speech-0de5368c4364ac446012.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "f92a379fbccc7265fd84",
+    "text": "Vergleiche eine der drei Leseweisen mit deinem ersten Urteil. Hat ein geliehener Plot mitgelesen?",
+    "file": "assets/foliant-audio/speech-f92a379fbccc7265fd84.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "7d8d6bb163426c101da4",
+    "text": "Ernaux verändert den Blick auf das eigene Leben.",
+    "file": "assets/foliant-audio/speech-7d8d6bb163426c101da4.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "94095d54dfac8c895b5d",
+    "text": "Suche eine Stelle, an der eine persönliche Entscheidung gesellschaftlich lesbar wird.",
+    "file": "assets/foliant-audio/speech-94095d54dfac8c895b5d.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "0b0734494b74f36be9a6",
+    "text": "Verwandlung lässt sich nicht bestellen.",
+    "file": "assets/foliant-audio/speech-0b0734494b74f36be9a6.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "723a198faf1762302f20",
+    "text": "Suche einen Moment narrativer Resonanz. Wann hat dein eigener Text dich erreicht – oder gerade nicht?",
+    "file": "assets/foliant-audio/speech-723a198faf1762302f20.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "8b898eb8abd1f710193a",
+    "text": "Die fremde Haut hat einen Rückweg nötig.",
+    "file": "assets/foliant-audio/speech-8b898eb8abd1f710193a.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "e277333f5ca87368ebeb",
+    "text": "Suche ein Beispiel für das Übernehmen einer anderen Sicht. Was macht es möglich, was macht es riskant?",
+    "file": "assets/foliant-audio/speech-e277333f5ca87368ebeb.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "744ce7188afde60a5bf4",
+    "text": "Die vier Essays widersprechen einer einfachen Formel „Lesen macht empathisch“. Ihre Gründe sind persönliche und theoretische Perspektiven.",
+    "file": "assets/foliant-audio/speech-744ce7188afde60a5bf4.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "4cdab4af5722e0750dee",
+    "text": "V · Eine andere Bibliothek",
+    "file": "assets/foliant-audio/speech-4cdab4af5722e0750dee.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "56ea42f9e2ceb05341e8",
+    "text": "Nicht die letzte lesende Person. Die nächste Entscheidung.",
+    "file": "assets/foliant-audio/speech-56ea42f9e2ceb05341e8.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "f81dcbe7f24e0c95e875",
+    "text": "Kehre zu einem freien Band zurück, den du unterwegs gewählt hast. Lies weiter oder stelle ihn bewusst zurück. Verteile danach die 100 Minuten im Versuch: Was willst du selbst lesen, was delegieren, und welche Bedingung willst du für andere verändern?",
+    "file": "assets/foliant-audio/speech-f81dcbe7f24e0c95e875.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "0f4b1d91f14d61f73b02",
+    "text": "Welche Regel nimmst du mit?",
+    "file": "assets/foliant-audio/speech-0f4b1d91f14d61f73b02.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "bed19b0b4c9ad52fea8d",
+    "text": "Selbst prüfen, wo es darauf ankommt",
+    "file": "assets/foliant-audio/speech-bed19b0b4c9ad52fea8d.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "4ef573b2d6901e806cc5",
+    "text": "Zeit und Zugang mit anderen teilen",
+    "file": "assets/foliant-audio/speech-4ef573b2d6901e806cc5.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "e2a12ef813aee5839c0c",
+    "text": "Schreibe auf, bei welcher Entscheidung und an welcher Originalstelle du das tun wirst.",
+    "file": "assets/foliant-audio/speech-e2a12ef813aee5839c0c.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "9104ac22dc0976dddfdf",
+    "text": "Schreibe eine konkrete Handlung auf: mit wem, wann, wo und welche Hilfe. Mehr Bücher allein reicht nicht.",
+    "file": "assets/foliant-audio/speech-9104ac22dc0976dddfdf.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "606c0df9619e7752cd93",
+    "text": "Viele Bücher oder wenige mehrfach?",
+    "file": "assets/foliant-audio/speech-606c0df9619e7752cd93.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "79687d28d2bf376121df",
+    "text": "Vergleiche zwei Lesezwecke. Deine Regel darf anders ausfallen als die deines Nachbarn.",
+    "file": "assets/foliant-audio/speech-79687d28d2bf376121df.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "b38e58ebab9d63349bca",
+    "text": "Eine Einladung ins Freie.",
+    "file": "assets/foliant-audio/speech-b38e58ebab9d63349bca.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "e4682e20820a8b45d7c9",
+    "text": "Lies den Beitrag und prüfe deine Regel: schafft sie Freiraum oder eine neue Leistungspflicht?",
+    "file": "assets/foliant-audio/speech-e4682e20820a8b45d7c9.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "e91973372e23c9f35272",
+    "text": "Freiwald, PDF S. 9–11; Amlinger, Schluss; die 25 Essays als offene, widersprüchliche Antworten auf „Warum lesen?“.",
+    "file": "assets/foliant-audio/speech-e91973372e23c9f35272.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "b7de4b90e816f96e9db1",
+    "text": "Verlernen wir das Lesen?",
+    "file": "assets/foliant-audio/speech-b7de4b90e816f96e9db1.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "62c6067b2aefd64c3278",
     "text": "Mein erster Einwand gegen den Untergang lautet: Welches Lesen meinst du – Nachrichten, Romane, schwierige Argumente? Mit Freiwald bestreite ich die goldene Vergangenheit einer Gesellschaft, in der alle vertieft gelesen hätten. Mit Amlinger nehme ich trotzdem ernst, dass eine bestimmte literarische Praxis ihre sozialen Bedingungen verändern kann.",
-    "file": "assets/foliant-audio/debate-0.mp3",
+    "file": "assets/foliant-audio/speech-62c6067b2aefd64c3278.mp3",
     "voice": "Piper · Thorsten",
     "provider": "Piper"
   },
   {
-    "id": "debate-1",
+    "id": "e03d177d9d0feb5e4cd5",
+    "text": "Freiwald, PDF S. 5–9: Lesearten, Kompetenzprobleme und historische Vergleiche.",
+    "file": "assets/foliant-audio/speech-e03d177d9d0feb5e4cd5.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "f8435c313414a8b19970",
+    "text": "Amlinger: Einstieg zur postliterarischen Diagnose; Schluss zu Demokratisierung und Ungleichheit.",
+    "file": "assets/foliant-audio/speech-f8435c313414a8b19970.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "6eaffe3ea28e4d7669aa",
+    "text": "Aber lange Texte fallen vielen schwerer.",
+    "file": "assets/foliant-audio/speech-6eaffe3ea28e4d7669aa.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "f0941d61b30b3e0076aa",
+    "text": "Der Zugang war früher auch ungleich.",
+    "file": "assets/foliant-audio/speech-f0941d61b30b3e0076aa.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "2859e2448a1670b2e2c6",
+    "text": "Das ist ein ernst zu nehmender Einwand. Freiwald erkennt Kompetenzprobleme ausdrücklich an. Ich brauche jedoch einen vergleichbaren Befund für dieselbe Leseform und Gruppe. Amlinger ergänzt die Frage nach den Lebensbedingungen. Welche Beobachtung belegt eine Fähigkeit, welche nur fehlende Gelegenheit?",
+    "file": "assets/foliant-audio/speech-2859e2448a1670b2e2c6.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "510218ba5e2e453ef039",
+    "text": "Genau. Daraus folgt aber nicht, dass heutige Ungleichheit harmlos ist. Bei Amlinger können breitere Auswahl und soziale Trennung gleichzeitig wachsen. Welche Gruppe wäre in unserer Bibliothek trotz offener Regale benachteiligt?",
+    "file": "assets/foliant-audio/speech-510218ba5e2e453ef039.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "b0a7a952cd35e1fc9d6a",
+    "text": "Welche konkrete Leseform und welche Menschen betrifft deine Diagnose? Nenne einen Beleg und eine Grenze des Vergleichs.",
+    "file": "assets/foliant-audio/speech-b0a7a952cd35e1fc9d6a.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "6d3b5daf43833f61b8b9",
+    "text": "Ist Lesen eine Frage des Willens?",
+    "file": "assets/foliant-audio/speech-6d3b5daf43833f61b8b9.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "926a0de2a1cac1060951",
     "text": "Ich verteile ungern Durchhalteparolen. Amlinger erinnert mich daran, dass freie Zeit und Ressourcen ungleich verteilt sind. Freiwald lässt mich zugleich unterscheiden: viel Alltagslektüre bedeutet noch nicht, einen langen Gedankengang verfolgen zu können. Unsere Bücherwand kann weder Übung noch Ruhe ersetzen.",
-    "file": "assets/foliant-audio/debate-1.mp3",
+    "file": "assets/foliant-audio/speech-926a0de2a1cac1060951.mp3",
     "voice": "Piper · Thorsten",
     "provider": "Piper"
   },
   {
-    "id": "debate-2",
+    "id": "27c15c6d1bc88f40930c",
+    "text": "Freiwald, PDF S. 4–6: Tempo, komplexe Texte und verschiedene Lesepraxen.",
+    "file": "assets/foliant-audio/speech-27c15c6d1bc88f40930c.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "f70a410b8e5217ddfe22",
+    "text": "Amlinger: freie Lesezeit, Betreuung und soziale Ressourcen.",
+    "file": "assets/foliant-audio/speech-f70a410b8e5217ddfe22.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "db974dbe51c40c18bb85",
+    "text": "Man muss sich eben konzentrieren.",
+    "file": "assets/foliant-audio/speech-db974dbe51c40c18bb85.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "0900671f131968d3b390",
+    "text": "Man muss zuerst Zeit und Unterstützung schaffen.",
+    "file": "assets/foliant-audio/speech-0900671f131968d3b390.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "0a9282d8db8e653bc956",
+    "text": "Übung und bewusste Entscheidungen helfen. Aber wem steht ein ungestörter Nachmittag überhaupt zur Verfügung? Mit Amlinger widerspreche ich, sobald Willenskraft eine fehlende soziale Ressource ersetzen soll. Welche Hilfe könnte Konzentration erst möglich machen?",
+    "file": "assets/foliant-audio/speech-0a9282d8db8e653bc956.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "83137fc7422206ffb087",
+    "text": "Da gehe ich mit. Doch Zeit allein garantiert noch kein Verstehen. Mit Freiwald frage ich zusätzlich nach Lesefähigkeit und Förderung. Wie würdest du freie Zeit, passende Texte und Begleitung verbinden?",
+    "file": "assets/foliant-audio/speech-83137fc7422206ffb087.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "7e22d2d3f25421aaed02",
+    "text": "Entwirf eine konkrete Hilfe für eine Person aus dem Tür-Versuch. Was leistet sie – und was noch nicht?",
+    "file": "assets/foliant-audio/speech-7e22d2d3f25421aaed02.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "00c8b83106fee4b69ee5",
+    "text": "Darf ich das Lesen delegieren?",
+    "file": "assets/foliant-audio/speech-00c8b83106fee4b69ee5.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "7e697ca9303df040df6f",
     "text": "Ja, ich darf für dich vorauswählen – aber ich schulde dir Gründe und Originalstellen. Freiwald betrachtet Delegieren nicht pauschal als Verfall. Seine Frage nach Vertrauen trifft mich selbst. Amlingers Blick auf knappe Zeit macht die bequeme Abkürzung verständlich; sie entbindet mich nicht davon, meine Auswahl offenzulegen.",
-    "file": "assets/foliant-audio/debate-2.mp3",
+    "file": "assets/foliant-audio/speech-7e697ca9303df040df6f.mp3",
     "voice": "Piper · Thorsten",
     "provider": "Piper"
   },
   {
-    "id": "debate-3",
+    "id": "39ac6252968183526e94",
+    "text": "Freiwald, PDF S. 9–11: delegiertes Lesen, Vertrauen und die weiterhin lesenden Vermittler.",
+    "file": "assets/foliant-audio/speech-39ac6252968183526e94.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "c552a006ca64cec87f2d",
+    "text": "Amlinger: soziale Bedingungen freier Zeit. Die Verbindung zur Delegation ziehen wir hier als eigene Schlussfolgerung.",
+    "file": "assets/foliant-audio/speech-c552a006ca64cec87f2d.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "721bd33987589ebff9eb",
+    "text": "Eine gute Zusammenfassung genügt mir.",
+    "file": "assets/foliant-audio/speech-721bd33987589ebff9eb.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "e7882d18f0ff370fba06",
+    "text": "Ich will alles selbst im Original lesen.",
+    "file": "assets/foliant-audio/speech-e7882d18f0ff370fba06.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "1fe364105fe4d4fe8b31",
+    "text": "Für welchen Zweck? Eine Orientierung kann genügen. Bei einer entscheidenden Behauptung verlange ich mit Freiwald die überprüfbare Stelle. Ton und Erfahrung können selbst in einer korrekten Kurzfassung fehlen. Wo würdest du meine Vermittlung unterbrechen?",
+    "file": "assets/foliant-audio/speech-1fe364105fe4d4fe8b31.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "c247d6dd3eab1029f1fd",
+    "text": "Das ist ein Anspruch, den ich respektiere. Er kostet aber Zeit, die nicht allen gleich zur Verfügung steht. Welche Entscheidung verdient deine eigene Lektüre, und welche Vermittlung könntest du mit offengelegten Quellen verantworten?",
+    "file": "assets/foliant-audio/speech-c247d6dd3eab1029f1fd.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "abb5778967713ee4d502",
+    "text": "Bestimme einen Fall, in dem du delegierst, und einen, in dem du selbst nachliest. Begründe die Grenze.",
+    "file": "assets/foliant-audio/speech-abb5778967713ee4d502.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "c640bf1119c68ddb2d9c",
+    "text": "Beweisen volle Regale eine Lesekultur?",
+    "file": "assets/foliant-audio/speech-c640bf1119c68ddb2d9c.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "d8642e586d4c24788f80",
     "text": "Meine prachtvollen Wände schmeicheln mir. Amlinger zwingt mich jedoch, Besitz, Selbstdarstellung und Lektüre auseinanderzuhalten. Freiwald stört zusätzlich die Gleichung zwischen Papierbüchern und allem Lesen. Eine digitale Lektüre wird auf meinem schönen Regalfoto unsichtbar.",
-    "file": "assets/foliant-audio/debate-3.mp3",
+    "file": "assets/foliant-audio/speech-d8642e586d4c24788f80.mp3",
     "voice": "Piper · Thorsten",
     "provider": "Piper"
   },
   {
-    "id": "debate-4",
+    "id": "5f59e0e72274fb945390",
+    "text": "Freiwald, PDF S. 5–8: Leseformen und problematische Messungen oder Vergleiche.",
+    "file": "assets/foliant-audio/speech-5f59e0e72274fb945390.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "d9ca795cecf15431dcdb",
+    "text": "Amlinger: Bücherberg, Bookishness, Geschmack und soziale Unterschiede.",
+    "file": "assets/foliant-audio/speech-d9ca795cecf15431dcdb.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "99c8bc1ac751d495ca73",
+    "text": "Bücher sichtbar zu machen lädt zum Lesen ein.",
+    "file": "assets/foliant-audio/speech-99c8bc1ac751d495ca73.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "b21a837fed64cb401ac5",
+    "text": "Das ist vor allem eine Statuskulisse.",
+    "file": "assets/foliant-audio/speech-b21a837fed64cb401ac5.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "498379d64af0c3207b92",
+    "text": "Das kann stimmen. Materialnähe und Zugehörigkeit können Lust wecken. Mit Amlinger frage ich trotzdem: Wen lädt dieses Bild ein, wen schreckt es ab? Und mit Freiwald: Welche wirkliche Lektüre bleibt darin unsichtbar?",
+    "file": "assets/foliant-audio/speech-498379d64af0c3207b92.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "0d94d39d8b8f15779927",
+    "text": "Auch das ist möglich. Aber ich würde nicht jedes schöne Bücherbild verurteilen. Welche beobachtbare Handlung unterscheidet hier eine Einladung von einer blossen Kulisse? Denk an Herausziehen, Lesen, Zurückstellen und gemeinsame Zeit.",
+    "file": "assets/foliant-audio/speech-0d94d39d8b8f15779927.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "6ba9ee9654e467742b7b",
+    "text": "Verändere eine Regel unserer Bibliothek so, dass aus sichtbarem Bestand eine tatsächliche Lesegelegenheit wird.",
+    "file": "assets/foliant-audio/speech-6ba9ee9654e467742b7b.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "9be41076e3f7a0639cb7",
+    "text": "Macht Lesen uns automatisch freier?",
+    "file": "assets/foliant-audio/speech-9be41076e3f7a0639cb7.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "8c96af815194ba278a44",
     "text": "Ich verspreche keine moralische Veredelung durch Bücher. Amlinger zeigt Lesen als Möglichkeit sozialen Aufstiegs und zugleich als Trennung von Herkunft und anderen Menschen. Freiwald gibt mir einen praktischen Auftrag: Lesefähigkeit fördern, statt den Untergang zu beklagen. Die Essays prüfen, was daraus im einzelnen Leben wird.",
-    "file": "assets/foliant-audio/debate-4.mp3",
+    "file": "assets/foliant-audio/speech-8c96af815194ba278a44.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "d78470bd3a7ae0486f0b",
+    "text": "Freiwald, PDF S. 9–11: Förderung und Verantwortung statt Fatalismus.",
+    "file": "assets/foliant-audio/speech-d78470bd3a7ae0486f0b.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "edad51f055d2c472352e",
+    "text": "Amlinger: Anton Reiser, Hilla Palm und der Zusammenhang von Teilhabe und Klassenunterschieden.",
+    "file": "assets/foliant-audio/speech-edad51f055d2c472352e.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "f17992a3f6c900ff8b5a",
+    "text": "Lesen eröffnet andere Leben und Möglichkeiten.",
+    "file": "assets/foliant-audio/speech-f17992a3f6c900ff8b5a.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "d1d1e95a479537151174",
+    "text": "Lesen kann auch isolieren und ausschliessen.",
+    "file": "assets/foliant-audio/speech-d1d1e95a479537151174.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "ff67c49baeae36008016",
+    "text": "Ja. Aber diese Öffnung ist kein Automatismus. Ernaux erzählt zugleich vom Verbinden und Trennen; Rosa von einer möglichen Veränderung der Weltbeziehung. Welche konkrete Textstelle verändert deinen Blick, und welche soziale Bedingung braucht diese Erfahrung?",
+    "file": "assets/foliant-audio/speech-ff67c49baeae36008016.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "4d374c00de85c00783c4",
+    "text": "Ja. Setz und Ernaux halten meinem Enthusiasmus einen Spiegel vor. Das ist kein Grund, Lesen aufzugeben. Mit Amlinger frage ich, wie Lektüre und Zugehörigkeit zusammengehen könnten. Mit Freiwald suche ich eine konkrete Möglichkeit, jemanden zum Lesen zu befähigen.",
+    "file": "assets/foliant-audio/speech-4d374c00de85c00783c4.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "589048d580eb3762fd6a",
+    "text": "Welche Handlung könnte zu deinem Lesen hinzukommen, damit eine persönliche Möglichkeit auch anderen offensteht?",
+    "file": "assets/foliant-audio/speech-589048d580eb3762fd6a.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "6f2e59271e9bc34378cb",
+    "text": "Die Verwandlung",
+    "file": "assets/foliant-audio/speech-6f2e59271e9bc34378cb.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "c3652076d2a39c901013",
+    "text": "Ein Mensch wacht als Ungeziefer auf. Das Unheimlichste ist, wie schnell wieder über Arbeit gesprochen wird.",
+    "file": "assets/foliant-audio/speech-c3652076d2a39c901013.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "400217391e80d0a39671",
+    "text": "Lies den Anfang: Worüber sorgt sich Gregor zuerst?",
+    "file": "assets/foliant-audio/speech-400217391e80d0a39671.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "4cccc360c4b200168012",
+    "text": "Schachnovelle",
+    "file": "assets/foliant-audio/speech-4cccc360c4b200168012.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "920f5a7e27bcaa26c35b",
+    "text": "Ein Schachbrett wird zum Fluchtweg aus der Isolation – und zur Falle im eigenen Kopf.",
+    "file": "assets/foliant-audio/speech-920f5a7e27bcaa26c35b.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "15cd183c4a3140c279f4",
+    "text": "Warte auf die Geschichte des Dr. B.: Ab dort verändert sich das Spiel.",
+    "file": "assets/foliant-audio/speech-15cd183c4a3140c279f4.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "84e4ca776d461c7dbf54",
+    "text": "Lewis Carroll: Alice's Abenteuer im Wunderland",
+    "file": "assets/foliant-audio/speech-84e4ca776d461c7dbf54.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "4bf6e9f1621fa065ca91",
+    "text": "Charles Lutwidge Dodgson",
+    "file": "assets/foliant-audio/speech-4bf6e9f1621fa065ca91.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "eeb6796f85b68a7baf94",
+    "text": "Hier benehmen sich Wörter wie widerspenstige Tiere. Jede Erklärung kann die nächste Verwirrung auslösen.",
+    "file": "assets/foliant-audio/speech-eeb6796f85b68a7baf94.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "0e0441a3b68f50569dd3",
+    "text": "Folge dem Kaninchen. Gib die Suche nach einer vernünftigen Hausordnung ruhig auf.",
+    "file": "assets/foliant-audio/speech-0e0441a3b68f50569dd3.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "54b5d4e62538f86a91c6",
+    "text": "Der Hund der Baskervilles",
+    "file": "assets/foliant-audio/speech-54b5d4e62538f86a91c6.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "3de43504cdc3391df772",
+    "text": "Arthur Conan Doyle",
+    "file": "assets/foliant-audio/speech-3de43504cdc3391df772.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "9575f671579ec9727d57",
+    "text": "Ein Moor, ein angeblicher Fluch und ein Hund: Holmes muss herausfinden, wer von der Angst profitiert.",
+    "file": "assets/foliant-audio/speech-9575f671579ec9727d57.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "e5cfc0f4d9a214d36f22",
+    "text": "Behalte die Erklärung des Fluchs im Kopf. Welche Einzelheit macht dich misstrauisch?",
+    "file": "assets/foliant-audio/speech-e5cfc0f4d9a214d36f22.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "3d5b29a362a3541036f4",
+    "text": "Die Zeitmaschine",
+    "file": "assets/foliant-audio/speech-3d5b29a362a3541036f4.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "af8cf2ca7be5c6794dec",
+    "text": "Herbert George Wells",
+    "file": "assets/foliant-audio/speech-af8cf2ca7be5c6794dec.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "9e808ad9f4278ad91afc",
+    "text": "Die Zukunft sieht zunächst sanft aus. Dann fällt auf, wer dort im Licht lebt – und wer darunter.",
+    "file": "assets/foliant-audio/speech-9e808ad9f4278ad91afc.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "3ca982c1b43e1449438e",
+    "text": "Reise erst einmal mit. Die schöne Oberfläche darf dich ruhig täuschen.",
+    "file": "assets/foliant-audio/speech-3ca982c1b43e1449438e.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "a3240ebb973eeea9c65a",
+    "text": "Heinrich von Kleist: Michael Kohlhaas",
+    "file": "assets/foliant-audio/speech-a3240ebb973eeea9c65a.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "2c293ba415ed7b42e52b",
+    "text": "Heinrich von Kleist",
+    "file": "assets/foliant-audio/speech-2c293ba415ed7b42e52b.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "4b7ea10aff3b4273a49b",
+    "text": "Zwei Pferde werden zum Anlass eines Aufstands. Ein Mann fordert Recht, bis seine Forderung andere Leben zerstört.",
+    "file": "assets/foliant-audio/speech-4b7ea10aff3b4273a49b.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "b60075f2ad4d6e5cc652",
+    "text": "Achte darauf, wann du Kohlhaas noch recht gibst – und wann du zögerst.",
+    "file": "assets/foliant-audio/speech-b60075f2ad4d6e5cc652.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "04fdb9c65693cf3dc073",
+    "text": "Candide oder der Optimismus",
+    "file": "assets/foliant-audio/speech-04fdb9c65693cf3dc073.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "728de5617e620239f2f1",
+    "text": "François Marie Arouet de Voltaire",
+    "file": "assets/foliant-audio/speech-728de5617e620239f2f1.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "c2e25895f91c6685960c",
+    "text": "Die beste aller möglichen Welten? Voltaire schickt diese Behauptung durch eine Serie von Katastrophen.",
+    "file": "assets/foliant-audio/speech-c2e25895f91c6685960c.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "671865c46d5f9c31bb72",
+    "text": "Lies die ersten Stationen wie einen Streit zwischen Behauptung und Wirklichkeit.",
+    "file": "assets/foliant-audio/speech-671865c46d5f9c31bb72.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "34c04c84396f4e2dccf7",
+    "text": "Ein Regal voller Texte gibt dir noch keinen zusammenhängenden Gedanken. Als Nächstes zerbrechen wir einen Satz.",
+    "file": "assets/foliant-audio/speech-34c04c84396f4e2dccf7.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "75ff4e619f7265540839",
+    "text": "Hier spricht Herr Dr. Foliant. Ich begleite dich durch die Bibliothek. Du kannst meine Stimme jederzeit wieder ausschalten.",
+    "file": "assets/foliant-audio/speech-75ff4e619f7265540839.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "694486a8f76b8909b73d",
+    "text": "Hier stehen freie Werke neben den Büchern der Lesetour. Zieh einen Band heraus. Die freien Werke haben keine Aufträge.",
+    "file": "assets/foliant-audio/speech-694486a8f76b8909b73d.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "af9d20066d2c5dd490b4",
+    "text": "Du suchst eine verschobene Wirklichkeit. Darauf achte ich bei meinem nächsten Griff.",
+    "file": "assets/foliant-audio/speech-af9d20066d2c5dd490b4.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "076131146501dfb019c2",
+    "text": "Du suchst Spannung. Ich suche nach einem Einstieg, der eine Frage offenhält.",
+    "file": "assets/foliant-audio/speech-076131146501dfb019c2.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "e86f3f8af452ef78bc36",
+    "text": "Du suchst Menschen, die dir nahekommen. Achte darauf, wann Nähe entsteht und wann du Abstand hältst.",
+    "file": "assets/foliant-audio/speech-e86f3f8af452ef78bc36.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "8736fbfc6eff8741139d",
+    "text": "Du suchst Witz mit Widerhaken. Prüfe, gegen wen sich der Witz richtet.",
+    "file": "assets/foliant-audio/speech-8736fbfc6eff8741139d.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "242024a1f173adeee362",
+    "text": "Du suchst eine fremde Welt. Lass dich hineinziehen und prüfe ihre Regeln.",
+    "file": "assets/foliant-audio/speech-242024a1f173adeee362.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "9b5cf1e74e05b0897c59",
+    "text": "Heute genügt ein kurzer Einstieg. Du darfst den Band jederzeit zurückstellen.",
+    "file": "assets/foliant-audio/speech-9b5cf1e74e05b0897c59.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "794b5a9efd08a7b2c770",
+    "text": "Dein letzter Band hat dich gepackt. Diese Spur bekommt bei meiner nächsten Auswahl mehr Gewicht.",
+    "file": "assets/foliant-audio/speech-794b5a9efd08a7b2c770.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "098c0a23e26287c5d176",
+    "text": "Der letzte Band war nicht dein Ton. Seine Eigenschaften bekommen weniger Gewicht; ich probiere einen anderen Zugang.",
+    "file": "assets/foliant-audio/speech-098c0a23e26287c5d176.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "41bcb8b367ee743fa942",
+    "text": "Du möchtest etwas Kürzeres. Ich berücksichtige das beim nächsten Griff.",
+    "file": "assets/foliant-audio/speech-41bcb8b367ee743fa942.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "2e2b44c1bdc8f95c9677",
+    "text": "Du musst nicht antworten und nicht zu Ende lesen. Wir dürfen einfach einen anderen Band versuchen.",
+    "file": "assets/foliant-audio/speech-2e2b44c1bdc8f95c9677.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "775698a535fb613b1c93",
+    "text": "Dieser Fund kommt aus dem ganzen Katalog. Ich wähle ihn nach Titel, Autor und deinen Antworten aus; eine Inhaltskenntnis behaupte ich hier nicht.",
+    "file": "assets/foliant-audio/speech-775698a535fb613b1c93.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "030b55cc3150c66aac79",
+    "text": "Lies den ersten Absatz. Welche Erwartung weckt der Titel, und was macht der Text daraus?",
+    "file": "assets/foliant-audio/speech-030b55cc3150c66aac79.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "6ea0f0191d0827f7e0a8",
+    "text": "Am Titel hält mich das Gespenstische fest. Lies den Anfang: Wird die Unruhe erklärt oder erst verstärkt?",
+    "file": "assets/foliant-audio/speech-6ea0f0191d0827f7e0a8.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "32fb80e18b0a2ff3676d",
+    "text": "Im Titel begegnet mir das Traumhafte. Schau im ersten Absatz, wie sicher die Wirklichkeit dort noch ist.",
+    "file": "assets/foliant-audio/speech-32fb80e18b0a2ff3676d.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "d0e2c976eb08fb7c6dbd",
+    "text": "Der Titel verspricht ein Geheimnis. Prüfe beim Einstieg, wer etwas weiss und wer im Dunkeln bleibt.",
+    "file": "assets/foliant-audio/speech-d0e2c976eb08fb7c6dbd.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "f90d84ac2e2f1a127572",
+    "text": "Der Titel kündigt ein Abenteuer an. Achte im ersten Absatz darauf, was eine Figur aus ihrer vertrauten Welt lockt.",
+    "file": "assets/foliant-audio/speech-f90d84ac2e2f1a127572.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "db51cdd8640b707e0666",
+    "text": "Das Wortfeld Liebe hält meine Hand am Buchrücken an. Lies den Einstieg: Wer spricht über wen, und mit welchem Abstand?",
+    "file": "assets/foliant-audio/speech-db51cdd8640b707e0666.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "5aa60632e2d3d2899f3e",
+    "text": "Der Titel schickt uns auf eine Reise. Achte zuerst auf den Blick der reisenden Person, nicht nur auf das Ziel.",
+    "file": "assets/foliant-audio/speech-5aa60632e2d3d2899f3e.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "dd0fbf8e0c796f9276c1",
+    "text": "Hier lockt mich das Gedicht. Lies ein paar Zeilen langsam; hör darauf, wo der Rhythmus deine Erwartung verschiebt.",
+    "file": "assets/foliant-audio/speech-dd0fbf8e0c796f9276c1.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "67bd7f29b614e82819e5",
+    "text": "Im Titel steht die Novelle. Suche beim Einstieg eine Einzelheit, die mehr verspricht, als sie zunächst erklärt.",
+    "file": "assets/foliant-audio/speech-67bd7f29b614e82819e5.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "e98812e46d1fc46f6f68",
+    "text": "Der Titel kündigt Satire an. Prüfe im ersten Absatz, wer sich lächerlich macht und wer darüber lachen darf.",
+    "file": "assets/foliant-audio/speech-e98812e46d1fc46f6f68.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "6020c0196488db9a99e6",
+    "text": "Jetzt die Inszenierung am Text prüfen.",
+    "file": "assets/foliant-audio/speech-6020c0196488db9a99e6.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "81239c6e341e215172c5",
+    "text": "Zuerst Borges vollständig lesen.",
+    "file": "assets/foliant-audio/speech-81239c6e341e215172c5.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "4c6162fcecefacad4c36",
+    "text": "Öffne den Originaltext: Bent Freiwald · Die lesende Gesellschaft, um die wir trauern, hat es nie gegeben.",
+    "file": "assets/foliant-audio/speech-4c6162fcecefacad4c36.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "1f00aa3b6f431322f21a",
+    "text": "PDF S. 2–3: historische Ängste; S. 5–8: Begriffe und Vergleiche; S. 9–11: Delegation und Förderung.",
+    "file": "assets/foliant-audio/speech-1f00aa3b6f431322f21a.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "cd60d3db15d2c25fae6e",
+    "text": "Notiere eine konkrete Seite und deinen eigenen Gedanken. Vergleiche mit einer anderen Stimme im Stimmenverzeichnis.",
+    "file": "assets/foliant-audio/speech-cd60d3db15d2c25fae6e.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "861ae952f60fcc6c9afb",
+    "text": "Öffne den Originaltext: Julia Nantke · Schreiben und Lesen als Mensch-Maschine-Kommunikation.",
+    "file": "assets/foliant-audio/speech-861ae952f60fcc6c9afb.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "f2c96bbcc14f0604c6ad",
+    "text": "PDF „bda8476b-8a9e-4f83-851f-e7afa6a08639.pdf“; Einstieg mit Nietzsche.",
+    "file": "assets/foliant-audio/speech-f2c96bbcc14f0604c6ad.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "0a0d4fee44bb50d39044",
+    "text": "Öffne den Originaltext: Carolin Amlinger · Im postliterarischen Zeitalter: Vom Ende des Lesens.",
+    "file": "assets/foliant-audio/speech-0a0d4fee44bb50d39044.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "d9a06168fe2bbcefab3e",
+    "text": "„CarolinAmlinger_Lesen.docx“ und zugehörige MP3; Anfang und Schluss.",
+    "file": "assets/foliant-audio/speech-d9a06168fe2bbcefab3e.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "f9ded85513aabc7e3cac",
+    "text": "Öffne den Originaltext: Thomas Hettche · Das Ende des Buches und was wir verlieren.",
+    "file": "assets/foliant-audio/speech-f9ded85513aabc7e3cac.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "ca52c619fd9be23961c8",
+    "text": "Cicero-PDF S. 2–8; das Druckdatum ist kein Publikationsdatum.",
+    "file": "assets/foliant-audio/speech-ca52c619fd9be23961c8.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "2b5339dbccf4eced6fab",
+    "text": "Öffne den Originaltext: Clemens J. Setz · Der Fall des Henry Bemis.",
+    "file": "assets/foliant-audio/speech-2b5339dbccf4eced6fab.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "17c3189736fd8934c4e9",
+    "text": "Notiere eine konkrete Stelle. Prüfe, ob sie deine Antwort auf die Raumfrage verändert.",
+    "file": "assets/foliant-audio/speech-17c3189736fd8934c4e9.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "9acc84a03d9d4dbea7be",
+    "text": "Öffne den Originaltext: Katja Petrowskaja · Tausendundein Buch.",
+    "file": "assets/foliant-audio/speech-9acc84a03d9d4dbea7be.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "ba63dcbeeb7c151953ea",
+    "text": "Erinnere dich zuerst an ein Buch aus deiner Kindheit: Farbe, Geruch, Stimme. Lies dann den Anfang und Schluss. Was kommt bei Petrowskaja zur privaten Erinnerung hinzu?",
+    "file": "assets/foliant-audio/speech-ba63dcbeeb7c151953ea.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "c8afc551c24a57fc69d3",
+    "text": "Öffne den Originaltext: Andreas Reckwitz · Kleine Genealogie des Lesens als kulturelle Praxis.",
+    "file": "assets/foliant-audio/speech-c8afc551c24a57fc69d3.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "549b69858d2b5155e926",
+    "text": "Beobachte deine eigene Lesehaltung. Suche im Text eine gesellschaftliche Bedingung dieser scheinbar privaten Tätigkeit. Wer hat andere Voraussetzungen?",
+    "file": "assets/foliant-audio/speech-549b69858d2b5155e926.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "64bc6201ed425df1adde",
+    "text": "Öffne den Originaltext: Friederike Mayröcker · kannst du mir die Welt erklären?.",
+    "file": "assets/foliant-audio/speech-64bc6201ed425df1adde.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "8cabc2bd71d8ed490205",
+    "text": "Lies einen kurzen Abschnitt still und dann laut. Welches Wort klingt anders, als es auf der Seite aussieht? Beschreibe den Unterschied, ohne das Gedicht auf eine Botschaft zu reduzieren.",
+    "file": "assets/foliant-audio/speech-8cabc2bd71d8ed490205.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "06ae8ccc524b8ec1a548",
+    "text": "Öffne den Originaltext: Marcel Beyer · Lesen im Kaninchenbau.",
+    "file": "assets/foliant-audio/speech-06ae8ccc524b8ec1a548.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "4ff0f9a518622e63bff0",
+    "text": "Sprich einen dir unbekannten Namen aus dem Text laut aus. Welche Vorstellung entsteht vor jeder Erklärung? Suche, wie Beyer das Verhältnis von Klang und Lesen beschreibt.",
+    "file": "assets/foliant-audio/speech-4ff0f9a518622e63bff0.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "d22f72468c97d4ce5569",
+    "text": "Öffne den Originaltext: Eva Illouz · Dreimal Lesen.",
+    "file": "assets/foliant-audio/speech-d22f72468c97d4ce5569.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "cfbcc58746a481c38d49",
+    "text": "Wähle eine der besprochenen Figuren. Welche Erwartung an das Leben verbindet sie mit Büchern? Finde eine Textstelle und vergleiche sie mit einer eigenen Leseerfahrung.",
+    "file": "assets/foliant-audio/speech-cfbcc58746a481c38d49.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "2325939744f48dbcc9e3",
+    "text": "Öffne den Originaltext: Annie Ernaux · Trennen, Verbinden.",
+    "file": "assets/foliant-audio/speech-2325939744f48dbcc9e3.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "6b8eb01e191a020739c7",
+    "text": "Lies die Begegnung am Anfang. Stell dich gedanklich auf beide Seiten des Regals. Welcher Satz macht einen Unterschied sichtbar, den ein Bücherfoto verschweigt?",
+    "file": "assets/foliant-audio/speech-6b8eb01e191a020739c7.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "389571eb8dfd02e0c3ea",
+    "text": "Öffne den Originaltext: Rachel Cusk · Annie Ernaux lesen.",
+    "file": "assets/foliant-audio/speech-389571eb8dfd02e0c3ea.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "4a0f1ff7535544bcf4b4",
+    "text": "Lies, wie Cusk Ernaux begegnet. Suche einen Satz, in dem eine fremde Erfahrung für die Leserin bedeutsam wird. Was wird dadurch sichtbar?",
+    "file": "assets/foliant-audio/speech-4a0f1ff7535544bcf4b4.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "461ab40429add4e66f15",
+    "text": "Öffne den Originaltext: Jürgen Habermas · Warum nicht lesen?.",
+    "file": "assets/foliant-audio/speech-461ab40429add4e66f15.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "63c385694762ead71822",
+    "text": "Erinnere dich an eine Diskussion in einem Feed. Suche im Text eine Bedingung gemeinsamer Verständigung. Was war in deiner Diskussion vorhanden, was fehlte?",
+    "file": "assets/foliant-audio/speech-63c385694762ead71822.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "2eebd6dd381f2a7d48cc",
+    "text": "Öffne den Originaltext: Nicolas Mahler · Warum Comics lesen?.",
+    "file": "assets/foliant-audio/speech-2eebd6dd381f2a7d48cc.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "6bb74fa6c8d5d810b0d5",
+    "text": "Betrachte PDF-Seite 2 erst ohne die Sprechblasen zu lesen. Lies sie danach. Was erzählt nur die Zeichnung, was nur der Text? Wo trifft der Witz ein Urteil über gute Lektüre?",
+    "file": "assets/foliant-audio/speech-6bb74fa6c8d5d810b0d5.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "06d27468a9de1ed20ea3",
+    "text": "Öffne den Originaltext: Thomas Köck · Autonomie und Unsinn.",
+    "file": "assets/foliant-audio/speech-06d27468a9de1ed20ea3.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "6f105a12d53c47c02068",
+    "text": "Lies fünf Minuten, ohne etwas markieren oder verwerten zu müssen. Suche danach eine Stelle zu Autonomie oder Zweck. Was war an deinem Lesen frei, was nicht?",
+    "file": "assets/foliant-audio/speech-6f105a12d53c47c02068.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "ab846e85185072953d00",
+    "text": "Öffne den Originaltext: Wolf Singer · Immaterielle Realitäten.",
+    "file": "assets/foliant-audio/speech-ab846e85185072953d00.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "5b8678097d46baf3503c",
+    "text": "Lies einen beschreibenden Absatz und schliesse die Augen. Was hast du selbst ergänzt? Suche im Beitrag, wie Singer die Tätigkeit der Lesenden erklärt, und unterscheide Erfahrung und Erklärung.",
+    "file": "assets/foliant-audio/speech-5b8678097d46baf3503c.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "f656a0cf1473ca05b2f9",
+    "text": "Öffne den Originaltext: Esther Kinsky · The Lie of the Land.",
+    "file": "assets/foliant-audio/speech-f656a0cf1473ca05b2f9.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "0ce0b029a759cb3e5337",
+    "text": "Öffne den Originaltext: Serhij Zhadan · Die guten schlechten Bücher.",
+    "file": "assets/foliant-audio/speech-0ce0b029a759cb3e5337.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "6967e52c3997b5edeb48",
+    "text": "Wähle gedanklich ein Buch, das du retten würdest. Lies den Beitrag. Welche Stelle verändert deinen Massstab für ein gutes oder schlechtes Buch?",
+    "file": "assets/foliant-audio/speech-6967e52c3997b5edeb48.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "99a4eb92381ca378feb7",
+    "text": "Öffne den Originaltext: Hartmut Rosa · Vom Wunder narrativer Resonanz.",
+    "file": "assets/foliant-audio/speech-99a4eb92381ca378feb7.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "040e76575bbe46200b53",
+    "text": "Lies den Einstieg. Wann warst du beim Lesen körperlich hier und gedanklich anderswo? Suche eine passende Stelle und beschreibe auch eine Lektüre, bei der diese Verbindung ausblieb.",
+    "file": "assets/foliant-audio/speech-040e76575bbe46200b53.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "8bbefabc302d41905357",
+    "text": "Öffne den Originaltext: Dževad Karahasan · Stille Ekstase.",
+    "file": "assets/foliant-audio/speech-8bbefabc302d41905357.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "5dac362f86257bcb2406",
+    "text": "Lies den Anfang über stilles Lesen. Lies denselben Absatz danach hörbar. Was verändert sich an deinem Verhältnis zu Zeit und Umgebung? Belege einen Gedanken am Text.",
+    "file": "assets/foliant-audio/speech-5dac362f86257bcb2406.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "e0a9fb2e3d41f89052e2",
+    "text": "Öffne den Originaltext: Alejandro Zambra · Fragen eines lesenden Vaters.",
+    "file": "assets/foliant-audio/speech-e0a9fb2e3d41f89052e2.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "57792bf4976c894b3cd7",
+    "text": "Lies die erste gemeinsame Leseszene. Was geschieht zwischen den Personen zusätzlich zum Verstehen der Wörter? Erinnere dich an eine ähnliche oder gegenteilige Situation.",
+    "file": "assets/foliant-audio/speech-57792bf4976c894b3cd7.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "fa9a525571faaf75d40a",
+    "text": "Öffne den Originaltext: Maria Stepanova · In einer fremden Haut.",
+    "file": "assets/foliant-audio/speech-fa9a525571faaf75d40a.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "700ed21e80aa1a2f6bff",
+    "text": "Lies einen Abschnitt und erzähle ihn in zwei Sätzen aus Sicht einer Figur. Welche Annahme hast du hinzugefügt? Suche im Beitrag eine Stelle zum Wechsel zwischen fremdem und eigenem Leben.",
+    "file": "assets/foliant-audio/speech-700ed21e80aa1a2f6bff.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "eff2dae3619d552acc2a",
+    "text": "Öffne den Originaltext: Michael Hagner · Lionel, der Leser.",
+    "file": "assets/foliant-audio/speech-eff2dae3619d552acc2a.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "e26fa31623397d3829e4",
+    "text": "Betrachte das Bild, bevor du die Erklärung liest. Notiere deine erste Zuschreibung. Lies dann den Beitrag: Welche Information zwingt dich, dein Bild des Lesers zu ändern?",
+    "file": "assets/foliant-audio/speech-e26fa31623397d3829e4.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "dbcc142a60bdb26ad5fc",
+    "text": "Öffne den Originaltext: Sibylle Lewitscharoff · Das wild schlagende Leseherz.",
+    "file": "assets/foliant-audio/speech-dbcc142a60bdb26ad5fc.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "542b12b20a1745681c9f",
+    "text": "Wechsle für einen Absatz deinen Leseort oder deine Haltung. Suche eine Stelle über den Körper oder Ort der Lektüre. Was kann ein Foto vom Buch davon zeigen?",
+    "file": "assets/foliant-audio/speech-542b12b20a1745681c9f.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "e36d1acbbbeb1a096fb3",
+    "text": "Öffne den Originaltext: Hans Joas · Bitte um Auskunft.",
+    "file": "assets/foliant-audio/speech-e36d1acbbbeb1a096fb3.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "f6fcb1dbd6592e3ee635",
+    "text": "Würdest du lieber ein Lieblingsbuch nochmals oder drei unbekannte Bücher lesen? Lies den Beitrag und suche einen Gedanken, der deine Wahl herausfordert.",
+    "file": "assets/foliant-audio/speech-f6fcb1dbd6592e3ee635.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "3df7b45822184ca9c555",
+    "text": "Öffne den Originaltext: John Jeremiah Sullivan · Im Kiefernwald.",
+    "file": "assets/foliant-audio/speech-3df7b45822184ca9c555.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "6878948f770ac13fedc4",
+    "text": "Lies den Anfang. Lege das Gerät für eine Minute weg und höre deine Umgebung. Lies weiter: Wie verändert die konkrete Situation das Lesen und Erzählen?",
+    "file": "assets/foliant-audio/speech-6878948f770ac13fedc4.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "902d440f5d442ed005da",
+    "text": "Öffne den Originaltext: Oliver Nachtwey · Lesen in der regressiven Moderne.",
+    "file": "assets/foliant-audio/speech-902d440f5d442ed005da.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "880d5902cf18313e588e",
+    "text": "Suche eine Passage, die das Bild eines einfachen Fortschritts oder Niedergangs komplizierter macht. Lege sie neben eine Gerichtsakte dieses Raums: Welche Unterscheidung fehlt dort?",
+    "file": "assets/foliant-audio/speech-880d5902cf18313e588e.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "4e2506c2046de2e04bdc",
+    "text": "Öffne den Originaltext: Enis Maci · EXIT DOES NOT EXIST.",
+    "file": "assets/foliant-audio/speech-4e2506c2046de2e04bdc.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "58e2018193a08f66e4c4",
+    "text": "Lies den kurzen Beitrag, bevor du ihn zusammenfasst. Wähle einen Übergang, der dich überrascht. Was würde eine reine Inhaltsangabe an diesem Leseweg verlieren?",
+    "file": "assets/foliant-audio/speech-58e2018193a08f66e4c4.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "f337914c1488931867c7",
+    "text": "Öffne den Originaltext: Katharina Raabe und Frank Wegner · Einladung ins Freie.",
+    "file": "assets/foliant-audio/speech-f337914c1488931867c7.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "18dd6360ccb0d30afe3b",
+    "text": "Lies die Einladung. Wähle danach zwei der 24 anderen Beiträge, deren Gründe sich unterscheiden. Welche konkrete Freiheit möchtest du in deiner eigenen Lesewoche schaffen?",
+    "file": "assets/foliant-audio/speech-18dd6360ccb0d30afe3b.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "90b5e828daf054b27983",
+    "text": "Öffne den Originaltext: Rose Horowitch · The End of Reading Is Here.",
+    "file": "assets/foliant-audio/speech-90b5e828daf054b27983.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "ec094624443819866f50",
+    "text": "„The_End_of_Reading_Werbefrei.pdf“ bzw. „Das_Ende_des_Lesens_Deutsch.pdf“; Einstieg und Argumente zur Schriftkultur.",
+    "file": "assets/foliant-audio/speech-ec094624443819866f50.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "5ecc19ede2eab8e700b1",
+    "text": "Öffne den Originaltext: Mythen des Lesens.",
+    "file": "assets/foliant-audio/speech-5ecc19ede2eab8e700b1.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "2334a295023e356351fc",
+    "text": "Inhaltsverzeichnis; Hagenhoff ab gedruckter S. 13, Lauer ab S. 93, Schneider ab S. 107.",
+    "file": "assets/foliant-audio/speech-2334a295023e356351fc.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "3f009265896533f4881c",
+    "text": "Öffne den Originaltext: Anna Kardos / Martina Läubli · Lesen ist die Superpower der Menschheit.",
+    "file": "assets/foliant-audio/speech-3f009265896533f4881c.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "157993a9ad9678de4272",
+    "text": "„Lesen_Superpower_werbefrei (1).pdf“, S. 1–5.",
+    "file": "assets/foliant-audio/speech-157993a9ad9678de4272.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "2b4d556ee08a32131ef5",
+    "text": "Öffne den Originaltext: Adam M. Mastroianni / Daniel T. Gilbert · The illusion of moral decline.",
+    "file": "assets/foliant-audio/speech-2b4d556ee08a32131ef5.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "bc31bae585f6b81c5dfe",
+    "text": "„Moralischer_Niedergang_Uebersetzung.pdf“, Zusammenfassung und Erklärungsmodell.",
+    "file": "assets/foliant-audio/speech-bc31bae585f6b81c5dfe.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "fcb295d9a19c24408063",
+    "text": "Öffne den Originaltext: Christoph Engemann · Die Zukunft des Lesens.",
+    "file": "assets/foliant-audio/speech-fcb295d9a19c24408063.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "57fb8d93ef139407ca15",
+    "text": "Kapitel „Krise des Lesens“, „Plattform-Oralität“ und „Ein Neues Latein“.",
+    "file": "assets/foliant-audio/speech-57fb8d93ef139407ca15.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "c7fa24e148e37151de83",
+    "text": "Öffne den Originaltext: Jessica Pressman · Bookishness.",
+    "file": "assets/foliant-audio/speech-c7fa24e148e37151de83.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "433f93a61b59458ecefe",
+    "text": "„Bookishness_Jessica_Pressman.pdf“ / DOCX: Begriff und Beispiele.",
+    "file": "assets/foliant-audio/speech-433f93a61b59458ecefe.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "db45038889d2cf6a1b97",
+    "text": "Öffne den Originaltext: Gerhard Lauer · Lesen im digitalen Zeitalter.",
+    "file": "assets/foliant-audio/speech-db45038889d2cf6a1b97.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "113e65dfb54ae9557edb",
+    "text": "Kapitel 3, 5 und 8; Seitenzahlen je nach PDF bzw. Buchausgabe.",
+    "file": "assets/foliant-audio/speech-113e65dfb54ae9557edb.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "6b2c19c02f5d60b17451",
+    "text": "Öffne den Originaltext: Gerhard Lauer · Digitale Lesekulturen und die Zukunft des Lesens.",
+    "file": "assets/foliant-audio/speech-6b2c19c02f5d60b17451.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "3d8da1cf7581f87cb236",
+    "text": "„Interview_Gerhard_Lauer_ueberarbeitet.docx“ und „Die-neue-Lust-am-Lesen…mp3“.",
+    "file": "assets/foliant-audio/speech-3d8da1cf7581f87cb236.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "5fc375e2310eb7701626",
+    "text": "Öffne den Originaltext: Friedrich A. Kittler · Aufschreibesysteme 1800 / 1900.",
+    "file": "assets/foliant-audio/speech-5fc375e2310eb7701626.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "2d76af43954a8413e46f",
+    "text": "Inhaltsverzeichnis; „Lesenlernen um 1800“, „Technische Medien“, „Autoren, Leser, Autoren“.",
+    "file": "assets/foliant-audio/speech-2d76af43954a8413e46f.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "a0123abb9684009bc9cd",
+    "text": "Öffne den Originaltext: Gerhard Lauer · Bücher aus dem Textautomaten?.",
+    "file": "assets/foliant-audio/speech-a0123abb9684009bc9cd.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "e9ccaf80d65e4bc3dcc3",
+    "text": "„2023_3_de_lauer_KI.pdf“, S. 1–7.",
+    "file": "assets/foliant-audio/speech-e9ccaf80d65e4bc3dcc3.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "f6df01bd1cf7f104f184",
+    "text": "Dann die Erzählung studieren.",
+    "file": "assets/foliant-audio/speech-f6df01bd1cf7f104f184.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "752f5d032b599938f239",
+    "text": "Beschreibe die Ordnung der Bibliothek. Notiere eine konkrete Textstelle.",
+    "file": "assets/foliant-audio/speech-752f5d032b599938f239.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "761fa66c13d341a5fea7",
+    "text": "Erkläre den Unterschied zwischen vollständigem Bestand und Verstehen. Untersuche auch Wissen, Vermutung und Hoffnung des Erzählers. Belege deine Beobachtungen.",
+    "file": "assets/foliant-audio/speech-761fa66c13d341a5fea7.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "8be6d3a29731dbb39d19",
+    "text": "Schreibe unten deine Ergebnisse und eine offene Frage für die Reise auf. Erst danach betrachten wir die Bilder.",
+    "file": "assets/foliant-audio/speech-8be6d3a29731dbb39d19.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "331a40de11b8b58559b7",
+    "text": "Zuerst etwas ausprobieren.",
+    "file": "assets/foliant-audio/speech-331a40de11b8b58559b7.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "6c063d5bd51785d191ee",
+    "text": "Jetzt am Text prüfen.",
+    "file": "assets/foliant-audio/speech-6c063d5bd51785d191ee.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "bf96cd824519ef013437",
+    "text": "Öffne den Originaltext: Jorge Luis Borges · Die Bibliothek von Babel.",
+    "file": "assets/foliant-audio/speech-bf96cd824519ef013437.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "0fd4769f2ba299ba0cd7",
+    "text": "PDF „borges-bibliothek-von-text.pdf“, besonders Anfang, Symbolalphabet und Schluss.",
+    "file": "assets/foliant-audio/speech-0fd4769f2ba299ba0cd7.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "325ef989d99b287bbbc2",
+    "text": "Stell dir vor, alle Bücher blieben, aber alle Menschen verschwänden. Lies den Beitrag: Welche Stelle verändert deinen ersten Wunsch?",
+    "file": "assets/foliant-audio/speech-325ef989d99b287bbbc2.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "81383f1287cdc57fa686",
+    "text": "Betrachte eine Wand oder den Blick aus dem Fenster wie eine unbekannte Schrift. Lies dann den Anfang. Wo hilft die Vorstellung einer lesbaren Landschaft, wo wird sie unsicher?",
+    "file": "assets/foliant-audio/speech-81383f1287cdc57fa686.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "784cc6893991dfb8f3dc",
+    "text": "Jetzt deinen Gedanken festhalten.",
+    "file": "assets/foliant-audio/speech-784cc6893991dfb8f3dc.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "e41b699713c78916b2a3",
+    "text": "Erinnere dich an ein konkretes Detail aus dem Versuch oder Bild.",
+    "file": "assets/foliant-audio/speech-e41b699713c78916b2a3.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "cbfd8064ef98c59d1e34",
+    "text": "Lies die passende Stelle im Original. Notiere Seite oder Abschnitt.",
+    "file": "assets/foliant-audio/speech-cbfd8064ef98c59d1e34.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "d14dda872c67f0ac4792",
+    "text": "Schreibe unten deine Beobachtung, den Textbezug und deinen eigenen Gedanken.",
+    "file": "assets/foliant-audio/speech-d14dda872c67f0ac4792.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "5c78742ee7509be5d1bd",
+    "text": "Die Verwandlung von Franz Kafka.",
+    "file": "assets/foliant-audio/speech-5c78742ee7509be5d1bd.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "3bb77e2cafa46b8d20d4",
+    "text": "Schachnovelle von Stefan Zweig.",
+    "file": "assets/foliant-audio/speech-3bb77e2cafa46b8d20d4.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "dfd1111cfeb0a30f09d7",
+    "text": "Lewis Carroll: Alice's Abenteuer im Wunderland von Charles Lutwidge Dodgson.",
+    "file": "assets/foliant-audio/speech-dfd1111cfeb0a30f09d7.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "5e8808446f077478334d",
+    "text": "Der Hund der Baskervilles von Arthur Conan Doyle.",
+    "file": "assets/foliant-audio/speech-5e8808446f077478334d.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "d80ae75ba5cf15f2f4b1",
+    "text": "Die Zeitmaschine von Herbert George Wells.",
+    "file": "assets/foliant-audio/speech-d80ae75ba5cf15f2f4b1.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "fd74412b8934d05f4ffe",
+    "text": "Heinrich von Kleist: Michael Kohlhaas von Heinrich von Kleist.",
+    "file": "assets/foliant-audio/speech-fd74412b8934d05f4ffe.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "a2ac25d524a833850c10",
+    "text": "Candide oder der Optimismus von François Marie Arouet de Voltaire.",
+    "file": "assets/foliant-audio/speech-a2ac25d524a833850c10.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "b84939cf21d0ac85271f",
+    "text": "Willkommen. Ich zeige dir den Weg.",
+    "file": "assets/foliant-audio/speech-b84939cf21d0ac85271f.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "e168d8ed0eb04287a5ae",
+    "text": "1 · Erst ausprobieren",
+    "file": "assets/foliant-audio/speech-e168d8ed0eb04287a5ae.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "55fc0b38ca14a37d811e",
+    "text": "2 · Am Original prüfen",
+    "file": "assets/foliant-audio/speech-55fc0b38ca14a37d811e.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "e57c58aac7b6f72aa157",
+    "text": "3 · Deinen Gedanken notieren",
+    "file": "assets/foliant-audio/speech-e57c58aac7b6f72aa157.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "dabcb2ac0121c51ff651",
+    "text": "Eine Beobachtung mitnehmen",
+    "file": "assets/foliant-audio/speech-dabcb2ac0121c51ff651.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "26ccb6b94ee0eab66e3f",
+    "text": "1 · Die Erzählung lesen",
+    "file": "assets/foliant-audio/speech-26ccb6b94ee0eab66e3f.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "155aa7e5b9479744aaa0",
+    "text": "2 · Den Text studieren",
+    "file": "assets/foliant-audio/speech-155aa7e5b9479744aaa0.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "9aec0165b6ed95603d46",
+    "text": "3 · Bilder am Text prüfen",
+    "file": "assets/foliant-audio/speech-9aec0165b6ed95603d46.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "107ded91feb3a55206e9",
+    "text": "Die Reise beginnt bei Borges",
+    "file": "assets/foliant-audio/speech-107ded91feb3a55206e9.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "dee4ef157a90c0e8610b",
+    "text": "Weiter zwischen den Büchern.",
+    "file": "assets/foliant-audio/speech-dee4ef157a90c0e8610b.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "073f38cddd97cb4d4332",
+    "text": "Eine Beobachtung hast du mitgebracht. Jetzt suche im Originaltext eine Stelle, die dazu passt oder ihr widerspricht.",
+    "file": "assets/foliant-audio/speech-073f38cddd97cb4d4332.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "975a675ca6373560be1d",
+    "text": "Jetzt reichen ein paar eigene Sätze. Ich zeige dir einen klaren Schreibauftrag und bei Bedarf ein Satzgerüst.",
+    "file": "assets/foliant-audio/speech-975a675ca6373560be1d.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "951ce52da7a6a12a9d46",
+    "text": "Mein Weg: ein Versuch, eine Textstelle, drei eigene Sätze. Ich öffne jeweils das passende Buch für dich.",
+    "file": "assets/foliant-audio/speech-951ce52da7a6a12a9d46.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "7c048eb658e60a6a9aa8",
+    "text": "Du darfst jederzeit frei durch die Bibliothek wandeln und Bücher herausziehen. Für unsere geführte Lesetour beginnen wir hier bei Borges.",
+    "file": "assets/foliant-audio/speech-7c048eb658e60a6a9aa8.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "a768d960b60bc27454db",
+    "text": "Eine Regel mitnehmen.",
+    "file": "assets/foliant-audio/speech-a768d960b60bc27454db.mp3",
+    "voice": "Piper · Thorsten",
+    "provider": "Piper"
+  },
+  {
+    "id": "f98bda2b05a471f2e9b8",
+    "text": "„Die Tour endet hier. Dein Lesen geht weiter. Exportiere dein Logbuch und erprobe eine deiner Regeln. Besuche die übrigen Bücher, wenn du eine Gegenposition suchen möchtest.“",
+    "file": "assets/foliant-audio/speech-f98bda2b05a471f2e9b8.mp3",
     "voice": "Piper · Thorsten",
     "provider": "Piper"
   }

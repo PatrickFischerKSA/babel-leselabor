@@ -19,6 +19,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+      - name: Validate Foliant audio coverage
+        run: node tests/foliant-audio.cjs
       - name: Prepare public files only
         run: |
           mkdir _site
