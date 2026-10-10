@@ -8,7 +8,7 @@ Erst erleben, dann am Text prüfen: elf frei zugängliche Räume über Textflut,
 
 Die Startseite ist ein begehbares 3D-Interieur aus elf sechseckigen Galerien, hohen Bücherwänden, Holzstegen und einem zentralen Schacht mit Wendeltreppe. Maus oder Finger ziehen dreht den Blick; am Bildschirmrand dreht er sich mit dem Cursor weiter. Pfeile oder WASD und das Mausrad bewegen die Person. Die Bildschirmtasten funktionieren auch auf Touchgeräten. Durchgänge verbinden die Galerien; die Galerieauswahl erlaubt einen direkten Wechsel.
 
-Beschriftete Bände stehen zwischen den Büchern. Beim Anklicken gleitet ein Band aus dem Regal und öffnet sich als Buch mit Lederdecke, Papierseiten und Buchfalz. Fragen, Versuche und Ressourcen erscheinen auf seinen Seiten. Alle 16 unterschiedlichen Quellen sind erreichbar. Escape oder das Lesezeichen „Buch zurückstellen“ schliesst das Buch und behält geschriebene Reflexionen lokal. Seiten lassen sich blättern oder scrollen. Beim Wechsel zum Logbuch und zurück bleibt der zuletzt besuchte Ort erhalten. Ruhemodus und reduzierte Bewegung unterbinden das automatische Drehen.
+Beschriftete Bände stehen zwischen den Büchern. Beim Anklicken gleitet ein Band aus dem Regal und öffnet sich als Buch mit Lederdecke, Papierseiten und Buchfalz. Fragen, Versuche und Ressourcen erscheinen auf seinen Seiten. Alle 40 unterschiedlichen Quellen sind erreichbar. Escape oder das Lesezeichen „Buch zurückstellen“ schliesst das Buch und behält geschriebene Reflexionen lokal. Seiten lassen sich blättern oder scrollen. Beim Wechsel zum Logbuch und zurück bleibt der zuletzt besuchte Ort erhalten. Ruhemodus und reduzierte Bewegung unterbinden das automatische Drehen.
 
 Three.js 0.180.0 ist lokal unter `assets/vendor/` gebündelt (MIT-Lizenz liegt bei). Ohne WebGL wird eine bebilderte Bücherwand mit bedienbaren Bänden angezeigt.
 
@@ -32,7 +32,7 @@ Dann `http://localhost:8769` öffnen. Für GitHub Pages dient das Repository-Wur
 
 [Materialsammlung in Craft](https://planes-sit-wl6.craft.me/Ooin1xv6tuY8AP).
 
-Das Stimmenverzeichnis ordnet alle unterschiedlichen Werke der Sammlung einem Raum zu. Parallelfassungen und Audiofassungen werden gemeinsam eingeordnet. Die Primärtexte sind über die Sammlung zugänglich. Keine vollständigen geschützten Bücher oder Artikel werden in diesem Repository neu veröffentlicht. Bei Borges dienen fünf illustrierte Stationen als Lesetor und geben Aufträge für die Originallektüre. Eigene Ausschnitte lassen sich flüchtig in den Leseraum einfügen.
+Das Stimmenverzeichnis ordnet alle unterschiedlichen Werke der Sammlung einem Raum zu. Parallelfassungen und Audiofassungen werden gemeinsam eingeordnet. Die Primärtexte sind über die Sammlung zugänglich. Die 25 vom Nutzer bereitgestellten Einzelbeiträge aus „Warum Lesen“ liegen unverändert unter `assets/readings/`, mit individuellen Leseimpulsen und Autorenbänden in den passenden Galerien. Der pauschale Sammelband-Eintrag wurde ersetzt. Bei Borges dienen fünf illustrierte Stationen als Lesetor und geben Aufträge für die Originallektüre. Eigene Ausschnitte lassen sich flüchtig in den Leseraum einfügen.
 
 Wichtig: Der Autor heisst **Bent Freiwald**, nicht Bernt. Das Abruf-/Druckdatum älterer PDFs ist nicht ihr Erscheinungsdatum. Amlingers DOCX enthält Transkriptionsfehler; das Audio ist die bessere Kontrollquelle. Lauer-Interview und Pressman-Darstellung sind redaktionelle Sekundärfassungen. Die Atlantic-Übersetzung ist nicht autorisiert. Aussagen von 2023 über KI sind historisch einzuordnen.
 
