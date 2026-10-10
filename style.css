@@ -12,3 +12,11 @@
 /* Keep the next action visible even when a speech is longer than its panel. */
 .librarian-speech{display:flex;flex-direction:column;overflow:hidden;max-height:calc(100svh - 245px)}.librarian-name,#librarian-actions{flex:none}#librarian-message{overflow:auto;min-height:0;scrollbar-width:thin;scrollbar-color:#b7a079 transparent}.librarian-main-actions{margin:10px 0 7px}.librarian-small-actions{gap:11px}.librarian-extra{max-height:110px;overflow:auto}.librarian-inbook .librarian-tools details{font-size:13px}@media(max-width:800px){.librarian-speech{max-height:calc(100svh - 290px)}}@media(max-width:500px){.librarian-speech{max-height:calc(100svh - 310px)}}
 .librarian-original-link{grid-column:1/-1}.book-paper .librarian-original-link p{font:11px/1.5 sans-serif;color:#876744}.librarian-tools>button{margin:0 6px 7px 0}
+/* Free reading stacks: title spines, no learning tasks. */
+.archive-wing input{min-width:0;flex:1;background:#fff8e4;border:1px solid #ad9160;padding:12px;color:#382d1e;font:inherit}
+.archive-shelves{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));align-items:end;gap:5px 3px;padding:22px 8px;background:repeating-linear-gradient(to bottom,#302115 0,#4d321e 218px,#9b7447 219px,#65452a 232px);border:10px solid #69472c;box-shadow:inset 0 0 20px #0008}
+.archive-spine{height:var(--spine-h);margin-bottom:18px;border:1px solid #c1a26b;border-radius:3px 3px 0 0;background:linear-gradient(90deg,#0005,transparent 20%,#ffffff12 70%,#0006),var(--spine-color);color:#f3dfb2;padding:8px 3px;box-shadow:2px 3px 5px #0008;display:flex;align-items:center;gap:7px;writing-mode:vertical-rl;text-align:left;font-family:Georgia,serif;overflow:hidden;transition:transform .16s}
+.archive-spine:hover,.archive-spine:focus-visible{transform:translateY(-12px);outline:2px solid #f0cf80}
+.archive-spine span{font-size:14px;font-weight:bold;max-height:145px;overflow:hidden}.archive-spine small{font-size:10px;max-height:140px;overflow:hidden}
+.archive-open-book{background:#fff6dc;border:1px solid #bda36d;padding:28px;box-shadow:inset 12px 0 16px #83602b22,0 10px 25px #3d291622;margin:30px 0}.archive-open-book h2{font-size:32px}
+@media(max-width:650px){.archive-shelves{grid-template-columns:repeat(6,minmax(0,1fr))}.archive-spine span{font-size:12px}.archive-wing .actions{flex-wrap:wrap}}

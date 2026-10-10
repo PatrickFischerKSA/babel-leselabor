@@ -63,3 +63,9 @@ JavaScript-Syntaxprüfung mit `node --check app.js`. Im Browser wurden alle elf 
 Die Foliant-Erweiterung wurde im Browser durch alle elf Räume mit ihren drei Buchphasen, Original-Links, Beispielhilfe, Rückwegen und Tourabschluss geprüft. Borges-Regalsuche und beide Aufmerksamkeitsdurchgänge funktionieren innerhalb der moderierten Bücher weiter.
 
 Die 3D-Fassung wurde zusätzlich auf sichtbare Bücherwände, Galerieübergänge, das Herausziehen und Öffnen der Bände, Buchseiten und Ressourcen geprüft. Frühere direkte Raumlinks funktionieren weiter. `explorer.js`, Bilder und die lokal gebündelte 3D-Bibliothek werden vom GitHub-Pages-Workflow publiziert.
+
+## Freie Bibliotheksflügel
+
+Projekt Gutenberg: vollständiger Import des öffentlichen A–Z-Titelverzeichnisses vom 10.10.2026, 13.138 unterschiedliche Werklinks. Nur Titel, Autor und Original-Link werden gespeichert. `scripts/update-gutenberg.py` aktualisiert den Bestand. In den 3D-Galerien stehen zusätzliche Originalwerke; die Gutenberg-Regale öffnen den gesamten Bestand als durchsuchbare, blätterbare Bücherwände. Jeder Band öffnet den Originalvolltext, ohne Lernauftrag oder Fortschrittsänderung der Lesetour.
+
+Google Books: durchsuchbarer Flügel mit paginierten Ergebnissen der offiziellen Volumes-API. Volltext, Teilvorschau und bibliografischer Eintrag werden unterschieden. Ein vollständig exportierbarer Google-Gesamtkatalog wird nicht angeboten. Bei API-Limits bleibt die direkte, mit der Anfrage vorbereitete Google-Buchsuche zugänglich. Es werden keine erfundenen Treffer und keine Volltextverfügbarkeit behauptet. Suchanfragen werden bei Nutzung dieses Flügels an Google übertragen.
