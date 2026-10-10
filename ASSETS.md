@@ -33,3 +33,11 @@ Holzboden und beschriftete Buchrücken entstehen als eigene Canvas-Materialien i
 ## assets/vendor/
 
 Three.js 0.180.0, lokal gebündelte Module aus dem offiziellen npm-Paket `three`. MIT-Lizenz: `assets/vendor/THREE-LICENSE.txt`.
+
+## assets/librarian.png
+
+Herr Foliant: eine erfundene Bibliothekarsfigur, am 10.10.2026 mit dem integrierten Imagegen-Werkzeug erzeugt, als PNG mit Alphakanal gespeichert. Keine reale Person als Vorlage. Die Leseimpulse sind eigenständig geschriebene didaktische Anleitungen.
+
+Prompt:
+
+> Create a full-body character asset on a truly transparent background for a German interactive Borges Library of Babel website. An eccentric elderly librarian, fictional and distinctive, warm intelligent face, wiry white eyebrows and wild wispy white hair, crooked small round spectacles at the tip of a long nose, slightly hunched slim body in an aged dark walnut brown waistcoat and long olive tweed coat with patched elbows, scarf, old boots, one hand holds a weathered open book with many small parchment bookmarks sticking out, the other hand gestures invitingly as if giving a clear instruction to a visitor. Kindly mischievous expression, dignified not silly caricature. Rich realistic storybook illustration, painterly antique chiaroscuro, soft warm amber library light, meticulous cloth and aged paper details, matches dark walnut library interiors and cream paper pages. Single character head to feet, front three-quarter facing towards viewer right, no background, no furniture, no shadow rectangle, no lettering, no logos, no watermark. Silhouette readable at small size, leave modest transparent padding.

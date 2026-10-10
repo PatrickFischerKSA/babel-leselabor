@@ -12,6 +12,12 @@ Beschriftete Bände stehen zwischen den Büchern. Beim Anklicken gleitet ein Ban
 
 Three.js 0.180.0 ist lokal unter `assets/vendor/` gebündelt (MIT-Lizenz liegt bei). Ohne WebGL wird eine bebilderte Bücherwand mit bedienbaren Bänden angezeigt.
 
+## Herr Foliant begleitet die Lesetour
+
+Der schrullige, erfundene Bibliothekar erklärt jeden Raum in drei Schritten: erst einen Versuch machen, dann eine bezeichnete Stelle im Original lesen, schliesslich einen konkreten Gedanken festhalten. Er kann die passenden Bände öffnen und führt durch alle elf Galerien. Freies Wandeln bleibt möglich; seine Figur ist jederzeit ansprechbar und einklappbar.
+
+Die Buchseiten enthalten nummerierte Handlungsanweisungen, einen direkten Weg zum Versuch bzw. Schreibfeld, optionale Sprachausgabe und ein Satzgerüst hinter „Ein Beispiel, bitte“. Beim Logbuchauftrag führen Hilfen zum fehlenden Versuch oder Text zurück. Die Tourposition und der nächste Schritt bleiben lokal gespeichert. Die Beispiele sind keine Musterlösungen. Foliant ist eine gestaltete Figur mit vorab geschriebenen Impulsen, kein KI-Chat.
+
 ## Start
 
 Statische Website ohne Build oder Bibliotheksinstallation. Im Projektordner einen lokalen Webserver starten (die 3D-Module benötigen HTTP):
@@ -53,5 +59,7 @@ Konkrete Klasse, verfügbare Lesezeit, Leistungsnachweis und Zugangs-/Nutzungsre
 ## Prüfung dieser Version
 
 JavaScript-Syntaxprüfung mit `node --check app.js`. Im Browser wurden alle elf Räume geöffnet und ihre zentralen Interaktionen ausgeführt: Regalsuche, sechs Gerichtsakten, beide Aufmerksamkeitsdurchgänge, vier historische Klagen, Ressourcenverteilung, fehlerhafte Kurzfassung mit Originalprüfung, Empfehlungsregal, Bücherinszenierung, Medienwechsel, Perspektivwechsel und Zeitbudget. Logbuch-Speichern, Fortbestand nach Neuladen und zweistufiges Löschen wurden geprüft. Die mobile Borges-Ansicht zeigte keinen horizontalen Überlauf. Die Stichproben erzeugten keine JavaScript-Fehler im Browserprotokoll. Dies ist keine vollständige Screenreader-Prüfung.
+
+Die Foliant-Erweiterung wurde im Browser durch alle elf Räume mit ihren drei Buchphasen, Original-Links, Beispielhilfe, Rückwegen und Tourabschluss geprüft. Borges-Regalsuche und beide Aufmerksamkeitsdurchgänge funktionieren innerhalb der moderierten Bücher weiter.
 
 Die 3D-Fassung wurde zusätzlich auf sichtbare Bücherwände, Galerieübergänge, das Herausziehen und Öffnen der Bände, Buchseiten und Ressourcen geprüft. Frühere direkte Raumlinks funktionieren weiter. `explorer.js`, Bilder und die lokal gebündelte 3D-Bibliothek werden vom GitHub-Pages-Workflow publiziert.
