@@ -1,0 +1,71 @@
+{
+  "voice": "Wolf Spencer",
+  "provider": "HeyGen",
+  "status": "generation-returned-no-file",
+  "scripts": [
+    {
+      "id": "babel",
+      "text": "Bevor wir durch meine Bibliothek reisen, lesen wir Borges. Lies zuerst die ganze Erzählung „Die Bibliothek von Babel“. Danach untersuchen wir ihre Ordnung, die Suche nach Sinn und den Erzähler. Meine Bilder kommen erst anschliessend: Sie sind eine Deutung, die du am Text prüfen sollst."
+    },
+    {
+      "id": "attention",
+      "text": "Amlinger fragt nach den Bedingungen des Lesens, Freiwald unterscheidet Alltagslektüre von langen, schwierigen Texten. Deshalb zählen wir hier keine Seiten. Wir beobachten, was eine Unterbrechung mit einem Gedanken macht."
+    },
+    {
+      "id": "court",
+      "text": "Mein Stempel „Kulturverfall“ ist zu gross. Freiwald bestreitet die universelle lesende Gesellschaft von früher und nimmt heutige Leseschwierigkeiten trotzdem ernst. Amlinger untersucht die Bedingungen einer bestimmten Lesekultur. Das sind unterschiedliche Fragen. Im Gericht muss jede Anklage sagen, wen und welche Praxis sie meint."
+    },
+    {
+      "id": "nostalgia",
+      "text": "Ich habe das Gestern frisch poliert. Früher fürchtete man zu viel Lesen, heute zu wenig: Freiwald stört diese hübsche Erinnerung. Aber Petrowskaja erinnert an Verbote und Weitergabe, Karahasan an die Freiheit des stillen Lesens. Geschichte ist mehr als eine alte Medienpanik."
+    },
+    {
+      "id": "access",
+      "text": "Amlinger lässt mich meinen Lieblingssatz zurücknehmen: Mehr Auswahl bedeutet nicht automatisch gleiche Chancen. Lesen kann verbinden und soziale Herkunft sichtbar machen. Für manche beginnt es mit einer freien Stunde, für andere damit, dass jemand mitliest."
+    },
+    {
+      "id": "delegate",
+      "text": "Freiwald hält Delegieren nicht pauschal für falsch: Wir müssen nicht jeden Text selbst lesen. Doch irgendjemand liest und wählt für uns. Auch ich, Herr Dr. Foliant, bin ein solcher Filter. Heute findest du heraus, wann du mir vertrauen und wann du mich unterbrechen solltest."
+    },
+    {
+      "id": "bubble",
+      "text": "Du hast mir schon Wünsche gegeben. Ich gewichte Titel, Autoren und deine Antworten. Das macht mich hilfreich und begrenzt meinen Blick. Amlingers offenere Geschmacksordnungen beseitigen Unterschiede nicht einfach. Heute darfst du meinen Kompass absichtlich stören."
+    },
+    {
+      "id": "bookish",
+      "text": "Amlinger beginnt mit angesammelten Büchern. Hagner zeigt einen Leser, dem der bürgerliche Blick das Lesen kaum zutraut. Die schöne Wand hinter mir beweist gar nichts über dich. Auch unsere Inszenierung kann zum blossen Bücherbild werden."
+    },
+    {
+      "id": "media",
+      "text": "Amlinger verbindet Lesen mit der Anordnung seiner Medien. Diese Bibliothek lenkt deinen Blick ebenfalls: warmes Licht, grosse Wände, meine Stimme. Nun wechseln wir die Form. Kein Werkzeug ist unsichtbar, auch das gedruckte Buch nicht."
+    },
+    {
+      "id": "resonance",
+      "text": "Rosa beschreibt, wie narrative Resonanz die Beziehung zur Welt verändern kann. Illouz zeigt auch geliehene Muster, Stepanova die riskante fremde Haut. Ich verspreche dir deshalb keine automatische Empathie. Erst lesen, dann merken, wo du ergänzt und urteilst."
+    },
+    {
+      "id": "future",
+      "text": "Ich nehme meine erste Behauptung zurück: Vollständige Regale genügen nicht. Freiwald macht aus dem vermeintlichen Untergang eine Aufgabe für Lesefähigkeit; Amlinger verlangt den Blick auf Zeit und soziale Unterschiede. Die Essays geben keine einheitliche Pflicht zum Lesen. Du entscheidest, welche Bibliothek wir daraus machen."
+    },
+    {
+      "id": "debate-0",
+      "text": "Mein erster Einwand gegen den Untergang lautet: Welches Lesen meinst du – Nachrichten, Romane, schwierige Argumente? Mit Freiwald bestreite ich die goldene Vergangenheit einer Gesellschaft, in der alle vertieft gelesen hätten. Mit Amlinger nehme ich trotzdem ernst, dass eine bestimmte literarische Praxis ihre sozialen Bedingungen verändern kann."
+    },
+    {
+      "id": "debate-1",
+      "text": "Ich verteile ungern Durchhalteparolen. Amlinger erinnert mich daran, dass freie Zeit und Ressourcen ungleich verteilt sind. Freiwald lässt mich zugleich unterscheiden: viel Alltagslektüre bedeutet noch nicht, einen langen Gedankengang verfolgen zu können. Unsere Bücherwand kann weder Übung noch Ruhe ersetzen."
+    },
+    {
+      "id": "debate-2",
+      "text": "Ja, ich darf für dich vorauswählen – aber ich schulde dir Gründe und Originalstellen. Freiwald betrachtet Delegieren nicht pauschal als Verfall. Seine Frage nach Vertrauen trifft mich selbst. Amlingers Blick auf knappe Zeit macht die bequeme Abkürzung verständlich; sie entbindet mich nicht davon, meine Auswahl offenzulegen."
+    },
+    {
+      "id": "debate-3",
+      "text": "Meine prachtvollen Wände schmeicheln mir. Amlinger zwingt mich jedoch, Besitz, Selbstdarstellung und Lektüre auseinanderzuhalten. Freiwald stört zusätzlich die Gleichung zwischen Papierbüchern und allem Lesen. Eine digitale Lektüre wird auf meinem schönen Regalfoto unsichtbar."
+    },
+    {
+      "id": "debate-4",
+      "text": "Ich verspreche keine moralische Veredelung durch Bücher. Amlinger zeigt Lesen als Möglichkeit sozialen Aufstiegs und zugleich als Trennung von Herkunft und anderen Menschen. Freiwald gibt mir einen praktischen Auftrag: Lesefähigkeit fördern, statt den Untergang zu beklagen. Die Essays prüfen, was daraus im einzelnen Leben wird."
+    }
+  ]
+}
