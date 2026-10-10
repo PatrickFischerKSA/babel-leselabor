@@ -43,3 +43,5 @@
 #interior-enter-floor{width:auto;padding:0 10px;font-size:12px;white-space:nowrap}.interior-landing-hit{color:#f0d69e;font:12px Georgia;background:#322316a8;border:1px solid #b5975b88;display:flex;align-items:center;justify-content:center;min-width:90px;max-height:46px;box-shadow:0 2px 15px #0006}@media(max-width:600px){#interior-enter-floor{font-size:10px;padding:0 6px}.interior-controls{bottom:43px}.interior-whisper{bottom:128px}}
 
 .librarian-person{width:145px;filter:none}.librarian-companion{align-items:flex-end}.interior-desk-hit:hover{background:#d9b66d12;box-shadow:0 0 20px #e4c58840}.librarian-person>span{padding:10px 8px}.librarian-person small{line-height:1.5}
+
+.interior-search-results{position:absolute;top:78px;right:20px;width:min(520px,90vw);max-height:55vh;overflow:auto;z-index:20;background:#211c13;border:1px solid #b99960;padding:15px;box-shadow:0 10px 40px #000b}.interior-search-results button{display:block;text-align:left;width:100%;margin:5px 0;padding:12px}.interior-search-results button span{display:block;color:#d9b66d;font-size:.8em}.interior-search-results p{margin:0 0 12px}
