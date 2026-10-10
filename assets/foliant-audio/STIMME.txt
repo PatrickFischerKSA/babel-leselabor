@@ -1,0 +1,6 @@
+Synthetische Stimme: Piper / de_DE-thorsten-high.
+Modell: https://huggingface.co/rhasspy/piper-voices/tree/main/de/de_DE/thorsten/high
+Sprachdatensatz: Thorsten Voice (CC0), https://github.com/thorstenMueller/Thorsten-Voice
+Piper: https://github.com/OHF-Voice/piper1-gpl (GPL-3.0).
+Tempo length-scale 1.08, Satzpause 0.32 Sekunden.
+Texte: Dr. Foliants freie Paraphrasen und Leseimpulse.
