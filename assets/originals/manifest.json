@@ -1,0 +1,178 @@
+[
+  {
+    "index": 0,
+    "file": "assets/originals/borges.pdf",
+    "originalName": "borges-bibliothek-von-text.pdf",
+    "bytes": 98776,
+    "sha256": "7c687285cc1c3e704966aa967374eb3819d6c8b6581cebda2fecd9787aa89e56",
+    "pages": 5,
+    "extractedCharacters": 20749
+  },
+  {
+    "index": 1,
+    "file": "assets/originals/nantke.pdf",
+    "originalName": "bda8476b-8a9e-4f83-851f-e7afa6a08639.pdf",
+    "bytes": 159832,
+    "sha256": "fd7d6efa369af0eae493884daf71ce63a4dffd0a9913820ad3fe29b7cf7f6ae9",
+    "pages": 14,
+    "extractedCharacters": 26167
+  },
+  {
+    "index": 2,
+    "file": "assets/originals/amlinger.docx",
+    "originalName": "CarolinAmlinger_Lesen.docx",
+    "bytes": 24723,
+    "sha256": "f895402b42d41866a6ff63b7611ce02190e7ec7cdefcded7adc45e9dea6b94f5",
+    "extractedCharacters": 25265,
+    "readingFile": "assets/originals/amlinger.html"
+  },
+  {
+    "index": 3,
+    "file": "assets/originals/amlinger.mp3",
+    "originalName": "im_postliterarischen_zeitalter_vom_ende_des_lesens_dlf_20240509_0930_9a11f3bc (1).mp3",
+    "bytes": 28522151,
+    "sha256": "0aa8b3838d0a293232bf2d879791dfff1949167bd976ab30bcf6d6542150f274"
+  },
+  {
+    "index": 4,
+    "file": "assets/originals/freiwald.pdf",
+    "originalName": "Verlernen wir zu lesen_.pdf",
+    "bytes": 4937822,
+    "sha256": "477c8d582ed7baf3f259d78f343e453ef66bee8fdfacad9c75e505e3ed3f75d9",
+    "pages": 11,
+    "extractedCharacters": 26915
+  },
+  {
+    "index": 5,
+    "file": "assets/originals/hettche.pdf",
+    "originalName": "Lesekultur - Das Ende des Buches und was wir verlieren _ Cicero Online.pdf",
+    "bytes": 251457,
+    "sha256": "e2eac2a848c905039897601d42cbba83c9af46643b8fe6de2a205fe860df6130",
+    "pages": 10,
+    "extractedCharacters": 28687
+  },
+  {
+    "index": 7,
+    "file": "assets/originals/horowitch-en.pdf",
+    "originalName": "The_End_of_Reading_Werbefrei.pdf",
+    "bytes": 138774,
+    "sha256": "8d996b1ef4598d1f7c1c20bcc322d69cc43339727be281dc367c9077c61d182e",
+    "pages": 16,
+    "extractedCharacters": 54519
+  },
+  {
+    "index": 8,
+    "file": "assets/originals/horowitch-de.pdf",
+    "originalName": "Das_Ende_des_Lesens_Deutsch.pdf",
+    "bytes": 147550,
+    "sha256": "4e0c54be745489b5c0c1db214c105d59e9b6d77a155f9fcb0dc222feadbcc6d0",
+    "pages": 19,
+    "extractedCharacters": 63698
+  },
+  {
+    "index": 9,
+    "file": "assets/originals/mythen.pdf",
+    "originalName": "Mythen des Lesens.pdf",
+    "bytes": 3707964,
+    "sha256": "68f40e387105ac40aa2479ae6fc7c314af0952c9a890f3e2572aefa485bc5b1b",
+    "pages": 283,
+    "extractedCharacters": 537225
+  },
+  {
+    "index": 10,
+    "file": "assets/originals/superpower.pdf",
+    "originalName": "Lesen_Superpower_werbefrei (1).pdf",
+    "bytes": 4941026,
+    "sha256": "c079c7c4e4db751783ffb26d89d8e630e64a14693e29f5a02d2a40a936e21f47",
+    "pages": 5,
+    "extractedCharacters": 13493
+  },
+  {
+    "index": 11,
+    "file": "assets/originals/moral.docx",
+    "originalName": "Moralischer_Niedergang_Uebersetzung.docx",
+    "bytes": 1199531,
+    "sha256": "bbf8588cf07acaf29390e8de1504341498b120d09e525b450bf1b6a22da48eb8",
+    "extractedCharacters": 89975,
+    "readingFile": "assets/originals/moral.html"
+  },
+  {
+    "index": 12,
+    "file": "assets/originals/moral.pdf",
+    "originalName": "Moralischer_Niedergang_Uebersetzung.pdf",
+    "bytes": 787093,
+    "sha256": "d0b501faaef2d94953bdbebca07b45b78f686614192040542e2f174b915ed137",
+    "pages": 29,
+    "extractedCharacters": 92562
+  },
+  {
+    "index": 13,
+    "file": "assets/originals/engemann.pdf",
+    "originalName": "Engemann_Die-Zukunft-des-Lesens_9783751830423.pdf",
+    "bytes": 817940,
+    "sha256": "9efcfd77711e3c6a68389de7a7d8002bb14d780302026a8d29cc2190a0281adc",
+    "pages": 95,
+    "extractedCharacters": 201684
+  },
+  {
+    "index": 14,
+    "file": "assets/originals/pressman.pdf",
+    "originalName": "Bookishness_Jessica_Pressman.pdf",
+    "bytes": 159319,
+    "sha256": "ba4840d0445233b1d819bafadabc48bb625f19e97b53d5aa8a3cfdd16cdce265",
+    "pages": 7,
+    "extractedCharacters": 19197
+  },
+  {
+    "index": 15,
+    "file": "assets/originals/pressman.docx",
+    "originalName": "Bookishness_Jessica_Pressman.docx",
+    "bytes": 46126,
+    "sha256": "5a4c79c2ab9b72b65a1a51116a9f9de729e0a109c1304f00ccd5e4259446512e",
+    "extractedCharacters": 18934,
+    "readingFile": "assets/originals/pressman.html"
+  },
+  {
+    "index": 16,
+    "file": "assets/originals/lauer.pdf",
+    "originalName": "Lauer_Lesen im digitalen Zeitalter.pdf",
+    "bytes": 1231214,
+    "sha256": "e7a509ecfc19a56200528dfb15e140cdcc40d7b779ea01ce948f7d0ad0da584e",
+    "pages": 266,
+    "extractedCharacters": 568895
+  },
+  {
+    "index": 17,
+    "file": "assets/originals/lauer-interview.mp3",
+    "originalName": "Die-neue-Lust-am-Lesen-Prof.-Gerhard-Lauer-im-Gespräch.mp3",
+    "bytes": 44410903,
+    "sha256": "bc74247e08f1406f4adcf1e48c47e4fc8c5a004d10b5b65cc2aa9c7199104de1"
+  },
+  {
+    "index": 18,
+    "file": "assets/originals/lauer-interview.docx",
+    "originalName": "Interview_Gerhard_Lauer_ueberarbeitet.docx",
+    "bytes": 51356,
+    "sha256": "689d954811e0a91909b0c1a1549f8c55c9183a3c0e2ebab339916c8594aa485b",
+    "extractedCharacters": 34041,
+    "readingFile": "assets/originals/lauer-interview.html"
+  },
+  {
+    "index": 19,
+    "file": "assets/originals/kittler.pdf",
+    "originalName": "Kittler_Friedrich_Aufschreibesysteme_1800_1900.pdf",
+    "bytes": 9960303,
+    "sha256": "6bfe119bd178c9f23f7b4b86acd887df96860a1ddaa2419fb4fcc20497f7f871",
+    "pages": 262,
+    "extractedCharacters": 1338944
+  },
+  {
+    "index": 20,
+    "file": "assets/originals/lauer-ki.pdf",
+    "originalName": "2023_3_de_lauer_KI.pdf",
+    "bytes": 158542,
+    "sha256": "63a3696474642934fe44199ddc690a979dc752e8c2e62398af8567aa4265b68c",
+    "pages": 10,
+    "extractedCharacters": 29832
+  }
+]

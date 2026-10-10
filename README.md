@@ -30,9 +30,9 @@ Dann `http://localhost:8769` öffnen. Für GitHub Pages dient das Repository-Wur
 
 ## Originallektüre und Quellen
 
-[Materialsammlung in Craft](https://planes-sit-wl6.craft.me/Ooin1xv6tuY8AP).
+Alle bereitgestellten Originale liegen einzeln unter `assets/originals/`; die 25 Einzelbeiträge liegen unter `assets/readings/`. Es gibt keine Verweise auf die ursprüngliche Materialseite.
 
-Das Stimmenverzeichnis ordnet alle unterschiedlichen Werke der Sammlung einem Raum zu. Parallelfassungen und Audiofassungen werden gemeinsam eingeordnet. Die Primärtexte sind über die Sammlung zugänglich. Die 25 vom Nutzer bereitgestellten Einzelbeiträge aus „Warum Lesen“ liegen unverändert unter `assets/readings/`, mit individuellen Leseimpulsen und Autorenbänden in den passenden Galerien. Der pauschale Sammelband-Eintrag wurde ersetzt. Bei Borges dienen fünf illustrierte Stationen als Lesetor und geben Aufträge für die Originallektüre. Eigene Ausschnitte lassen sich flüchtig in den Leseraum einfügen.
+Das Stimmenverzeichnis ordnet alle unterschiedlichen Werke der Sammlung einem Raum zu. Parallelfassungen und Audiofassungen werden gemeinsam eingeordnet. Die Primärtexte sind direkt über die lokal hinterlegten Originaldateien zugänglich. Die 25 vom Nutzer bereitgestellten Einzelbeiträge aus „Warum Lesen“ liegen unverändert unter `assets/readings/`, mit individuellen Leseimpulsen und Autorenbänden in den passenden Galerien. Der pauschale Sammelband-Eintrag wurde ersetzt. Bei Borges dienen fünf illustrierte Stationen als Lesetor und geben Aufträge für die Originallektüre. Eigene Ausschnitte lassen sich flüchtig in den Leseraum einfügen.
 
 Wichtig: Der Autor heisst **Bent Freiwald**, nicht Bernt. Das Abruf-/Druckdatum älterer PDFs ist nicht ihr Erscheinungsdatum. Amlingers DOCX enthält Transkriptionsfehler; das Audio ist die bessere Kontrollquelle. Lauer-Interview und Pressman-Darstellung sind redaktionelle Sekundärfassungen. Die Atlantic-Übersetzung ist nicht autorisiert. Aussagen von 2023 über KI sind historisch einzuordnen.
 
@@ -64,12 +64,14 @@ Die Foliant-Erweiterung wurde im Browser durch alle elf Räume mit ihren drei Bu
 
 Die 3D-Fassung wurde zusätzlich auf sichtbare Bücherwände, Galerieübergänge, das Herausziehen und Öffnen der Bände, Buchseiten und Ressourcen geprüft. Frühere direkte Raumlinks funktionieren weiter. `explorer.js`, Bilder und die lokal gebündelte 3D-Bibliothek werden vom GitHub-Pages-Workflow publiziert.
 
-## Bücher mit festen Regalplätzen
+## Gemeinsame Bücherwände
 
-Der vollständige Gutenberg-Titelbestand vom 10.10.2026 (13.138 unterschiedliche Werklinks) steht in 110 zusätzlichen begehbaren Galerien mit je bis zu 120 Büchern. Jedes Werk hat eine dauerhafte Adresse: Galerie, Wand, Fach und Band. Der nächste Durchgang führt automatisch zur folgenden Galerie. Die Titelsuche führt direkt zum Regal und richtet den Blick auf das gesuchte Werk. Es gibt keine separate Katalogansicht und keine Schaltflächen für Gutenberg- oder Google-Regale.
+Alle 13.138 Gutenberg-Werke sind alphabetisch auf 110 Galerien verteilt. Bereits die elf ursprünglichen Lernräume enthalten freie Werke. Die Ressourcen und Versuchs-/Fragebände der jeweiligen Station stehen mitten zwischen diesen Werken in denselben Regalfächern. Die weiteren Galerien setzen dieses gemischte Prinzip fort. Es gibt keine separaten Bestandsflügel oder Büchergestelle. Jeder freie Band hat einen festen Platz. Die Suche führt direkt davor; Durchgänge führen zu den nächsten Galerien.
 
-Um Speicher und Bildrate zu schonen, nutzt die Darstellung ein wiederverwendbares Interieur für diese zusätzlichen Galerien. Die Zuordnung der Werke zu ihren Plätzen bleibt dabei unverändert. Alle Bücher werden beim Betreten ihrer Galerie als herausziehbare Bände dargestellt; nach dem Öffnen führen Original-Links zum vollständigen Werk. Die freien Bücher haben keine Leseaufträge und verändern den Fortschritt der Lernstationen nicht.
+Die Darstellung verwendet 144 wiederverwendbare Buchobjekte für die jeweils besuchte Galerie. Der vollständige Bestand bleibt fest zugeordnet, während nur die sichtbare Galerie ihre Buchtexturen lädt. Das spart Speicher, ohne Werke wegzulassen.
 
-Google Books stellt keinen abrufbaren Gesamtkatalog bereit; die öffentliche Suchschnittstelle war beim Test gesperrt (HTTP 429). Deshalb werden keine Google-Gesamtbestände vorgetäuscht. Die einzelnen Gutenberg-Werke bieten zusätzlich einen Link zur Suche nach weiteren Ausgaben bei Google Books.
+## Selbstständig gespeicherte Originale
 
-`scripts/update-gutenberg.py` aktualisiert die öffentlichen Titel-, Autoren- und Link-Metadaten. Volltexte werden nicht gespiegelt.
+20 Originaldateien der bereitgestellten Materialseite wurden separat heruntergeladen, geprüft und unter `assets/originals/` gespeichert. PDFs wurden ausgelesen; vier Word-Dateien haben zusätzlich eigenständige HTML-Lesefassungen. Zwei Audiodateien sind in den passenden Ressourcenbüchern abspielbar. Hashes, Dateigrössen und PDF-Seitenzahlen stehen in `assets/originals/manifest.json`. Der alte Warum-Lesen-Gesamtband wird durch die 25 Einzelbeiträge ersetzt. Alle 40 Quellen besitzen einen direkten lokalen Originalzugang; es gibt keine Links zur ursprünglichen Materialseite.
+
+Google Books stellt keinen abrufbaren Gesamtkatalog bereit. Einzelne freie Bücher bieten die Suche nach weiteren Ausgaben dort an. `scripts/update-gutenberg.py` aktualisiert die öffentlichen Titel-, Autoren- und Link-Metadaten; Gutenberg-Volltexte werden nicht gespiegelt.

@@ -1,6 +1,5 @@
 'use strict';
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
-const COLLECTION='https://planes-sit-wl6.craft.me/Ooin1xv6tuY8AP';
 let state;try{state=JSON.parse(localStorage.getItem('babel-v1'))||{notes:{},done:[],data:{}}}catch{state={notes:{},done:[],data:{}}}state.notes||={};state.done||=[];state.data||={};let jobs=[],route='',storyPage=0;
 const rooms=[
 ['babel','00','Die Bibliothek','Alles ist da. Aber was davon bedeutet etwas?','Borges · 12 Min.','library'],
@@ -15,46 +14,493 @@ const rooms=[
 ['resonance','09','Ein fremdes Leben','Lies eine Szene zweimal. Wer hat das Recht, sie zu erzählen?','Resonanz · 7 Min.','eye'],
 ['future','10','Die letzte lesende Person','Schreibe die Regeln deiner künftigen Bibliothek.','Transfer · 10 Min.','seed']];
 const sources=[
-['Borges','Jorge Luis Borges · Die Bibliothek von Babel','1941; vorliegende Ausgabe: Reclam 1974, S. 47–57.','Unbegrenzte Textmöglichkeiten treffen auf begrenzte menschliche Orientierung. Die Erzählung verbindet die Hoffnung auf vollständiges Wissen mit Zufall, Deutungsmacht und Verzweiflung.','PDF „borges-bibliothek-von-text.pdf“, besonders Anfang, Symbolalphabet und Schluss.','babel'],
-['Freiwald','Bent Freiwald · Die lesende Gesellschaft, um die wir trauern, hat es nie gegeben','Krautreporter, 08.10.2026. Der Dateiname lautet „Verlernen wir zu lesen_.pdf“.','Eine Kompetenzkrise ist kein Beweis für das Ende jeder Lesepraxis. Die Diagnose hängt auch davon ab, welche Texte, Menschen und Vergleichszeiträume man betrachtet. Delegiertes Lesen verschiebt Vertrauen und Verantwortung.','PDF S. 2–3: historische Ängste; S. 5–8: Begriffe und Vergleiche; S. 9–11: Delegation und Förderung.','court'],
-['Nantke','Julia Nantke · Schreiben und Lesen als Mensch-Maschine-Kommunikation','In der Sammlung unter „Schreiben und Lesen“.','Schreibwerkzeuge wirken an Textproduktion und Gedankenbildung mit. Menschliches Lesen und maschinelle Verarbeitung treten in neue Beziehungen.','PDF „bda8476b-8a9e-4f83-851f-e7afa6a08639.pdf“; Einstieg mit Nietzsche.','media'],
-['Amlinger','Carolin Amlinger · Im postliterarischen Zeitalter: Vom Ende des Lesens','Deutschlandfunk, 09.05.2024. DOCX ist eine fehlerhafte Transkription; Audio als Kontrollquelle.','Bücherbesitz, tatsächliche Lektüre und soziale Selbstdarstellung sind verschiedene Praktiken. Zeit und Ressourcen beeinflussen den Zugang zur literarischen Kultur.','„CarolinAmlinger_Lesen.docx“ und zugehörige MP3; Anfang und Schluss.','access'],
-['Hettche','Thomas Hettche · Das Ende des Buches und was wir verlieren','Cicero; älterer Essay, in der Sammlung am 09.10.2026 ausgedruckt.','Die Gestalt des Buches, kulturelles Gedächtnis und das Gespräch zwischen Autor und Leser bilden zusammen einen literarischen Raum. Ein Wechsel des Trägers kann dieses Verhältnis verändern.','Cicero-PDF S. 2–8; das Druckdatum ist kein Publikationsdatum.','babel'],
-["Setz", "Clemens J. Setz · Der Fall des Henry Bemis", "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 1 von 25.", "Leseglück und Isolation geraten in einer Geschichte über einen Leser aneinander.", "Stell dir vor, alle Bücher blieben, aber alle Menschen verschwänden. Lies den Beitrag: Welche Stelle verändert deinen ersten Wunsch?", "babel", "assets/readings/warum-01-setz.pdf"],
-["Petrowskaja", "Katja Petrowskaja · Tausendundein Buch", "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 2 von 25.", "Kindheit, Erinnerung und die Geschichte einer Familie begegnen sich in Büchern.", "Erinnere dich zuerst an ein Buch aus deiner Kindheit: Farbe, Geruch, Stimme. Lies dann den Anfang und Schluss. Was kommt bei Petrowskaja zur privaten Erinnerung hinzu?", "nostalgia", "assets/readings/warum-02-petrowskaja.pdf"],
-["Reckwitz", "Andreas Reckwitz · Kleine Genealogie des Lesens als kulturelle Praxis", "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 3 von 25.", "Lesen erscheint als erlernte und gesellschaftlich geprägte Praxis.", "Beobachte deine eigene Lesehaltung. Suche im Text eine gesellschaftliche Bedingung dieser scheinbar privaten Tätigkeit. Wer hat andere Voraussetzungen?", "access", "assets/readings/warum-03-reckwitz.pdf"],
-["Mayröcker", "Friederike Mayröcker · kannst du mir die Welt erklären?", "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 4 von 25.", "Ein poetischer Text verbindet Stimmen, Erinnerungen und sprachliche Bilder.", "Lies einen kurzen Abschnitt still und dann laut. Welches Wort klingt anders, als es auf der Seite aussieht? Beschreibe den Unterschied, ohne das Gedicht auf eine Botschaft zu reduzieren.", "media", "assets/readings/warum-04-mayröcker.pdf"],
-["Beyer", "Marcel Beyer · Lesen im Kaninchenbau", "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 5 von 25.", "Namen, Klänge und frühe Leseerinnerungen öffnen einen eigenen Erinnerungsraum.", "Sprich einen dir unbekannten Namen aus dem Text laut aus. Welche Vorstellung entsteht vor jeder Erklärung? Suche, wie Beyer das Verhältnis von Klang und Lesen beschreibt.", "media", "assets/readings/warum-05-beyer.pdf"],
-["Illouz", "Eva Illouz · Dreimal Lesen", "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 6 von 25.", "Literarische Figuren zeigen verschiedene Beziehungen zwischen Lektüre und Leben.", "Wähle eine der besprochenen Figuren. Welche Erwartung an das Leben verbindet sie mit Büchern? Finde eine Textstelle und vergleiche sie mit einer eigenen Leseerfahrung.", "resonance", "assets/readings/warum-06-illouz.pdf"],
-["Ernaux", "Annie Ernaux · Trennen, Verbinden", "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 7 von 25.", "Ein Bücherregal wird zum Ausgangspunkt für Fragen nach sozialer Trennung und Verbindung.", "Lies die Begegnung am Anfang. Stell dich gedanklich auf beide Seiten des Regals. Welcher Satz macht einen Unterschied sichtbar, den ein Bücherfoto verschweigt?", "access", "assets/readings/warum-07-ernaux.pdf"],
-["Cusk", "Rachel Cusk · Annie Ernaux lesen", "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 8 von 25.", "Cusk beschreibt ihre Begegnung mit Ernaux und die Möglichkeiten des Schreibens.", "Lies, wie Cusk Ernaux begegnet. Suche einen Satz, in dem eine fremde Erfahrung für die Leserin bedeutsam wird. Was wird dadurch sichtbar?", "resonance", "assets/readings/warum-08-cusk.pdf"],
-["Habermas", "Jürgen Habermas · Warum nicht lesen?", "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 9 von 25.", "Sprache, Schrift und öffentliche Verständigung bilden den Horizont dieses Beitrags.", "Erinnere dich an eine Diskussion in einem Feed. Suche im Text eine Bedingung gemeinsamer Verständigung. Was war in deiner Diskussion vorhanden, was fehlte?", "bubble", "assets/readings/warum-09-habermas.pdf"],
-["Mahler", "Nicolas Mahler · Warum Comics lesen?", "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 10 von 25.", "Ein Comic befragt mit Zeichnung und Witz die Anerkennung des Comics als Literatur.", "Betrachte PDF-Seite 2 erst ohne die Sprechblasen zu lesen. Lies sie danach. Was erzählt nur die Zeichnung, was nur der Text? Wo trifft der Witz ein Urteil über gute Lektüre?", "media", "assets/readings/warum-10-mahler.pdf"],
-["Köck", "Thomas Köck · Autonomie und Unsinn", "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 11 von 25.", "Lesen eröffnet Fragen nach freier Zeit, Zweck und künstlerischem Spiel.", "Lies fünf Minuten, ohne etwas markieren oder verwerten zu müssen. Suche danach eine Stelle zu Autonomie oder Zweck. Was war an deinem Lesen frei, was nicht?", "attention", "assets/readings/warum-11-köck.pdf"],
-["Singer", "Wolf Singer · Immaterielle Realitäten", "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 12 von 25.", "Singer diskutiert symbolische Welten und die Tätigkeit, die beim Lesen entsteht.", "Lies einen beschreibenden Absatz und schliesse die Augen. Was hast du selbst ergänzt? Suche im Beitrag, wie Singer die Tätigkeit der Lesenden erklärt, und unterscheide Erfahrung und Erklärung.", "delegate", "assets/readings/warum-12-singer.pdf"],
-["Kinsky", "Esther Kinsky · The Lie of the Land", "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 13 von 25.", "Landschaft, Wahrnehmung und die Mehrdeutigkeit des Lesens treffen aufeinander.", "Betrachte eine Wand oder den Blick aus dem Fenster wie eine unbekannte Schrift. Lies dann den Anfang. Wo hilft die Vorstellung einer lesbaren Landschaft, wo wird sie unsicher?", "babel", "assets/readings/warum-13-kinsky.pdf"],
-["Zhadan", "Serhij Zhadan · Die guten schlechten Bücher", "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 14 von 25.", "Bücher und ihre Wertungen erscheinen vor dem Hintergrund von Krieg und verletzlichen Lebenswelten.", "Wähle gedanklich ein Buch, das du retten würdest. Lies den Beitrag. Welche Stelle verändert deinen Massstab für ein gutes oder schlechtes Buch?", "court", "assets/readings/warum-14-zhadan.pdf"],
-["Rosa", "Hartmut Rosa · Vom Wunder narrativer Resonanz", "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 15 von 25.", "Rosa fragt nach der Erfahrung, beim Lesen in eine erzählte Welt einzutreten.", "Lies den Einstieg. Wann warst du beim Lesen körperlich hier und gedanklich anderswo? Suche eine passende Stelle und beschreibe auch eine Lektüre, bei der diese Verbindung ausblieb.", "resonance", "assets/readings/warum-15-rosa.pdf"],
-["Karahasan", "Dževad Karahasan · Stille Ekstase", "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 16 von 25.", "Die Geschichte stiller Lektüre eröffnet Fragen nach Zeit, Rückzug und Freiheit.", "Lies den Anfang über stilles Lesen. Lies denselben Absatz danach hörbar. Was verändert sich an deinem Verhältnis zu Zeit und Umgebung? Belege einen Gedanken am Text.", "nostalgia", "assets/readings/warum-16-karahasan.pdf"],
-["Zambra", "Alejandro Zambra · Fragen eines lesenden Vaters", "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 17 von 25.", "Gemeinsames Lesen zwischen Vater und Kind führt zu Fragen nach Büchern und Weitergabe.", "Lies die erste gemeinsame Leseszene. Was geschieht zwischen den Personen zusätzlich zum Verstehen der Wörter? Erinnere dich an eine ähnliche oder gegenteilige Situation.", "access", "assets/readings/warum-17-zambra.pdf"],
-["Stepanova", "Maria Stepanova · In einer fremden Haut", "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 18 von 25.", "Die Begegnung mit Figuren verbindet fremde Leben mit dem Wunsch nach einem eigenen.", "Lies einen Abschnitt und erzähle ihn in zwei Sätzen aus Sicht einer Figur. Welche Annahme hast du hinzugefügt? Suche im Beitrag eine Stelle zum Wechsel zwischen fremdem und eigenem Leben.", "resonance", "assets/readings/warum-18-stepanova.pdf"],
-["Hagner", "Michael Hagner · Lionel, der Leser", "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 19 von 25.", "Das Bild eines lesenden Mannes stellt Fragen nach Blick, Zuschreibung und Identität.", "Betrachte das Bild, bevor du die Erklärung liest. Notiere deine erste Zuschreibung. Lies dann den Beitrag: Welche Information zwingt dich, dein Bild des Lesers zu ändern?", "bookish", "assets/readings/warum-19-hagner.pdf"],
-["Lewitscharoff", "Sibylle Lewitscharoff · Das wild schlagende Leseherz", "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 20 von 25.", "Lesen erscheint als körperliche, räumliche und leidenschaftliche Erfahrung.", "Wechsle für einen Absatz deinen Leseort oder deine Haltung. Suche eine Stelle über den Körper oder Ort der Lektüre. Was kann ein Foto vom Buch davon zeigen?", "bookish", "assets/readings/warum-20-lewitscharoff.pdf"],
-["Joas", "Hans Joas · Bitte um Auskunft", "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 21 von 25.", "Verschiedene Leseweisen und persönliche Interessen stehen nebeneinander.", "Würdest du lieber ein Lieblingsbuch nochmals oder drei unbekannte Bücher lesen? Lies den Beitrag und suche einen Gedanken, der deine Wahl herausfordert.", "future", "assets/readings/warum-21-joas.pdf"],
-["Sullivan", "John Jeremiah Sullivan · Im Kiefernwald", "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 22 von 25.", "Eine gemeinsame Reise verbindet Bücher, Erzählen und die Erfahrung einer Umgebung.", "Lies den Anfang. Lege das Gerät für eine Minute weg und höre deine Umgebung. Lies weiter: Wie verändert die konkrete Situation das Lesen und Erzählen?", "attention", "assets/readings/warum-22-sullivan.pdf"],
-["Nachtwey", "Oliver Nachtwey · Lesen in der regressiven Moderne", "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 23 von 25.", "Lesekultur wird im Zusammenhang gesellschaftlicher Spannungen und Ungleichheit befragt.", "Suche eine Passage, die das Bild eines einfachen Fortschritts oder Niedergangs komplizierter macht. Lege sie neben eine Gerichtsakte dieses Raums: Welche Unterscheidung fehlt dort?", "court", "assets/readings/warum-23-nachtwey.pdf"],
-["Maci", "Enis Maci · EXIT DOES NOT EXIST", "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 24 von 25.", "Ein literarischer Text bewegt sich durch Leseerfahrungen und Begegnungen mit anderen Texten.", "Lies den kurzen Beitrag, bevor du ihn zusammenfasst. Wähle einen Übergang, der dich überrascht. Was würde eine reine Inhaltsangabe an diesem Leseweg verlieren?", "delegate", "assets/readings/warum-24-maci.pdf"],
-["RaabeWegner", "Katharina Raabe und Frank Wegner · Einladung ins Freie", "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 25 von 25.", "Die Herausgebenden laden zu unterschiedlichen Gründen und Formen des Lesens ein.", "Lies die Einladung. Wähle danach zwei der 24 anderen Beiträge, deren Gründe sich unterscheiden. Welche konkrete Freiheit möchtest du in deiner eigenen Lesewoche schaffen?", "future", "assets/readings/warum-25-raabewegner.pdf"],
-['Horowitch','Rose Horowitch · The End of Reading Is Here','The Atlantic, 08.07.2026. Englisches Original und nicht autorisierte deutsche Übersetzung in der Sammlung.','Horowitch zeichnet eine zugespitzte Krisendiagnose des vertieften Lesens und seiner kulturellen Bedeutung. Im Gericht dient sie als Gegenposition zu Freiwald.','„The_End_of_Reading_Werbefrei.pdf“ bzw. „Das_Ende_des_Lesens_Deutsch.pdf“; Einstieg und Argumente zur Schriftkultur.','court'],
-['Mythen','Mythen des Lesens','Dominik Achtermeier und Lukas Kosch (Hg.), transcript, 2024.','Beiträge prüfen verbreitete Annahmen über früheres Lesen, Geschlecht, Intelligenz, Empathie, Glück und Einsamkeit. Allgemeine Lobformeln verdecken häufig Bedingungen und Unterschiede.','Inhaltsverzeichnis; Hagenhoff ab gedruckter S. 13, Lauer ab S. 93, Schneider ab S. 107.','nostalgia'],
-['Superpower','Anna Kardos / Martina Läubli · Lesen ist die Superpower der Menschheit','NZZ am Sonntag, 04.10.2026.','Der Artikel plädiert für vertieftes Lesen und Förderung. Aussagen über gesundheitliche und soziale Wirkungen sind Anlass, nach Studien, Vergleichsgruppen und Grenzen der Schlussfolgerungen zu fragen.','„Lesen_Superpower_werbefrei (1).pdf“, S. 1–5.','attention'],
-['Moral','Adam M. Mastroianni / Daniel T. Gilbert · The illusion of moral decline','Nature 618, 782–789 (2023), DOI 10.1038/s41586-023-06137-x. Deutsche Übersetzung in der Sammlung.','Wahrnehmung und Erinnerung können Urteile über gesellschaftlichen Niedergang verzerren. Diese Forschung betrifft Moral: Die Übertragung auf Lesekultur ist eine zu prüfende Analogie.','„Moralischer_Niedergang_Uebersetzung.pdf“, Zusammenfassung und Erklärungsmodell.','nostalgia'],
-['Engemann','Christoph Engemann · Die Zukunft des Lesens','Fröhliche Wissenschaft 250, Matthes & Seitz.','Plattform-Oralität und delegiertes Lesen verändern die Verteilung von Wissen. Das Bild eines neuen Lateins fragt, wer selbst Zugang zu komplexen Texten besitzt.','Kapitel „Krise des Lesens“, „Plattform-Oralität“ und „Ein Neues Latein“.','delegate'],
-['Pressman','Jessica Pressman · Bookishness','Die Sammlung enthält eine erläuternde Darstellung, keine vollständige Ausgabe der Monografie.','Bücher wirken in digitalen Kulturen auch als materielle und symbolische Objekte. Ihre Präsenz in Bildern sagt zunächst wenig über die tatsächliche Lektüre aus.','„Bookishness_Jessica_Pressman.pdf“ / DOCX: Begriff und Beispiele.','bookish'],
-['Lauer','Gerhard Lauer · Lesen im digitalen Zeitalter','wbg, 2020.','Digitale Medien eröffnen neue Lese- und Schreibgemeinschaften. Die Veränderung der Formen und Institutionen ist von einem Verschwinden des Lesens zu unterscheiden.','Kapitel 3, 5 und 8; Seitenzahlen je nach PDF bzw. Buchausgabe.','bubble'],
-['Interview','Gerhard Lauer · Digitale Lesekulturen und die Zukunft des Lesens','Interview; redaktionell geglättete Transkription und MP3 in der Sammlung.','Lauer beschreibt Lesebegeisterung, digitale Gemeinschaften, das Buch als Objekt und mögliche KI-Rollen. Die Transkription kennzeichnet nicht sicher rekonstruierbare Stellen.','„Interview_Gerhard_Lauer_ueberarbeitet.docx“ und „Die-neue-Lust-am-Lesen…mp3“.','bubble'],
-['Kittler','Friedrich A. Kittler · Aufschreibesysteme 1800 / 1900','Vorliegende Ausgabe: Fink, 1995.','Lesen und Schreiben stehen in historischen Gefügen aus Institutionen, Körpern und Medien. Lautieren, Literatur, Schreibmaschine und technische Aufzeichnung erzeugen unterschiedliche Bedingungen.','Inhaltsverzeichnis; „Lesenlernen um 1800“, „Technische Medien“, „Autoren, Leser, Autoren“.','media'],
-['KI','Gerhard Lauer · Bücher aus dem Textautomaten?','leseforum.ch, 3/2023, DOI 10.58098/lffl/2023/03/803.','KI verändert Produktion, Illustration und Rollen im Literaturbetrieb. Der Aufsatz dokumentiert den Stand von 2023 und ist kein aktueller Leistungsvergleich von KI-Systemen.','„2023_3_de_lauer_KI.pdf“, S. 1–7.','delegate']];
+ [
+  "Borges",
+  "Jorge Luis Borges · Die Bibliothek von Babel",
+  "1941; vorliegende Ausgabe: Reclam 1974, S. 47–57.",
+  "Unbegrenzte Textmöglichkeiten treffen auf begrenzte menschliche Orientierung. Die Erzählung verbindet die Hoffnung auf vollständiges Wissen mit Zufall, Deutungsmacht und Verzweiflung.",
+  "PDF „borges-bibliothek-von-text.pdf“, besonders Anfang, Symbolalphabet und Schluss.",
+  "babel",
+  "assets/originals/borges.pdf",
+  [
+   [
+    "assets/originals/borges.pdf",
+    "Original-PDF"
+   ]
+  ]
+ ],
+ [
+  "Freiwald",
+  "Bent Freiwald · Die lesende Gesellschaft, um die wir trauern, hat es nie gegeben",
+  "Krautreporter, 08.10.2026. Der Dateiname lautet „Verlernen wir zu lesen_.pdf“.",
+  "Eine Kompetenzkrise ist kein Beweis für das Ende jeder Lesepraxis. Die Diagnose hängt auch davon ab, welche Texte, Menschen und Vergleichszeiträume man betrachtet. Delegiertes Lesen verschiebt Vertrauen und Verantwortung.",
+  "PDF S. 2–3: historische Ängste; S. 5–8: Begriffe und Vergleiche; S. 9–11: Delegation und Förderung.",
+  "court",
+  "assets/originals/freiwald.pdf",
+  [
+   [
+    "assets/originals/freiwald.pdf",
+    "Original-PDF"
+   ]
+  ]
+ ],
+ [
+  "Nantke",
+  "Julia Nantke · Schreiben und Lesen als Mensch-Maschine-Kommunikation",
+  "In der Sammlung unter „Schreiben und Lesen“.",
+  "Schreibwerkzeuge wirken an Textproduktion und Gedankenbildung mit. Menschliches Lesen und maschinelle Verarbeitung treten in neue Beziehungen.",
+  "PDF „bda8476b-8a9e-4f83-851f-e7afa6a08639.pdf“; Einstieg mit Nietzsche.",
+  "media",
+  "assets/originals/nantke.pdf",
+  [
+   [
+    "assets/originals/nantke.pdf",
+    "Original-PDF"
+   ]
+  ]
+ ],
+ [
+  "Amlinger",
+  "Carolin Amlinger · Im postliterarischen Zeitalter: Vom Ende des Lesens",
+  "Deutschlandfunk, 09.05.2024. DOCX ist eine fehlerhafte Transkription; Audio als Kontrollquelle.",
+  "Bücherbesitz, tatsächliche Lektüre und soziale Selbstdarstellung sind verschiedene Praktiken. Zeit und Ressourcen beeinflussen den Zugang zur literarischen Kultur.",
+  "„CarolinAmlinger_Lesen.docx“ und zugehörige MP3; Anfang und Schluss.",
+  "access",
+  "assets/originals/amlinger.html",
+  [
+   [
+    "assets/originals/amlinger.html",
+    "Lesefassung"
+   ],
+   [
+    "assets/originals/amlinger.docx",
+    "Word-Original"
+   ],
+   [
+    "assets/originals/amlinger.mp3",
+    "Audio"
+   ]
+  ]
+ ],
+ [
+  "Hettche",
+  "Thomas Hettche · Das Ende des Buches und was wir verlieren",
+  "Cicero; älterer Essay, in der Bibliothek am 09.10.2026 ausgedruckt.",
+  "Die Gestalt des Buches, kulturelles Gedächtnis und das Gespräch zwischen Autor und Leser bilden zusammen einen literarischen Raum. Ein Wechsel des Trägers kann dieses Verhältnis verändern.",
+  "Cicero-PDF S. 2–8; das Druckdatum ist kein Publikationsdatum.",
+  "babel",
+  "assets/originals/hettche.pdf",
+  [
+   [
+    "assets/originals/hettche.pdf",
+    "Original-PDF"
+   ]
+  ]
+ ],
+ [
+  "Setz",
+  "Clemens J. Setz · Der Fall des Henry Bemis",
+  "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 1 von 25.",
+  "Leseglück und Isolation geraten in einer Geschichte über einen Leser aneinander.",
+  "Stell dir vor, alle Bücher blieben, aber alle Menschen verschwänden. Lies den Beitrag: Welche Stelle verändert deinen ersten Wunsch?",
+  "babel",
+  "assets/readings/warum-01-setz.pdf"
+ ],
+ [
+  "Petrowskaja",
+  "Katja Petrowskaja · Tausendundein Buch",
+  "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 2 von 25.",
+  "Kindheit, Erinnerung und die Geschichte einer Familie begegnen sich in Büchern.",
+  "Erinnere dich zuerst an ein Buch aus deiner Kindheit: Farbe, Geruch, Stimme. Lies dann den Anfang und Schluss. Was kommt bei Petrowskaja zur privaten Erinnerung hinzu?",
+  "nostalgia",
+  "assets/readings/warum-02-petrowskaja.pdf"
+ ],
+ [
+  "Reckwitz",
+  "Andreas Reckwitz · Kleine Genealogie des Lesens als kulturelle Praxis",
+  "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 3 von 25.",
+  "Lesen erscheint als erlernte und gesellschaftlich geprägte Praxis.",
+  "Beobachte deine eigene Lesehaltung. Suche im Text eine gesellschaftliche Bedingung dieser scheinbar privaten Tätigkeit. Wer hat andere Voraussetzungen?",
+  "access",
+  "assets/readings/warum-03-reckwitz.pdf"
+ ],
+ [
+  "Mayröcker",
+  "Friederike Mayröcker · kannst du mir die Welt erklären?",
+  "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 4 von 25.",
+  "Ein poetischer Text verbindet Stimmen, Erinnerungen und sprachliche Bilder.",
+  "Lies einen kurzen Abschnitt still und dann laut. Welches Wort klingt anders, als es auf der Seite aussieht? Beschreibe den Unterschied, ohne das Gedicht auf eine Botschaft zu reduzieren.",
+  "media",
+  "assets/readings/warum-04-mayröcker.pdf"
+ ],
+ [
+  "Beyer",
+  "Marcel Beyer · Lesen im Kaninchenbau",
+  "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 5 von 25.",
+  "Namen, Klänge und frühe Leseerinnerungen öffnen einen eigenen Erinnerungsraum.",
+  "Sprich einen dir unbekannten Namen aus dem Text laut aus. Welche Vorstellung entsteht vor jeder Erklärung? Suche, wie Beyer das Verhältnis von Klang und Lesen beschreibt.",
+  "media",
+  "assets/readings/warum-05-beyer.pdf"
+ ],
+ [
+  "Illouz",
+  "Eva Illouz · Dreimal Lesen",
+  "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 6 von 25.",
+  "Literarische Figuren zeigen verschiedene Beziehungen zwischen Lektüre und Leben.",
+  "Wähle eine der besprochenen Figuren. Welche Erwartung an das Leben verbindet sie mit Büchern? Finde eine Textstelle und vergleiche sie mit einer eigenen Leseerfahrung.",
+  "resonance",
+  "assets/readings/warum-06-illouz.pdf"
+ ],
+ [
+  "Ernaux",
+  "Annie Ernaux · Trennen, Verbinden",
+  "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 7 von 25.",
+  "Ein Bücherregal wird zum Ausgangspunkt für Fragen nach sozialer Trennung und Verbindung.",
+  "Lies die Begegnung am Anfang. Stell dich gedanklich auf beide Seiten des Regals. Welcher Satz macht einen Unterschied sichtbar, den ein Bücherfoto verschweigt?",
+  "access",
+  "assets/readings/warum-07-ernaux.pdf"
+ ],
+ [
+  "Cusk",
+  "Rachel Cusk · Annie Ernaux lesen",
+  "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 8 von 25.",
+  "Cusk beschreibt ihre Begegnung mit Ernaux und die Möglichkeiten des Schreibens.",
+  "Lies, wie Cusk Ernaux begegnet. Suche einen Satz, in dem eine fremde Erfahrung für die Leserin bedeutsam wird. Was wird dadurch sichtbar?",
+  "resonance",
+  "assets/readings/warum-08-cusk.pdf"
+ ],
+ [
+  "Habermas",
+  "Jürgen Habermas · Warum nicht lesen?",
+  "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 9 von 25.",
+  "Sprache, Schrift und öffentliche Verständigung bilden den Horizont dieses Beitrags.",
+  "Erinnere dich an eine Diskussion in einem Feed. Suche im Text eine Bedingung gemeinsamer Verständigung. Was war in deiner Diskussion vorhanden, was fehlte?",
+  "bubble",
+  "assets/readings/warum-09-habermas.pdf"
+ ],
+ [
+  "Mahler",
+  "Nicolas Mahler · Warum Comics lesen?",
+  "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 10 von 25.",
+  "Ein Comic befragt mit Zeichnung und Witz die Anerkennung des Comics als Literatur.",
+  "Betrachte PDF-Seite 2 erst ohne die Sprechblasen zu lesen. Lies sie danach. Was erzählt nur die Zeichnung, was nur der Text? Wo trifft der Witz ein Urteil über gute Lektüre?",
+  "media",
+  "assets/readings/warum-10-mahler.pdf"
+ ],
+ [
+  "Köck",
+  "Thomas Köck · Autonomie und Unsinn",
+  "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 11 von 25.",
+  "Lesen eröffnet Fragen nach freier Zeit, Zweck und künstlerischem Spiel.",
+  "Lies fünf Minuten, ohne etwas markieren oder verwerten zu müssen. Suche danach eine Stelle zu Autonomie oder Zweck. Was war an deinem Lesen frei, was nicht?",
+  "attention",
+  "assets/readings/warum-11-köck.pdf"
+ ],
+ [
+  "Singer",
+  "Wolf Singer · Immaterielle Realitäten",
+  "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 12 von 25.",
+  "Singer diskutiert symbolische Welten und die Tätigkeit, die beim Lesen entsteht.",
+  "Lies einen beschreibenden Absatz und schliesse die Augen. Was hast du selbst ergänzt? Suche im Beitrag, wie Singer die Tätigkeit der Lesenden erklärt, und unterscheide Erfahrung und Erklärung.",
+  "delegate",
+  "assets/readings/warum-12-singer.pdf"
+ ],
+ [
+  "Kinsky",
+  "Esther Kinsky · The Lie of the Land",
+  "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 13 von 25.",
+  "Landschaft, Wahrnehmung und die Mehrdeutigkeit des Lesens treffen aufeinander.",
+  "Betrachte eine Wand oder den Blick aus dem Fenster wie eine unbekannte Schrift. Lies dann den Anfang. Wo hilft die Vorstellung einer lesbaren Landschaft, wo wird sie unsicher?",
+  "babel",
+  "assets/readings/warum-13-kinsky.pdf"
+ ],
+ [
+  "Zhadan",
+  "Serhij Zhadan · Die guten schlechten Bücher",
+  "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 14 von 25.",
+  "Bücher und ihre Wertungen erscheinen vor dem Hintergrund von Krieg und verletzlichen Lebenswelten.",
+  "Wähle gedanklich ein Buch, das du retten würdest. Lies den Beitrag. Welche Stelle verändert deinen Massstab für ein gutes oder schlechtes Buch?",
+  "court",
+  "assets/readings/warum-14-zhadan.pdf"
+ ],
+ [
+  "Rosa",
+  "Hartmut Rosa · Vom Wunder narrativer Resonanz",
+  "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 15 von 25.",
+  "Rosa fragt nach der Erfahrung, beim Lesen in eine erzählte Welt einzutreten.",
+  "Lies den Einstieg. Wann warst du beim Lesen körperlich hier und gedanklich anderswo? Suche eine passende Stelle und beschreibe auch eine Lektüre, bei der diese Verbindung ausblieb.",
+  "resonance",
+  "assets/readings/warum-15-rosa.pdf"
+ ],
+ [
+  "Karahasan",
+  "Dževad Karahasan · Stille Ekstase",
+  "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 16 von 25.",
+  "Die Geschichte stiller Lektüre eröffnet Fragen nach Zeit, Rückzug und Freiheit.",
+  "Lies den Anfang über stilles Lesen. Lies denselben Absatz danach hörbar. Was verändert sich an deinem Verhältnis zu Zeit und Umgebung? Belege einen Gedanken am Text.",
+  "nostalgia",
+  "assets/readings/warum-16-karahasan.pdf"
+ ],
+ [
+  "Zambra",
+  "Alejandro Zambra · Fragen eines lesenden Vaters",
+  "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 17 von 25.",
+  "Gemeinsames Lesen zwischen Vater und Kind führt zu Fragen nach Büchern und Weitergabe.",
+  "Lies die erste gemeinsame Leseszene. Was geschieht zwischen den Personen zusätzlich zum Verstehen der Wörter? Erinnere dich an eine ähnliche oder gegenteilige Situation.",
+  "access",
+  "assets/readings/warum-17-zambra.pdf"
+ ],
+ [
+  "Stepanova",
+  "Maria Stepanova · In einer fremden Haut",
+  "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 18 von 25.",
+  "Die Begegnung mit Figuren verbindet fremde Leben mit dem Wunsch nach einem eigenen.",
+  "Lies einen Abschnitt und erzähle ihn in zwei Sätzen aus Sicht einer Figur. Welche Annahme hast du hinzugefügt? Suche im Beitrag eine Stelle zum Wechsel zwischen fremdem und eigenem Leben.",
+  "resonance",
+  "assets/readings/warum-18-stepanova.pdf"
+ ],
+ [
+  "Hagner",
+  "Michael Hagner · Lionel, der Leser",
+  "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 19 von 25.",
+  "Das Bild eines lesenden Mannes stellt Fragen nach Blick, Zuschreibung und Identität.",
+  "Betrachte das Bild, bevor du die Erklärung liest. Notiere deine erste Zuschreibung. Lies dann den Beitrag: Welche Information zwingt dich, dein Bild des Lesers zu ändern?",
+  "bookish",
+  "assets/readings/warum-19-hagner.pdf"
+ ],
+ [
+  "Lewitscharoff",
+  "Sibylle Lewitscharoff · Das wild schlagende Leseherz",
+  "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 20 von 25.",
+  "Lesen erscheint als körperliche, räumliche und leidenschaftliche Erfahrung.",
+  "Wechsle für einen Absatz deinen Leseort oder deine Haltung. Suche eine Stelle über den Körper oder Ort der Lektüre. Was kann ein Foto vom Buch davon zeigen?",
+  "bookish",
+  "assets/readings/warum-20-lewitscharoff.pdf"
+ ],
+ [
+  "Joas",
+  "Hans Joas · Bitte um Auskunft",
+  "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 21 von 25.",
+  "Verschiedene Leseweisen und persönliche Interessen stehen nebeneinander.",
+  "Würdest du lieber ein Lieblingsbuch nochmals oder drei unbekannte Bücher lesen? Lies den Beitrag und suche einen Gedanken, der deine Wahl herausfordert.",
+  "future",
+  "assets/readings/warum-21-joas.pdf"
+ ],
+ [
+  "Sullivan",
+  "John Jeremiah Sullivan · Im Kiefernwald",
+  "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 22 von 25.",
+  "Eine gemeinsame Reise verbindet Bücher, Erzählen und die Erfahrung einer Umgebung.",
+  "Lies den Anfang. Lege das Gerät für eine Minute weg und höre deine Umgebung. Lies weiter: Wie verändert die konkrete Situation das Lesen und Erzählen?",
+  "attention",
+  "assets/readings/warum-22-sullivan.pdf"
+ ],
+ [
+  "Nachtwey",
+  "Oliver Nachtwey · Lesen in der regressiven Moderne",
+  "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 23 von 25.",
+  "Lesekultur wird im Zusammenhang gesellschaftlicher Spannungen und Ungleichheit befragt.",
+  "Suche eine Passage, die das Bild eines einfachen Fortschritts oder Niedergangs komplizierter macht. Lege sie neben eine Gerichtsakte dieses Raums: Welche Unterscheidung fehlt dort?",
+  "court",
+  "assets/readings/warum-23-nachtwey.pdf"
+ ],
+ [
+  "Maci",
+  "Enis Maci · EXIT DOES NOT EXIST",
+  "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 24 von 25.",
+  "Ein literarischer Text bewegt sich durch Leseerfahrungen und Begegnungen mit anderen Texten.",
+  "Lies den kurzen Beitrag, bevor du ihn zusammenfasst. Wähle einen Übergang, der dich überrascht. Was würde eine reine Inhaltsangabe an diesem Leseweg verlieren?",
+  "delegate",
+  "assets/readings/warum-24-maci.pdf"
+ ],
+ [
+  "RaabeWegner",
+  "Katharina Raabe und Frank Wegner · Einladung ins Freie",
+  "In: Warum Lesen. Katharina Raabe und Frank Wegner (Hg.), Suhrkamp. Einzelbeitrag 25 von 25.",
+  "Die Herausgebenden laden zu unterschiedlichen Gründen und Formen des Lesens ein.",
+  "Lies die Einladung. Wähle danach zwei der 24 anderen Beiträge, deren Gründe sich unterscheiden. Welche konkrete Freiheit möchtest du in deiner eigenen Lesewoche schaffen?",
+  "future",
+  "assets/readings/warum-25-raabewegner.pdf"
+ ],
+ [
+  "Horowitch",
+  "Rose Horowitch · The End of Reading Is Here",
+  "The Atlantic, 08.07.2026. Englisches Original und nicht autorisierte deutsche Übersetzung in der Bibliothek.",
+  "Horowitch zeichnet eine zugespitzte Krisendiagnose des vertieften Lesens und seiner kulturellen Bedeutung. Im Gericht dient sie als Gegenposition zu Freiwald.",
+  "„The_End_of_Reading_Werbefrei.pdf“ bzw. „Das_Ende_des_Lesens_Deutsch.pdf“; Einstieg und Argumente zur Schriftkultur.",
+  "court",
+  "assets/originals/horowitch-en.pdf",
+  [
+   [
+    "assets/originals/horowitch-en.pdf",
+    "Englisches Original"
+   ],
+   [
+    "assets/originals/horowitch-de.pdf",
+    "Deutsche Fassung"
+   ]
+  ]
+ ],
+ [
+  "Mythen",
+  "Mythen des Lesens",
+  "Dominik Achtermeier und Lukas Kosch (Hg.), transcript, 2024.",
+  "Beiträge prüfen verbreitete Annahmen über früheres Lesen, Geschlecht, Intelligenz, Empathie, Glück und Einsamkeit. Allgemeine Lobformeln verdecken häufig Bedingungen und Unterschiede.",
+  "Inhaltsverzeichnis; Hagenhoff ab gedruckter S. 13, Lauer ab S. 93, Schneider ab S. 107.",
+  "nostalgia",
+  "assets/originals/mythen.pdf",
+  [
+   [
+    "assets/originals/mythen.pdf",
+    "Original-PDF"
+   ]
+  ]
+ ],
+ [
+  "Superpower",
+  "Anna Kardos / Martina Läubli · Lesen ist die Superpower der Menschheit",
+  "NZZ am Sonntag, 04.10.2026.",
+  "Der Artikel plädiert für vertieftes Lesen und Förderung. Aussagen über gesundheitliche und soziale Wirkungen sind Anlass, nach Studien, Vergleichsgruppen und Grenzen der Schlussfolgerungen zu fragen.",
+  "„Lesen_Superpower_werbefrei (1).pdf“, S. 1–5.",
+  "attention",
+  "assets/originals/superpower.pdf",
+  [
+   [
+    "assets/originals/superpower.pdf",
+    "Original-PDF"
+   ]
+  ]
+ ],
+ [
+  "Moral",
+  "Adam M. Mastroianni / Daniel T. Gilbert · The illusion of moral decline",
+  "Nature 618, 782–789 (2023), DOI 10.1038/s41586-023-06137-x. Deutsche Übersetzung in der Bibliothek.",
+  "Wahrnehmung und Erinnerung können Urteile über gesellschaftlichen Niedergang verzerren. Diese Forschung betrifft Moral: Die Übertragung auf Lesekultur ist eine zu prüfende Analogie.",
+  "„Moralischer_Niedergang_Uebersetzung.pdf“, Zusammenfassung und Erklärungsmodell.",
+  "nostalgia",
+  "assets/originals/moral.pdf",
+  [
+   [
+    "assets/originals/moral.pdf",
+    "PDF"
+   ],
+   [
+    "assets/originals/moral.html",
+    "Lesefassung"
+   ],
+   [
+    "assets/originals/moral.docx",
+    "Word-Original"
+   ]
+  ]
+ ],
+ [
+  "Engemann",
+  "Christoph Engemann · Die Zukunft des Lesens",
+  "Fröhliche Wissenschaft 250, Matthes & Seitz.",
+  "Plattform-Oralität und delegiertes Lesen verändern die Verteilung von Wissen. Das Bild eines neuen Lateins fragt, wer selbst Zugang zu komplexen Texten besitzt.",
+  "Kapitel „Krise des Lesens“, „Plattform-Oralität“ und „Ein Neues Latein“.",
+  "delegate",
+  "assets/originals/engemann.pdf",
+  [
+   [
+    "assets/originals/engemann.pdf",
+    "Original-PDF"
+   ]
+  ]
+ ],
+ [
+  "Pressman",
+  "Jessica Pressman · Bookishness",
+  "Die Sammlung enthält eine erläuternde Darstellung, keine vollständige Ausgabe der Monografie.",
+  "Bücher wirken in digitalen Kulturen auch als materielle und symbolische Objekte. Ihre Präsenz in Bildern sagt zunächst wenig über die tatsächliche Lektüre aus.",
+  "„Bookishness_Jessica_Pressman.pdf“ / DOCX: Begriff und Beispiele.",
+  "bookish",
+  "assets/originals/pressman.pdf",
+  [
+   [
+    "assets/originals/pressman.pdf",
+    "PDF"
+   ],
+   [
+    "assets/originals/pressman.html",
+    "Lesefassung"
+   ],
+   [
+    "assets/originals/pressman.docx",
+    "Word-Original"
+   ]
+  ]
+ ],
+ [
+  "Lauer",
+  "Gerhard Lauer · Lesen im digitalen Zeitalter",
+  "wbg, 2020.",
+  "Digitale Medien eröffnen neue Lese- und Schreibgemeinschaften. Die Veränderung der Formen und Institutionen ist von einem Verschwinden des Lesens zu unterscheiden.",
+  "Kapitel 3, 5 und 8; Seitenzahlen je nach PDF bzw. Buchausgabe.",
+  "bubble",
+  "assets/originals/lauer.pdf",
+  [
+   [
+    "assets/originals/lauer.pdf",
+    "Original-PDF"
+   ]
+  ]
+ ],
+ [
+  "Interview",
+  "Gerhard Lauer · Digitale Lesekulturen und die Zukunft des Lesens",
+  "Interview; redaktionell geglättete Transkription und MP3 in der Bibliothek.",
+  "Lauer beschreibt Lesebegeisterung, digitale Gemeinschaften, das Buch als Objekt und mögliche KI-Rollen. Die Transkription kennzeichnet nicht sicher rekonstruierbare Stellen.",
+  "„Interview_Gerhard_Lauer_ueberarbeitet.docx“ und „Die-neue-Lust-am-Lesen…mp3“.",
+  "bubble",
+  "assets/originals/lauer-interview.html",
+  [
+   [
+    "assets/originals/lauer-interview.html",
+    "Lesefassung"
+   ],
+   [
+    "assets/originals/lauer-interview.docx",
+    "Word-Original"
+   ],
+   [
+    "assets/originals/lauer-interview.mp3",
+    "Audio"
+   ]
+  ]
+ ],
+ [
+  "Kittler",
+  "Friedrich A. Kittler · Aufschreibesysteme 1800 / 1900",
+  "Vorliegende Ausgabe: Fink, 1995.",
+  "Lesen und Schreiben stehen in historischen Gefügen aus Institutionen, Körpern und Medien. Lautieren, Literatur, Schreibmaschine und technische Aufzeichnung erzeugen unterschiedliche Bedingungen.",
+  "Inhaltsverzeichnis; „Lesenlernen um 1800“, „Technische Medien“, „Autoren, Leser, Autoren“.",
+  "media",
+  "assets/originals/kittler.pdf",
+  [
+   [
+    "assets/originals/kittler.pdf",
+    "Original-PDF"
+   ]
+  ]
+ ],
+ [
+  "KI",
+  "Gerhard Lauer · Bücher aus dem Textautomaten?",
+  "leseforum.ch, 3/2023, DOI 10.58098/lffl/2023/03/803.",
+  "KI verändert Produktion, Illustration und Rollen im Literaturbetrieb. Der Aufsatz dokumentiert den Stand von 2023 und ist kein aktueller Leistungsvergleich von KI-Systemen.",
+  "„2023_3_de_lauer_KI.pdf“, S. 1–7.",
+  "delegate",
+  "assets/originals/lauer-ki.pdf",
+  [
+   [
+    "assets/originals/lauer-ki.pdf",
+    "Original-PDF"
+   ]
+  ]
+ ]
+];
 function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 function save(){try{localStorage.setItem('babel-v1',JSON.stringify(state))}catch{toast('Speichern ist hier nicht möglich. Exportiere dein Logbuch.')}$('#note-count').textContent=Object.keys(state.notes).length}
 function toast(s){$('#toast').textContent=s;$('#toast').style.display='block';setTimeout(()=>$('#toast').style.display='none',2800)}
@@ -72,7 +518,7 @@ function art(kind='library'){
  else{for(let i=0;i<9;i++)paths+=`<path d="M${35+i*28} ${40+i%3*12}h20v120h-20zm3 10h14m-14 85h14"/>`}
  return `<svg viewBox="0 0 320 200" role="img" aria-label="Illustration: ${esc(kind)}"><defs><radialGradient id="g-${kind}"><stop stop-color="#385450"/><stop offset="1" stop-color="#122327"/></radialGradient></defs><rect width="320" height="200" fill="url(#g-${kind})"/><g fill="none" stroke="${stroke}" stroke-width="1.2" opacity=".85">${paths}</g></svg>`;
 }
-function sourceNote(ids){return `<aside class="source-note"><b>Zurück zu den Texten</b><br>${ids.map(id=>{let s=sources.find(x=>x[0]===id);return `${s[6]?`<a href="${s[6]}" target="_blank" rel="noopener">${esc(s[1])} ↗</a>`:esc(s[1])}: ${esc(s[4])}`}).join('<br>')}<br><a href="${COLLECTION}" target="_blank" rel="noopener">Originale in deiner Materialsammlung öffnen ↗</a> · <a href="#sources">Quellen einordnen</a></aside>`}
+function sourceNote(ids){return `<aside class="source-note"><b>Zurück zu den Texten</b><br>${ids.map(id=>{let s=sources.find(x=>x[0]===id);return `${s[6]?`<a href="${s[6]}" target="_blank" rel="noopener">${esc(s[1])} ↗</a>`:esc(s[1])}: ${esc(s[4])}`}).join('<br>')}<br><a href="#sources">Quellen einordnen</a></aside>`}
 function reflection(id,prompt){return `<section class="reflect"><span class="eyebrow">Vom Erlebnis zum Urteil</span><h3>Was bleibt bei dir?</h3><label for="reflection">${prompt}</label><textarea id="reflection" placeholder="Eine Beobachtung. Eine Textstelle. Eine offene Frage.">${esc(state.notes[id]||'')}</textarea><div class="actions"><button class="btn" id="save-note">Ins Logbuch legen ↗</button><a class="btn secondary" href="#map">Zur Bibliothek</a></div><span class="hint">Nur in diesem Browser gespeichert. Kein Konto, kein Versand. Bitte keine persönlichen Daten anderer Menschen eintragen.</span></section>`}
 function bindReflection(id){$('#save-note')?.addEventListener('click',()=>{const v=$('#reflection').value.trim();if(!v){toast('Schreibe zuerst eine Beobachtung.');return}state.notes[id]=v;if(!state.done.includes(id))state.done.push(id);save();toast('Dein Gedanke liegt im Logbuch.');});}
 function frame(id,content,ids,prompt){let r=rooms.find(x=>x[0]===id);return `<div class="page"><a class="back" href="#map">← Zur Raumkarte</a><div class="page-title"><span class="eyebrow">Raum ${r[1]} / ${r[4]}</span><h1>${r[2]}</h1><p>${r[3]}</p></div>${content}${sourceNote(ids)}${reflection(id,prompt)}</div>`}
@@ -84,13 +530,13 @@ const scenes=[
 ['Der Katalog braucht einen Katalog.','Vielleicht gibt es ein Buch, das dir sagt, welches Buch du brauchst. Doch um seinen Wahrheitsanspruch zu prüfen, bräuchtest du bereits die gesuchte Orientierung.','Verfolge das Motiv von Katalog und Suche. Wer oder was könnte in dieser Welt glaubwürdig Auskunft geben?','web'],
 ['Die Hoffnung wird gewalttätig.','Du triffst auf Menschen, die nutzlose Bände entfernen wollen. Andere erwarten das eine Buch, das alles rechtfertigt. Aus einer Leseordnung wird eine Machtordnung.','Untersuche die Reaktionen der Bewohner. Wie verändern Überfülle und Heilsversprechen das Zusammenleben?','court'],
 ['Ordnung. Oder ein schöner Glaube.','Am Ausgang findest du keinen Ausgang. Eine wiederkehrende Ordnung erscheint als Hoffnung. Ob sie trägt, ist deine nächste Lektüre.','Lies den Schluss genau. Wie unterscheidet sich die Hoffnung des Erzählers von einer bewiesenen Eigenschaft der Bibliothek?','seed']];
-function babel(){return frame('babel',`<div class="library"><div class="hex"><span>DU BIST HIER</span><strong id="coord">HEX / 0001</strong><span>Kein Ausgang verzeichnet</span></div></div><div class="actions"><button class="btn secondary" id="wander">Eine Galerie weiter →</button><button class="btn secondary" id="shelves">Ein Regal durchsuchen</button></div><div id="shelf-area"></div><div class="section-head"><div><span class="eyebrow">Ein illustriertes Lesetor</span><h2>Fünf Bilder. Ein Abgrund.</h2></div><p>Eigene Szenen nach Motiven der Erzählung. Lies daneben Borges’ Original aus der Sammlung.</p></div><div id="folio"></div><div class="actions"><button id="prev-scene" class="btn secondary">← Zurück</button><span id="scene-count" class="hint"></span><button id="next-scene" class="btn">Weiter →</button></div><details><summary>Das Original im Zentrum lesen</summary><p>Öffne das Borges-PDF aus der Materialsammlung in einem zweiten Fenster oder lies die gedruckte Fassung. Die fünf Bildstationen geben dir Leseaufträge zum gesamten Verlauf, ersetzen die Erzählung aber nicht.</p><p>Wenn du einen eigenen Textausschnitt genauer betrachten willst, füge ihn unten ein. Er bleibt nur bis zum Raumwechsel sichtbar, wird weder gespeichert noch übertragen.</p><label for="own-text">Dein Textausschnitt</label><textarea id="own-text" placeholder="Text aus deiner eigenen Ausgabe …"></textarea><button id="read-own" class="btn small">In den Leseraum legen</button><div id="own-reading" class="stage paper" hidden></div></details><details><summary>Warum diese Bibliothek unser Zentrum ist</summary><p>Borges ist hier eine literarische Denkfigur. Eine vollständige Menge möglicher Texte garantiert weder Auffindbarkeit noch Wahrheit. Der Übergang zur digitalen Gegenwart ist eine Interpretation: Das Internet ist keine buchstäbliche Realisierung von Babel, und ein KI-Modell enthält nicht alle möglichen Bücher.</p><p>Unsere Regalmaschine zeigt absichtlich nur kurze Zufallstexte. Bei Borges haben die Bände 410 Seiten; das Symbolinventar umfasst 25 Zeichen. Die Unendlichkeit von Raum und Wiederholung ist von der endlichen Zahl möglicher Bände zu unterscheiden.</p></details>`,['Borges','Hettche','Amlinger'],'Wähle ein Bildmotiv. Belege es am Original. Wo hilft dir die Babel-Metapher, heutiges Lesen zu verstehen – und wo führt sie in die Irre?')}
+function babel(){return frame('babel',`<div class="library"><div class="hex"><span>DU BIST HIER</span><strong id="coord">HEX / 0001</strong><span>Kein Ausgang verzeichnet</span></div></div><div class="actions"><button class="btn secondary" id="wander">Eine Galerie weiter →</button><button class="btn secondary" id="shelves">Ein Regal durchsuchen</button></div><div id="shelf-area"></div><div class="section-head"><div><span class="eyebrow">Ein illustriertes Lesetor</span><h2>Fünf Bilder. Ein Abgrund.</h2></div><p>Eigene Szenen nach Motiven der Erzählung. Lies daneben Borges’ Original aus diesem Buch.</p></div><div id="folio"></div><div class="actions"><button id="prev-scene" class="btn secondary">← Zurück</button><span id="scene-count" class="hint"></span><button id="next-scene" class="btn">Weiter →</button></div><details><summary>Das Original im Zentrum lesen</summary><p>Öffne das Borges-PDF direkt direkt über den Original-Link oder lies die gedruckte Fassung. Die fünf Bildstationen geben dir Leseaufträge zum gesamten Verlauf, ersetzen die Erzählung aber nicht.</p><p>Wenn du einen eigenen Textausschnitt genauer betrachten willst, füge ihn unten ein. Er bleibt nur bis zum Raumwechsel sichtbar, wird weder gespeichert noch übertragen.</p><label for="own-text">Dein Textausschnitt</label><textarea id="own-text" placeholder="Text aus deiner eigenen Ausgabe …"></textarea><button id="read-own" class="btn small">In den Leseraum legen</button><div id="own-reading" class="stage paper" hidden></div></details><details><summary>Warum diese Bibliothek unser Zentrum ist</summary><p>Borges ist hier eine literarische Denkfigur. Eine vollständige Menge möglicher Texte garantiert weder Auffindbarkeit noch Wahrheit. Der Übergang zur digitalen Gegenwart ist eine Interpretation: Das Internet ist keine buchstäbliche Realisierung von Babel, und ein KI-Modell enthält nicht alle möglichen Bücher.</p><p>Unsere Regalmaschine zeigt absichtlich nur kurze Zufallstexte. Bei Borges haben die Bände 410 Seiten; das Symbolinventar umfasst 25 Zeichen. Die Unendlichkeit von Raum und Wiederholung ist von der endlichen Zahl möglicher Bände zu unterscheiden.</p></details>`,['Borges','Hettche','Amlinger'],'Wähle ein Bildmotiv. Belege es am Original. Wo hilft dir die Babel-Metapher, heutiges Lesen zu verstehen – und wo führt sie in die Irre?')}
 function bindBabel(){const show=()=>{let s=scenes[storyPage];$('#folio').innerHTML=`<article class="folio"><div class="art story-art" role="img" aria-label="${esc(s[0])}: symbolische Bibliotheksillustration" style="background-position:${storyPage*25}% center"></div><div><span class="eyebrow">Bild ${storyPage+1} / 5</span><h3>${s[0]}</h3><p>${s[1]}</p><div class="source-note">Dein Leseauftrag: ${s[2]}</div></div></article>`;$('#scene-count').textContent=`${storyPage+1} von 5`;$('#prev-scene').disabled=storyPage===0;$('#next-scene').disabled=storyPage===4};show();$('#prev-scene').onclick=()=>{storyPage--;show()};$('#next-scene').onclick=()=>{storyPage++;show()};let n=1;$('#wander').onclick=()=>{$('#coord').textContent=`HEX / ${String(++n).padStart(4,'0')}`;toast('Ein anderer Ort. Dieselbe Architektur.');};$('#shelves').onclick=()=>{const alphabet='abcdefghijklmnopqrstuvwxyz, .';$('#shelf-area').innerHTML=`<div class="books">${Array.from({length:16},(_,i)=>`<button class="book" data-book="${i}" aria-label="Band ${i+1} öffnen">${Array.from({length:70},()=>alphabet[Math.floor(Math.random()*alphabet.length)]).join('')}</button>`).join('')}</div><div id="book-open"></div>`;$$('[data-book]').forEach(b=>b.onclick=()=>{$('#book-open').innerHTML=`<div class="stage"><span class="eyebrow">Band ${+b.dataset.book+1} / Eine kleine Simulation</span><p class="word-cloud">${esc(b.textContent.repeat(6))}</p><p>Du kannst jedes Zeichen entziffern. Ist das schon Lesen? Denke an einen Satz, den du dir jetzt hier wünschen würdest.</p><label for="wish">Dein gesuchter Satz</label><input id="wish" type="text" maxlength="180"><button id="find-wish" class="btn small">Den Satz finden</button><div id="wish-result"></div></div>`;$('#find-wish').onclick=()=>{let v=$('#wish').value.trim();if(!v)return;$('#wish-result').textContent=`„${v}“ — Wir haben deinen Satz eingefügt. Das ist Konstruktion, kein Suchtreffer. Wie leicht hättest du die Behauptung geglaubt, er sei schon hier gewesen?`;};});};$('#read-own').onclick=()=>{let box=$('#own-reading');box.hidden=false;box.textContent=$('#own-text').value;};}
 const practiceA='Mira fand im Treppenhaus ein Buch. Auf der ersten Seite stand ein Name, der nicht ihrer war. Zwischen zwei Seiten lag ein Fahrschein. Er war für morgen gültig. Als der Nachbar die Treppe hinunterkam, schob Mira das Buch unter ihren Mantel. Sie wollte es zurückgeben, sobald sie wusste, warum jemand einen Fahrschein in einem Buch versteckte. Erst am Abend bemerkte sie den zweiten Namen. Er stand nicht im Buch, sondern auf dem Fahrschein. Es war ihr eigener.';
 const practiceB='Jonas fand im Waschraum einen Brief. Auf dem Umschlag stand eine Adresse, die nicht seine war. Zwischen zwei Blättern lag eine Eintrittskarte. Sie galt für den kommenden Freitag. Als die Hausmeisterin hereinkam, steckte Jonas den Brief in seine Tasche. Er wollte ihn abgeben, sobald er wusste, warum jemand eine Karte in einen Brief legte. Erst am Abend bemerkte er die zweite Adresse. Sie stand nicht auf dem Umschlag, sondern auf der Karte. Es war seine eigene.';
 function attention(){return frame('attention',`<p>Du liest zwei kurze, eigens geschriebene Szenen. Einmal mit Unterbrechungen, einmal in Ruhe. Danach hältst du fest, was angekommen ist. Die Reihenfolge wird zufällig gewählt.</p><div class="stage" id="attention-stage"><h3>Zwei Bedingungen. Dein Tempo.</h3><p>Der Versuch stoppt Ablenkungen jederzeit. Zeitdruck ist kein Muss. Im Ruhemodus bleibt die Störbedingung deaktiviert.</p><label><input id="allow-noise" type="checkbox" ${state.data.quiet?'':'checked'}> Unterbrechungen im Versuch erlauben</label><div class="actions"><button id="start-attention" class="btn">Versuch beginnen →</button></div><span class="hint">Kein Test deiner Intelligenz. Keine wissenschaftliche Diagnose. Zwei unterschiedliche Szenen, nur ein einzelner Durchgang.</span></div><div id="attention-result"></div><details><summary>Was lässt sich daraus schliessen?</summary><p>Ein Unterschied kann durch Text, Reihenfolge, Vorwissen oder Tagesform entstehen. Selbst wenn du keinen Unterschied bemerkst, kann Unterbrechung anstrengend sein. Notiere Wahrnehmung und Ergebnis getrennt. Für einen Unterrichtsvergleich variiert ihr die Reihenfolge und beschreibt auch Gegenbeispiele.</p><p>Lies den NZZ-Artikel und Horowitch mit dieser Erfahrung im Kopf. Welche Behauptungen benötigen stärkere Belege als diesen Versuch?</p></details>`,['Freiwald','Superpower','Horowitch'],'Was geschah mit deinem inneren Bild beim Wechsel? Unterscheide deine Beobachtung von einer allgemeinen Behauptung über digitale Medien.')}
 function bindAttention(){let round=0,results=[],order=Math.random()<.5?[true,false]:[false,true],start,dist;$('#start-attention').onclick=()=>{dist=$('#allow-noise').checked&&!state.data.quiet;begin()};function begin(){const noisy=dist&&order[round];const text=round===0?practiceA:practiceB;start=performance.now();$('#attention-stage').innerHTML=`<span class="eyebrow">Durchgang ${round+1}/2 · ${noisy?'Mit Unterbrechungen':'Ohne Unterbrechungen'}</span><p class="text" id="trial-text">${text}</p><div class="actions"><button id="finished-reading" class="btn">Gelesen →</button>${noisy?'<button id="stop-noise" class="btn secondary">Störungen stoppen</button>':''}</div><span class="hint">Eigener Versuchstext; kein Zitat aus den Quellen.</span>`;let noiseId;if(noisy){let messages=['Neue Nachricht: Bist du noch da?','Ein Text, den du auch lesen solltest.','Noch 12 ungelesene Empfehlungen.','Nur kurz nachsehen?'];let i=0;noiseId=every(()=>{$('.feed-popup')?.remove();const n=document.createElement('div');n.className='feed-popup';n.textContent=messages[i++%messages.length];$('#attention-stage').append(n);later(()=>n.remove(),2200);},3500);$('#stop-noise').onclick=()=>{clearInterval(noiseId);$('.feed-popup')?.remove();$('#stop-noise').disabled=true;results.stopped=true;};}$('#finished-reading').onclick=()=>{clearInterval(noiseId);let seconds=Math.round((performance.now()-start)/1000);$('#attention-stage').innerHTML=`<h3>Was ist geblieben?</h3><label for="recall">Wo stand am Schluss ${round===0?'Miras Name':'Jonas’ Adresse'}?</label><div class="choices"><button data-recall="0">${round===0?'Auf der ersten Buchseite':'Auf dem Umschlag'}</button><button data-recall="1">${round===0?'Auf dem Fahrschein':'Auf der Eintrittskarte'}</button><button data-recall="2">Nicht mehr sicher</button></div><label for="effort">Wie anstrengend war das Lesen? <output id="effort-value">3</output> / 5</label><input id="effort" type="range" min="1" max="5" value="3"><span class="hint">Erst Anstrengung wählen, dann Erinnerung anklicken.</span>`;$('#effort').oninput=()=>$('#effort-value').textContent=$('#effort').value;$$('[data-recall]').forEach(b=>b.onclick=()=>{results.push({condition:noisy?'Unterbrechungen':'Ruhe',seconds,correct:b.dataset.recall==='1',effort:$('#effort').value});if(++round<2)begin();else{$('#attention-stage').innerHTML='<h3>Beide Szenen sind gelesen.</h3><p>Vergleiche, ohne dich zu bewerten.</p>';$('#attention-result').innerHTML=`<div class="stage">${results.map((r,i)=>`<p><b>${i+1}. ${r.condition}</b>: ${r.seconds} Sekunden · Detail ${r.correct?'erinnert':'nicht erinnert'} · Anstrengung ${r.effort}/5</p>`).join('')}<p class="hint">${results.stopped?'Du hast die Störungen vorzeitig gestoppt. ':''}Lesezeit misst kein Verständnis. Dieser Selbstversuch weist keine Ursache nach.</p><button id="keep-attention" class="btn secondary">Beobachtungsdaten ins Logbuch</button></div>`;$('#keep-attention').onclick=()=>{$('#reflection').value=results.map(r=>`${r.condition}: ${r.seconds}s, Detail ${r.correct?'erinnert':'nicht erinnert'}, Anstrengung ${r.effort}/5`).join('\n')+'\nMeine Beobachtung: ';};}});};}}
-function court(){return frame('court',`<div class="stage"><span class="eyebrow">Du bist die Jury</span><h3>„Die Gesellschaft verlernt das Lesen.“</h3><label for="verdict">Wie stark überzeugt dich diese Diagnose jetzt? <output id="verdict-value">${state.data.verdict??50}</output>%</label><input id="verdict" type="range" min="0" max="100" value="${state.data.verdict??50}"><div class="scale"><span>Überhaupt nicht</span><span>Vollständig</span></div><div class="actions"><button id="lock-verdict" class="btn">Erstes Urteil festhalten</button></div></div><div id="evidence"></div><div id="court-end"></div><details><summary>Der entscheidende Originaltext</summary><p>Lies jetzt Freiwald in der Sammlung: S. 5–8 und S. 9–11. Markiere eine Stelle, die eine Krise anerkennt, und eine, die einen unzulässigen Schluss kritisiert. Prüfe deine Karten daran. Vergleiche danach den Einstieg von Horowitch und Hettches Vorstellung des literarischen Raums.</p><p>Die Karten paraphrasieren Argumente; sie sind keine neuen Messungen. Zahlen aus Deutschland und der Schweiz, verschiedene Altersgruppen und unterschiedliche Leseformen dürfen nicht ohne Weiteres zusammengezogen werden.</p></details>`,['Freiwald','Horowitch','Hettche','Superpower'],'Formuliere dein Urteil neu: Welche konkrete Lesepraxis ist unter welchen Bedingungen gefährdet? Nenne einen Beleg aus Freiwald und eine ernst zu nehmende Gegenposition.')}
+function court(){return frame('court',`<div class="stage"><span class="eyebrow">Du bist die Jury</span><h3>„Die Gesellschaft verlernt das Lesen.“</h3><label for="verdict">Wie stark überzeugt dich diese Diagnose jetzt? <output id="verdict-value">${state.data.verdict??50}</output>%</label><input id="verdict" type="range" min="0" max="100" value="${state.data.verdict??50}"><div class="scale"><span>Überhaupt nicht</span><span>Vollständig</span></div><div class="actions"><button id="lock-verdict" class="btn">Erstes Urteil festhalten</button></div></div><div id="evidence"></div><div id="court-end"></div><details><summary>Der entscheidende Originaltext</summary><p>Lies jetzt Freiwald in der Bibliothek: S. 5–8 und S. 9–11. Markiere eine Stelle, die eine Krise anerkennt, und eine, die einen unzulässigen Schluss kritisiert. Prüfe deine Karten daran. Vergleiche danach den Einstieg von Horowitch und Hettches Vorstellung des literarischen Raums.</p><p>Die Karten paraphrasieren Argumente; sie sind keine neuen Messungen. Zahlen aus Deutschland und der Schweiz, verschiedene Altersgruppen und unterschiedliche Leseformen dürfen nicht ohne Weiteres zusammengezogen werden.</p></details>`,['Freiwald','Horowitch','Hettche','Superpower'],'Formuliere dein Urteil neu: Welche konkrete Lesepraxis ist unter welchen Bedingungen gefährdet? Nenne einen Beleg aus Freiwald und eine ernst zu nehmende Gegenposition.')}
 const evidence=[
 ['Eine Kompetenzkrise','Freiwald verweist auf problematische Lesekompetenzen bei Kindern und Erwachsenen. Eine Entwarnung für alle wäre falsch.','Freiwald, PDF S. 5–6','Welche Population und welcher Test?'],
 ['Unsichtbares Alltagslesen','Chats, Schilder, Untertitel und Anleitungen zählen oft nicht mit, wenn wir an „Lesen“ denken.','Freiwald, S. 5','Was genau misst die Behauptung „weniger“?'],
@@ -118,10 +564,13 @@ function resonance(){return frame('resonance',`<div class="stage paper"><span cl
 function bindResonance(){$$('[data-perspective]').forEach(b=>b.onclick=()=>{$$('[data-perspective]').forEach(x=>x.classList.toggle('selected',x===b));$('#perspective-response').innerHTML='<div class="result">Der Text entscheidet das nicht. Dein inneres Bild ergänzt die Lücken. Welche Wörter stützen es, welche hast du selbst hinzugefügt?</div>';$('#resonance-next').hidden=false;});$('#keep-perspective').onclick=()=>{$('#reflection').value=$('#perspective-writing').value+'\nMeine ursprüngliche Annahme: ';};}
 function future(){return frame('future',`<div class="library"><div class="hex"><span>KEIN AUSGANG?</span><strong>Ein Entwurf.</strong><span>Die Bibliothek gehört euch.</span></div></div><div class="stage"><h3>Die Verfassung deiner Bibliothek.</h3><p>Du hast 100 Minuten gemeinsame Lesezeit. Verteile sie. Jede Entscheidung ermöglicht etwas und verdrängt etwas anderes.</p>${[['deep','Vertiefte Einzel-Lektüre',30],['shared','Gemeinsames Lesen / Vorlesen',25],['digital','Digitale Recherche und Diskussion',25],['audit','Zusammenfassungen prüfen',20]].map(x=>`<label for="budget-${x[0]}">${x[1]}: <output id="out-${x[0]}">${x[2]}</output> Min.</label><input id="budget-${x[0]}" type="range" min="0" max="100" step="5" value="${x[2]}">`).join('')}<p id="budget-total"></p><button id="budget-save" class="btn">Entwurf ins Logbuch</button></div><div class="stage"><h3>Fünf Regeln für den nächsten Monat.</h3><ol><li>Eine Lesegewohnheit, die du schützen möchtest.</li><li>Eine digitale Möglichkeit, die du nutzen möchtest.</li><li>Eine Prüfung, bevor du ein Urteil delegierst.</li><li>Eine Hilfe, die jemandem Zugang eröffnet.</li><li>Eine Behauptung über „früher“, die du genauer prüfen willst.</li></ol><p>Bring eine deiner Regeln zurück zu Borges und eine zu Freiwald. Welche Probleme lösen sie – welche lassen sie offen?</p></div>`,['Borges','Freiwald','Lauer','Engemann'],'Schreibe deine fünf Regeln mit einem konkreten nächsten Schritt. Nenne zwei Quellenbezüge und ein Gegenargument. Was würdest du nach einem Monat überprüfen?')}
 function bindFuture(){const ids=['deep','shared','digital','audit'];function update(){let sum=0;ids.forEach(id=>{let v=+$('#budget-'+id).value;$('#out-'+id).textContent=v;sum+=v;});$('#budget-total').textContent=`${sum} / 100 Minuten. ${sum===100?'Dein Entwurf ist verteilbar.':sum>100?'Du brauchst zusätzliche Zeit oder musst etwas kürzen.':'Du hast noch unverteilte Zeit.'}`;$('#budget-save').disabled=sum!==100;}ids.forEach(id=>$('#budget-'+id).oninput=update);update();$('#budget-save').onclick=()=>{$('#reflection').value=ids.map(id=>`${$('#budget-'+id).previousElementSibling.textContent}`).join('\n')+'\nMeine fünf Regeln:\n1.\n2.\n3.\n4.\n5.';toast('Entwurf übernommen. Ergänze deine Regeln und speichere.');};}
-function sourcePage(){return `<div class="page narrow"><a class="back" href="#map">← Zur Bibliothek</a><div class="page-title"><span class="eyebrow">Das Stimmenverzeichnis</span><h1>Wer spricht hier?</h1><p>Eine Bibliothek aus widersprüchlichen Positionen. Die 25 Einzelbeiträge aus „Warum Lesen“ kannst du hier direkt als PDF öffnen. Die weiteren Originale liegen in deiner Craft-Sammlung. Hier findest du ihre Rollen und Lesewege.</p><div class="actions"><button class="btn" onclick="document.getElementById('why-contributions').scrollIntoView()">Zu den 25 Einzelbeiträgen ↓</button><a class="btn secondary" href="${COLLECTION}" target="_blank" rel="noopener">Weitere Materialien ↗</a></div></div>${sources.map(s=>`<article class="source-card"${s[0]==='Setz'?' id="why-contributions"':''}><span class="eyebrow">${s[0]}</span><h3>${esc(s[1])}</h3><span class="hint">${esc(s[2])}</span><p>${esc(s[3])}</p><p><b>Leseweg:</b> ${esc(s[4])}</p>${s[6]?`<a class="btn secondary" href="${s[6]}" target="_blank" rel="noopener">Einzelbeitrag als PDF lesen ↗</a> `:""}<a href="#${s[5]}">Den zugehörigen Raum betreten →</a></article>`).join('')}<details open><summary>Text-, Bild- und Quellenhinweise</summary><p>Die Quellenparaphrasen und Experimente sind eigenständige didaktische Bearbeitungen. Die 25 bereitgestellten Einzelbeiträge aus „Warum Lesen“ werden unverändert als PDFs mitgeliefert; weitere Originaltexte sind über die Materialsammlung zugänglich. Die Sammlung umfasst zusätzlich Parallelfassungen, Übersetzungen und zwei Audiofassungen; diese erscheinen hier bei den jeweiligen Werken. Zitate aus Transkriptionen solltest du am Original oder Audio prüfen.</p><p>Die Bibliotheksillustration wurde mit dem integrierten Bildgenerator erzeugt. Die Linienillustrationen, Architekturansicht, Versuchstexte und Buchtitel sind eigens für BABEL gestaltet. Sie sind keine Originalillustrationen von Borges.</p><p>Alle Übungsergebnisse sind persönliche Beobachtungen oder fiktive Szenarien. Statistische Aussagen der Artikel sind als Quellenbehauptungen zu prüfen; sie werden hier nicht als neu verifizierte Forschungsbefunde ausgegeben.</p><p>Externe Schriftdateien werden über Google Fonts geladen; ohne Netzwerk werden Systemschriften verwendet. Bei deaktivierten externen Schriften funktioniert die gesamte Einheit. Notizen bleiben lokal im Browser; externe Quellen und optionale Browser-Sprachausgabe folgen den Einstellungen deines Browsers.</p></details></div>`}
+function sourcePage(){return `<div class="page narrow"><a class="back" href="#map">← Zur Bibliothek</a><div class="page-title"><span class="eyebrow">Das Stimmenverzeichnis</span><h1>Wer spricht hier?</h1><p>Eine Bibliothek aus widersprüchlichen Positionen. Alle Originaldateien sind einzeln in dieser Bibliothek hinterlegt: PDFs, direkt lesbare Word-Fassungen und Audios. Hier findest du ihre Rollen und Lesewege.</p><div class="actions"><button class="btn" onclick="document.getElementById('why-contributions').scrollIntoView()">Zu den 25 Einzelbeiträgen ↓</button></div></div>${sources.map(s=>`<article class="source-card"${s[0]==='Setz'?' id="why-contributions"':''}><span class="eyebrow">${s[0]}</span><h3>${esc(s[1])}</h3><span class="hint">${esc(s[2])}</span><p>${esc(s[3])}</p><p><b>Leseweg:</b> ${esc(s[4])}</p>${originalLinks(s)}<a href="#${s[5]}">Den zugehörigen Raum betreten →</a></article>`).join('')}<details open><summary>Text-, Bild- und Quellenhinweise</summary><p>Die Quellenparaphrasen und Experimente sind eigenständige didaktische Bearbeitungen. Die Originaldateien und die 25 Einzelbeiträge werden jeweils separat bereitgestellt. Word-Dateien haben zusätzlich eine ausgelesene Lesefassung. Die Sammlung umfasst zusätzlich Parallelfassungen, Übersetzungen und zwei Audiofassungen; diese erscheinen hier bei den jeweiligen Werken. Zitate aus Transkriptionen solltest du am Original oder Audio prüfen.</p><p>Die Bibliotheksillustration wurde mit dem integrierten Bildgenerator erzeugt. Die Linienillustrationen, Architekturansicht, Versuchstexte und Buchtitel sind eigens für BABEL gestaltet. Sie sind keine Originalillustrationen von Borges.</p><p>Alle Übungsergebnisse sind persönliche Beobachtungen oder fiktive Szenarien. Statistische Aussagen der Artikel sind als Quellenbehauptungen zu prüfen; sie werden hier nicht als neu verifizierte Forschungsbefunde ausgegeben.</p><p>Externe Schriftdateien werden über Google Fonts geladen; ohne Netzwerk werden Systemschriften verwendet. Bei deaktivierten externen Schriften funktioniert die gesamte Einheit. Notizen bleiben lokal im Browser; externe Quellen und optionale Browser-Sprachausgabe folgen den Einstellungen deines Browsers.</p></details></div>`}
 function journal(){return `<div class="page narrow"><a class="back" href="#map">← Zur Bibliothek</a><div class="page-title"><span class="eyebrow">Deine Spuren</span><h1>Das Logbuch.</h1><p>${state.done.length} von ${rooms.length} Räumen mit einer gespeicherten Reflexion. Vollständigkeit ist kein Leistungswert.</p></div><div class="actions"><button class="btn" id="export-journal">Als Text herunterladen ↓</button><button class="btn secondary" id="print-journal">Drucken / PDF</button></div>${Object.keys(state.notes).length?rooms.filter(r=>state.notes[r[0]]).map(r=>`<article class="journal-entry"><span class="eyebrow">Raum ${r[1]}</span><h3>${r[2]}</h3><pre>${esc(state.notes[r[0]])}</pre><a class="hint" href="#${r[0]}">Gedanken weiterbearbeiten →</a></article>`).join(''):'<p class="blank">Noch keine Notizen. Jeder Raum bietet Platz für eine Spur.</p>'}<details><summary>Lokale Notizen löschen</summary><p>Exportiere sie zuerst, wenn du sie behalten möchtest. Die Löschung betrifft nur dieses Leselabor in diesem Browser.</p><button class="btn secondary" id="delete-journal">Löschung vorbereiten</button><div id="delete-confirm"></div></details></div>`}
 function guide(){return `<div class="page narrow guide"><a class="back" href="#map">← Zur Bibliothek</a><div class="page-title"><span class="eyebrow">Für die Lehrperson</span><h1>Ein Raum für Widerspruch.</h1><p>Ausgelegt für die Sekundarstufe II, etwa ab 15 Jahren. Die Gesamtexpedition umfasst rund 90–110 Minuten zuzüglich längerer Originallektüre. Einzelne Räume funktionieren separat.</p></div><div class="stage"><h3>Der Pfad für zwei Lektionen</h3><ol><li><b>Vorbereitung:</b> Borges als Originallektüre zugänglich machen; Freiwald bereitstellen. Möglichst mit Papierfassung oder zweitem Fenster.</li><li><b>0–15 Minuten:</b> Raum 00 in Zweiergruppen. Fünf Bilder mit Originalstellen verbinden. Nicht jedes Buch in Babel enthält sinnvollen Text.</li><li><b>15–30 Minuten:</b> Raum 01 und Raum 02 beginnen. Erste Diagnose vor den Belegen festhalten.</li><li><b>30–45 Minuten:</b> Freiwald S. 5–11 lesen. Urteil mit einer präzisen Textstelle überarbeiten. Unterschied zwischen Menge, Können und Tiefe besprechen.</li><li><b>45–65 Minuten:</b> Gruppen wählen je zwei Räume 03–09. Jede Gruppe bringt eine Beobachtung, eine Quelle und eine Grenze ihres Experiments mit.</li><li><b>65–80 Minuten:</b> Gegenpositionen austauschen. Ein Befund darf nicht allein mit einem Erlebnis begründet werden.</li><li><b>80–90 Minuten:</b> Raum 10 und Logbuch. Eine Regel in der nächsten Woche erproben; Ergebnisse später besprechen.</li></ol></div><h3>Lernziele</h3><p>Die Lernenden unterscheiden Lesemenge, Lesekompetenz, Tiefenlektüre und kulturelle Praxis; deuten Borges’ Motive am Original; prüfen Vergleichszeiträume und Quellen; beurteilen Delegation und digitale Gestaltung; entwerfen begründete Bedingungen für ihre eigene Lesekultur.</p><h3>Gespräch statt Punktesieg</h3><p>Beurteile nachvollziehbare Beobachtung, präzisen Textbezug, faire Gegenposition und konkreten Transfer. Tempo, Anzahl gelesener Bücher und Zustimmung zu einer Krisendiagnose sind keine Bewertungskriterien.</p><h3>Zugänge öffnen</h3><p>Ruhemodus und reduzierte Bewegung sind verfügbar. Unterbrechungen sind freiwillig. Es gibt keine zeitlich gesperrten Räume. Partnerlesen, Vorlesen, vergrösserte Schrift und Papierlektüre können Zugänge eröffnen. Die Raumkarte ist über Tastatur und direkte Links nutzbar.</p><h3>Offene Punkte deiner Planung</h3><p>Noch nicht festgelegt sind die konkrete Klasse, die verfügbare Unterrichtszeit, gewünschte Leistungsnachweise und die Zugangsrechte zu den vollständigen Originalen. Diese Version setzt Sekundarstufe II, freie Exploration und ein exportierbares Reflexionslogbuch voraus. Eine öffentliche Originalausgabe von Borges würde eine gesonderte Rechteklärung benötigen.</p><h3>Die produktive Selbstkritik</h3><p>Auch diese reich bebilderte Website zieht Aufmerksamkeit auf sich. Verführt sie zum schnellen Klicken statt zur Originallektüre? Lass die Klasse eine Stelle benennen, an der Gestaltung das Lesen fördert, und eine, an der sie es verdrängt.</p><a class="btn secondary" href="#sources">Quellen und Einschränkungen</a></div>`}
-function exportNotes(){let t='BABEL · Mein Leselogbuch\n\n'+rooms.filter(r=>state.notes[r[0]]).map(r=>`${r[1]} · ${r[2]}\n${state.notes[r[0]]}`).join('\n\n')+'\n\nMaterialsammlung: '+COLLECTION;const u=URL.createObjectURL(new Blob([t],{type:'text/plain;charset=utf-8'})),a=document.createElement('a');a.href=u;a.download='babel-leselogbuch.txt';a.click();later(()=>URL.revokeObjectURL(u),1000)}
+function exportNotes(){let t='BABEL · Mein Leselogbuch\n\n'+rooms.filter(r=>state.notes[r[0]]).map(r=>`${r[1]} · ${r[2]}\n${state.notes[r[0]]}`).join('\n\n')+'\n\nOriginaldateien: '+location.origin+location.pathname+'#sources';const u=URL.createObjectURL(new Blob([t],{type:'text/plain;charset=utf-8'})),a=document.createElement('a');a.href=u;a.download='babel-leselogbuch.txt';a.click();later(()=>URL.revokeObjectURL(u),1000)}
 const renderers={babel,attention,court,nostalgia,access,delegate,bubble,bookish,media,resonance,future};const binders={babel:bindBabel,attention:bindAttention,court:bindCourt,nostalgia:bindNostalgia,access:bindAccess,delegate:bindDelegate,bubble:bindBubble,bookish:bindBookish,media:bindMedia,resonance:bindResonance,future:bindFuture};
 function render(){libraryDispose();libraryDispose=()=>{};jobs.forEach(x=>{clearTimeout(x);clearInterval(x)});jobs=[];if('speechSynthesis'in window)speechSynthesis.cancel();route=location.hash.slice(1)||'home';if(['home','map','explore'].includes(route)){$('#main').innerHTML=libraryMarkup();bindLibrary();}else if(renderers[route]){$('#main').innerHTML=renderers[route]();binders[route]();bindReflection(route);}else if(route==='sources')$('#main').innerHTML=sourcePage();else if(route==='guide')$('#main').innerHTML=guide();else if(route==='map')$('#main').innerHTML=`<section class="section"><div class="section-head"><div><span class="eyebrow">Die Raumkarte / ${state.done.length} Spuren</span><h1 style="font-size:56px">Elf Türen.<br>Dein Weg.</h1></div><p>Beginne bei Borges. Freiwald hält deiner Expedition den Spiegel vor. Danach ist jeder Weg möglich.</p></div><div class="grid">${cards()}</div><div class="actions"><a class="btn secondary" href="#guide">Unterrichtspfad ansehen</a><a class="btn secondary" href="#journal">Zum Logbuch</a></div></section>`;else if(route==='journal'){$('#main').innerHTML=journal();$('#export-journal').onclick=exportNotes;$('#print-journal').onclick=()=>window.print();$('#delete-journal').onclick=()=>{$('#delete-confirm').innerHTML='<p>Alle lokalen Notizen und Fortschritte jetzt löschen?</p><button id="really-delete" class="btn small">Ja, lokale Notizen löschen</button>';$('#really-delete').onclick=()=>{state={notes:{},done:[],data:{quiet:state.data.quiet}};save();render();toast('Lokale Notizen gelöscht.');};};}else $('#main').innerHTML=home();document.title=`BABEL · ${rooms.find(r=>r[0]===route)?.[2]||({journal:'Mein Logbuch',sources:'Die Stimmen',guide:'Für den Unterricht',map:'Die Raumkarte'}[route]||'Das Leselabor')}`;window.scrollTo(0,0);}
 $('#quiet').onclick=()=>{state.data.quiet=!state.data.quiet;document.body.classList.toggle('quiet',state.data.quiet);$('#quiet').setAttribute('aria-pressed',state.data.quiet);$('#quiet').textContent=state.data.quiet?'Ruhemodus an':'Ruhemodus';save();if(route==='attention')render();toast(state.data.quiet?'Ruhemodus eingeschaltet.':'Ruhemodus ausgeschaltet.');};$('.skip').onclick=e=>{e.preventDefault();$('#main').setAttribute('tabindex','-1');$('#main').focus();$('#main').scrollIntoView();};$('#export').onclick=exportNotes;document.body.classList.toggle('quiet',!!state.data.quiet);$('#quiet').setAttribute('aria-pressed',!!state.data.quiet);$('#quiet').textContent=state.data.quiet?'Ruhemodus an':'Ruhemodus';save();window.addEventListener('hashchange',render);render();
+
+function originalLinks(s){return `<div class="actions">${(s[7]||[[s[6],"Original-PDF"]]).filter(x=>x[0]).map(([path,label])=>`<a class="btn secondary" href="${esc(path)}" target="_blank" rel="noopener">${esc(label)} öffnen ↗</a>`).join("")}</div>`;}
+function originalMedia(s){const audio=s[7]?.find(x=>x[0].endsWith(".mp3"));return audio?`<label>Originalaudio</label><audio controls preload="none" src="${esc(audio[0])}" style="width:100%"></audio>`:"";}
