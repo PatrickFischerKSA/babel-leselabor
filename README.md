@@ -66,12 +66,14 @@ Die 3D-Fassung wurde zusätzlich auf sichtbare Bücherwände, Galerieübergänge
 
 ## Gemeinsame Bücherwände
 
-Alle 13.138 Gutenberg-Werke sind alphabetisch auf 110 Galerien verteilt. Bereits die elf ursprünglichen Lernräume enthalten freie Werke. Die Ressourcen und Versuchs-/Fragebände der jeweiligen Station stehen mitten zwischen diesen Werken in denselben Regalfächern. Die weiteren Galerien setzen dieses gemischte Prinzip fort. Es gibt keine separaten Bestandsflügel oder Büchergestelle. Jeder freie Band hat einen festen Platz. Die Suche führt direkt davor; Durchgänge führen zu den nächsten Galerien.
+Alle 13.138 Gutenberg-Werke sind alphabetisch auf zwölf Galerien verteilt. Bereits die elf ursprünglichen Lernräume enthalten freie Werke. Die Ressourcen und Versuchs-/Fragebände der jeweiligen Station stehen mitten zwischen diesen Werken in denselben Regalfächern. Die weiteren Galerien setzen dieses gemischte Prinzip fort. Es gibt keine separaten Bestandsflügel oder Büchergestelle. Jeder freie Band hat einen festen Platz. Die Suche führt direkt davor; Durchgänge führen zu den nächsten Galerien.
 
-Die Darstellung verwendet 144 wiederverwendbare Buchobjekte für die jeweils besuchte Galerie. Der vollständige Bestand bleibt fest zugeordnet, während nur die sichtbare Galerie ihre Buchtexturen lädt. Das spart Speicher, ohne Werke wegzulassen.
+Die Darstellung verwendet 1.188 wiederverwendbare Buchobjekte für die jeweils besuchte Galerie. Der vollständige Bestand bleibt fest zugeordnet, während nur die sichtbare Galerie ihre Buchtexturen lädt. Das spart Speicher, ohne Werke wegzulassen.
 
 ## Selbstständig gespeicherte Originale
 
 20 Originaldateien der bereitgestellten Materialseite wurden separat heruntergeladen, geprüft und unter `assets/originals/` gespeichert. PDFs wurden ausgelesen; vier Word-Dateien haben zusätzlich eigenständige HTML-Lesefassungen. Zwei Audiodateien sind in den passenden Ressourcenbüchern abspielbar. Hashes, Dateigrössen und PDF-Seitenzahlen stehen in `assets/originals/manifest.json`. Der alte Warum-Lesen-Gesamtband wird durch die 25 Einzelbeiträge ersetzt. Alle 40 Quellen besitzen einen direkten lokalen Originalzugang; es gibt keine Links zur ursprünglichen Materialseite.
 
 Google Books stellt keinen abrufbaren Gesamtkatalog bereit. Einzelne freie Bücher bieten die Suche nach weiteren Ausgaben dort an. `scripts/update-gutenberg.py` aktualisiert die öffentlichen Titel-, Autoren- und Link-Metadaten; Gutenberg-Volltexte werden nicht gespiegelt.
+
+Jede der sechs Wände enthält echte herausziehbare Bände (neun Reihen, mit freien Durchgängen). Die bisherige dekorative Buchtextur auf dem begehbaren Stockwerk wurde entfernt. Zusätzliche Exemplare füllen verbleibende Regalplätze; jedes der 13.138 katalogisierten Werke hat mindestens einen Platz. Foliants Auswahl bewertet den vollständigen Katalog nach Titelmerkmalen, Autorvorlieben und Rückmeldungen. Handverlesene Werkimpulse und Vorschläge anhand von Metadaten sind kenntlich gemacht.
