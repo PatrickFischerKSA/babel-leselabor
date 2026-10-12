@@ -1,6 +1,9 @@
 'use strict';
 let gutenbergCatalog=null;
 const loadGutenberg=()=>gutenbergCatalog||(gutenbergCatalog=fetch('assets/gutenberg-catalog.json').then(r=>{if(!r.ok)throw Error('Katalog nicht erreichbar');return r.json()}));
+const libraryCollator=new Intl.Collator('de',{sensitivity:'base',numeric:true});
+function librarySurname(author){const name=String(author||'Unbekannt').trim();if(name.includes(','))return name.split(',')[0].trim();const words=name.split(/\s+/);return words.at(-1)||'Unbekannt';}
+function libraryBookOrder(a,b){return libraryCollator.compare(librarySurname(a.author),librarySurname(b.author))||libraryCollator.compare(a.author,b.author)||libraryCollator.compare(a.title,b.title);}
 let maturaCatalog=null;
 async function loadMatura(){if(!maturaCatalog)maturaCatalog=await fetch('assets/matura-catalog.json').then(r=>{if(!r.ok)throw Error('Maturwahlliste nicht erreichbar');return r.json()});return maturaCatalog;}
 const maturaResearch={
