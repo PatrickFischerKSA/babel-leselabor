@@ -1,0 +1,2573 @@
+{
+  "documentTitle": "Werk-Wahlliste für die mündliche Maturaprüfung 2026",
+  "filenameYear": 2027,
+  "requirement": "Mindestens einer der epischen Texte muss ein mit (R) bezeichneter Text sein.",
+  "books": [
+    {
+      "id": "matura-1",
+      "author": "Bräker",
+      "title": "Der arme Mann im Tockenburg",
+      "epoch": "1 Aufklärung",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-2",
+      "author": "Lessing",
+      "title": "Minna von Barnhelm",
+      "epoch": "1 Aufklärung",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-3",
+      "author": "Lessing",
+      "title": "Nathan der Weise",
+      "epoch": "1 Aufklärung",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-4",
+      "author": "Goethe",
+      "title": "Die Leiden des jungen Werthers",
+      "epoch": "2 Empfindsamkeit, Sturm und Drang",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-5",
+      "author": "J. Lenz",
+      "title": "Der Waldbruder",
+      "epoch": "2 Empfindsamkeit, Sturm und Drang",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-6",
+      "author": "Karl Philipp Moritz",
+      "title": "Anton Reiser",
+      "epoch": "2 Empfindsamkeit, Sturm und Drang",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-7",
+      "author": "Sophie von La Roche",
+      "title": "Geschichte des Fräuleins von Sternheim",
+      "epoch": "2 Empfindsamkeit, Sturm und Drang",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-8",
+      "author": "Schiller",
+      "title": "Der Verbrecher aus verlorener Ehre",
+      "epoch": "2 Empfindsamkeit, Sturm und Drang",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-9",
+      "author": "Goethe",
+      "title": "Götz von Berlichingen",
+      "epoch": "2 Empfindsamkeit, Sturm und Drang",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-10",
+      "author": "J. Lenz",
+      "title": "Der Hofmeister",
+      "epoch": "2 Empfindsamkeit, Sturm und Drang",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-11",
+      "author": "J. Lenz",
+      "title": "Die Soldaten",
+      "epoch": "2 Empfindsamkeit, Sturm und Drang",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-12",
+      "author": "Schiller",
+      "title": "Die Räuber",
+      "epoch": "2 Empfindsamkeit, Sturm und Drang",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-13",
+      "author": "Schiller",
+      "title": "Die Verschwörung des Fiesco zu Genua",
+      "epoch": "2 Empfindsamkeit, Sturm und Drang",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-14",
+      "author": "Schiller",
+      "title": "Kabale und Liebe",
+      "epoch": "2 Empfindsamkeit, Sturm und Drang",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-15",
+      "author": "Goethe",
+      "title": "Wilhelm Meisters Lehrjahre",
+      "epoch": "3 Klassik",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-16",
+      "author": "Goethe",
+      "title": "Faust I",
+      "epoch": "3 Klassik",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-17",
+      "author": "Hölderlin",
+      "title": "Der Tod des Empedokles",
+      "epoch": "3 Klassik",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-18",
+      "author": "Schiller",
+      "title": "Don Karlos",
+      "epoch": "3 Klassik",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-19",
+      "author": "Schiller",
+      "title": "Maria Stuart",
+      "epoch": "3 Klassik",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-20",
+      "author": "Schiller",
+      "title": "Wilhelm Tell",
+      "epoch": "3 Klassik",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-21",
+      "author": "Eichendorff",
+      "title": "Aus dem Leben eines Taugenichts",
+      "epoch": "4 Romantik",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-22",
+      "author": "Hoffmann",
+      "title": "Der goldne Topf",
+      "epoch": "4 Romantik",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-23",
+      "author": "E. T. A. Hoffmann",
+      "title": "Der Sandmann",
+      "epoch": "4 Romantik",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-24",
+      "author": "Kleist",
+      "title": "Das Erdbeben in Chili",
+      "epoch": "4 Romantik",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-25",
+      "author": "Kleist",
+      "title": "Die Marquise von O...",
+      "epoch": "4 Romantik",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-26",
+      "author": "Kleist",
+      "title": "Michael Kohlhaas",
+      "epoch": "4 Romantik",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-27",
+      "author": "de la Motte-Fouqué",
+      "title": "Undine",
+      "epoch": "4 Romantik",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-28",
+      "author": "Novalis",
+      "title": "Die Lehrlinge von Sais",
+      "epoch": "4 Romantik",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-29",
+      "author": "Novalis",
+      "title": "Heinrich von Ofterdingen",
+      "epoch": "4 Romantik",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-30",
+      "author": "Kleist",
+      "title": "Amphitryon",
+      "epoch": "4 Romantik",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-31",
+      "author": "Kleist",
+      "title": "Der zerbrochene Krug",
+      "epoch": "4 Romantik",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-32",
+      "author": "Tieck",
+      "title": "Der gestiefelte Kater",
+      "epoch": "4 Romantik",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-33",
+      "author": "Droste-Hülshoff",
+      "title": "Die Judenbuche",
+      "epoch": "5 Biedermeier, Junges Deutschland",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-34",
+      "author": "Gotthelf",
+      "title": "Die schwarze Spinne",
+      "epoch": "5 Biedermeier, Junges Deutschland",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-35",
+      "author": "Heine",
+      "title": "Deutschland. Ein Wintermärchen",
+      "epoch": "5 Biedermeier, Junges Deutschland",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-36",
+      "author": "Heine",
+      "title": "Die Harzreise",
+      "epoch": "5 Biedermeier, Junges Deutschland",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-37",
+      "author": "Fanny Lewald",
+      "title": "Jenny",
+      "epoch": "5 Biedermeier, Junges Deutschland",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-38",
+      "author": "Büchner",
+      "title": "Dantons Tod",
+      "epoch": "5 Biedermeier, Junges Deutschland",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-39",
+      "author": "Büchner",
+      "title": "Leonce und Lena",
+      "epoch": "5 Biedermeier, Junges Deutschland",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-40",
+      "author": "Büchner",
+      "title": "Woyzeck",
+      "epoch": "5 Biedermeier, Junges Deutschland",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-41",
+      "author": "Grillparzer",
+      "title": "Die Ahnfrau",
+      "epoch": "5 Biedermeier, Junges Deutschland",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-42",
+      "author": "Fontane",
+      "title": "Effi Briest",
+      "epoch": "6 Poetischer Realismus",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-43",
+      "author": "Fontane",
+      "title": "Irrungen Wirrungen",
+      "epoch": "6 Poetischer Realismus",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-44",
+      "author": "Fontane",
+      "title": "Stine",
+      "epoch": "6 Poetischer Realismus",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-45",
+      "author": "Keller",
+      "title": "Kleider machen Leute",
+      "epoch": "6 Poetischer Realismus",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-46",
+      "author": "Keller",
+      "title": "Pankraz der Schmoller",
+      "epoch": "6 Poetischer Realismus",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-47",
+      "author": "Keller",
+      "title": "Romeo und Julia auf dem Dorfe",
+      "epoch": "6 Poetischer Realismus",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-48",
+      "author": "Meyer",
+      "title": "Das Amulett",
+      "epoch": "6 Poetischer Realismus",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-49",
+      "author": "Johanna Spyri",
+      "title": "Heidi",
+      "epoch": "6 Poetischer Realismus",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-50",
+      "author": "Storm",
+      "title": "Aquis submersus",
+      "epoch": "6 Poetischer Realismus",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-51",
+      "author": "Storm",
+      "title": "Der Schimmelreiter",
+      "epoch": "6 Poetischer Realismus",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-52",
+      "author": "Hebbel",
+      "title": "Maria Magdalena",
+      "epoch": "6 Poetischer Realismus",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-53",
+      "author": "Karl Emil Franzos",
+      "title": "Der Pojaz",
+      "epoch": "7 Aufbruch der Moderne (= Naturalismus, Impressionismus, Symbolismus, Expressionismus, Dadaismus)",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-54",
+      "author": "Kafka",
+      "title": "Der Process",
+      "epoch": "7 Aufbruch der Moderne (= Naturalismus, Impressionismus, Symbolismus, Expressionismus, Dadaismus)",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-55",
+      "author": "Th. Mann",
+      "title": "Der Tod in Venedig",
+      "epoch": "7 Aufbruch der Moderne (= Naturalismus, Impressionismus, Symbolismus, Expressionismus, Dadaismus)",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-56",
+      "author": "H. Mann",
+      "title": "Professor Unrat",
+      "epoch": "7 Aufbruch der Moderne (= Naturalismus, Impressionismus, Symbolismus, Expressionismus, Dadaismus)",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-57",
+      "author": "Musil",
+      "title": "Die Verwirrungen des Zöglings Törless",
+      "epoch": "7 Aufbruch der Moderne (= Naturalismus, Impressionismus, Symbolismus, Expressionismus, Dadaismus)",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-58",
+      "author": "Gabriele Reuter",
+      "title": "Aus guter Familie",
+      "epoch": "7 Aufbruch der Moderne (= Naturalismus, Impressionismus, Symbolismus, Expressionismus, Dadaismus)",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-59",
+      "author": "Gabriele Reuter",
+      "title": "Das Tränenhaus",
+      "epoch": "7 Aufbruch der Moderne (= Naturalismus, Impressionismus, Symbolismus, Expressionismus, Dadaismus)",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-60",
+      "author": "Rilke",
+      "title": "Die Aufzeichnungen des Malte Laurids Brigge",
+      "epoch": "7 Aufbruch der Moderne (= Naturalismus, Impressionismus, Symbolismus, Expressionismus, Dadaismus)",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-61",
+      "author": "Schnitzler",
+      "title": "Fräulein Else",
+      "epoch": "7 Aufbruch der Moderne (= Naturalismus, Impressionismus, Symbolismus, Expressionismus, Dadaismus)",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-62",
+      "author": "Schnitzler",
+      "title": "Traumnovelle",
+      "epoch": "7 Aufbruch der Moderne (= Naturalismus, Impressionismus, Symbolismus, Expressionismus, Dadaismus)",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-63",
+      "author": "R. Walser",
+      "title": "Der Gehülfe",
+      "epoch": "7 Aufbruch der Moderne (= Naturalismus, Impressionismus, Symbolismus, Expressionismus, Dadaismus)",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-64",
+      "author": "R. Walser",
+      "title": "Geschwister Tanner",
+      "epoch": "7 Aufbruch der Moderne (= Naturalismus, Impressionismus, Symbolismus, Expressionismus, Dadaismus)",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-65",
+      "author": "Hauptmann",
+      "title": "Die Weber",
+      "epoch": "7 Aufbruch der Moderne (= Naturalismus, Impressionismus, Symbolismus, Expressionismus, Dadaismus)",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-66",
+      "author": "Ibsen",
+      "title": "Ein Volksfeind",
+      "epoch": "7 Aufbruch der Moderne (= Naturalismus, Impressionismus, Symbolismus, Expressionismus, Dadaismus)",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-67",
+      "author": "Kaiser",
+      "title": "Die Bürger von Calais",
+      "epoch": "7 Aufbruch der Moderne (= Naturalismus, Impressionismus, Symbolismus, Expressionismus, Dadaismus)",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-68",
+      "author": "Wedekind",
+      "title": "Frühlings Erwachen",
+      "epoch": "7 Aufbruch der Moderne (= Naturalismus, Impressionismus, Symbolismus, Expressionismus, Dadaismus)",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-69",
+      "author": "Hermann Broch",
+      "title": "Die Schlafwandler",
+      "epoch": "8 20. Jahrhundert I (ca. 1920 bis 1945)",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-70",
+      "author": "Döblin",
+      "title": "Berlin Alexanderplatz",
+      "epoch": "8 20. Jahrhundert I (ca. 1920 bis 1945)",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-71",
+      "author": "Friedrich Glauser",
+      "title": "Der Tee der drei alten Damen",
+      "epoch": "8 20. Jahrhundert I (ca. 1920 bis 1945)",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-72",
+      "author": "Glauser",
+      "title": "Matto regiert",
+      "epoch": "8 20. Jahrhundert I (ca. 1920 bis 1945)",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-73",
+      "author": "Hesse",
+      "title": "Der Steppenwolf",
+      "epoch": "8 20. Jahrhundert I (ca. 1920 bis 1945)",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-74",
+      "author": "Hermann Hesse",
+      "title": "Siddhartha",
+      "epoch": "8 20. Jahrhundert I (ca. 1920 bis 1945)",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-75",
+      "author": "Horváth",
+      "title": "Jugend ohne Gott",
+      "epoch": "8 20. Jahrhundert I (ca. 1920 bis 1945)",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-76",
+      "author": "Th. Mann",
+      "title": "Bekenntnisse des Hochstaplers Felix Krull",
+      "epoch": "8 20. Jahrhundert I (ca. 1920 bis 1945)",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-77",
+      "author": "K. Mann",
+      "title": "Mephisto",
+      "epoch": "8 20. Jahrhundert I (ca. 1920 bis 1945)",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-78",
+      "author": "Robert Musil",
+      "title": "Der Mann ohne Eigenschaften",
+      "epoch": "8 20. Jahrhundert I (ca. 1920 bis 1945)",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-79",
+      "author": "Erich Maria Remarque",
+      "title": "Arc de Triomphe",
+      "epoch": "8 20. Jahrhundert I (ca. 1920 bis 1945)",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-80",
+      "author": "Roth",
+      "title": "Hiob",
+      "epoch": "8 20. Jahrhundert I (ca. 1920 bis 1945)",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-81",
+      "author": "Roth",
+      "title": "Radetzkymarsch",
+      "epoch": "8 20. Jahrhundert I (ca. 1920 bis 1945)",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-82",
+      "author": "Seghers",
+      "title": "Das siebte Kreuz",
+      "epoch": "8 20. Jahrhundert I (ca. 1920 bis 1945)",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-83",
+      "author": "Gabriele Tergit",
+      "title": "Käsebier erobert den Kurfürstendamm",
+      "epoch": "8 20. Jahrhundert I (ca. 1920 bis 1945)",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-84",
+      "author": "Franz Werfel",
+      "title": "Die vierzig Tage des Musa Dagh",
+      "epoch": "8 20. Jahrhundert I (ca. 1920 bis 1945)",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-85",
+      "author": "Stefan Zweig",
+      "title": "Der Amokläufer",
+      "epoch": "8 20. Jahrhundert I (ca. 1920 bis 1945)",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-86",
+      "author": "Stefan Zweig",
+      "title": "Der Zwang",
+      "epoch": "8 20. Jahrhundert I (ca. 1920 bis 1945)",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-87",
+      "author": "Brecht",
+      "title": "Die Dreigroschenoper",
+      "epoch": "8 20. Jahrhundert I (ca. 1920 bis 1945)",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-88",
+      "author": "Brecht",
+      "title": "Furcht und Elend des Dritten Reiches",
+      "epoch": "8 20. Jahrhundert I (ca. 1920 bis 1945)",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-89",
+      "author": "Brecht",
+      "title": "Leben des Galilei",
+      "epoch": "8 20. Jahrhundert I (ca. 1920 bis 1945)",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-90",
+      "author": "Horváth",
+      "title": "Geschichten aus dem Wiener Wald",
+      "epoch": "8 20. Jahrhundert I (ca. 1920 bis 1945)",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-91",
+      "author": "Florentine Anders",
+      "title": "Die Allee",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-92",
+      "author": "Fatma Aydemir",
+      "title": "Dschinns",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-93",
+      "author": "Bachmann",
+      "title": "Malina",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-94",
+      "author": "Lukas Bärfuss",
+      "title": "Die Krume Brot",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-95",
+      "author": "Lukas Bärfuss",
+      "title": "Hagard",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-96",
+      "author": "Bärfuss",
+      "title": "Hundert Tage",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-97",
+      "author": "Lukas Bärfuss",
+      "title": "Koala",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-98",
+      "author": "Shida Bazyar",
+      "title": "Drei Kameradinnen",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-99",
+      "author": "Ulrich Becher",
+      "title": "Murmeljagd",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-100",
+      "author": "Becker",
+      "title": "Jakob der Lügner",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-101",
+      "author": "Bernhard",
+      "title": "Wittgensteins Neffe",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-102",
+      "author": "Maxim Biller",
+      "title": "Mama Odessa",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-103",
+      "author": "Heinrich Böll",
+      "title": "Ansichten eines Clowns",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-104",
+      "author": "Böll",
+      "title": "Die verlorene Ehre der Katharina Blum",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-105",
+      "author": "Wolfgang Bortlik",
+      "title": "Blutrhein",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-106",
+      "author": "Wolfgang Bortlik",
+      "title": "Spätfolgen",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-107",
+      "author": "Christine Brand",
+      "title": "Bis er gesteht",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-108",
+      "author": "Hermann Broch",
+      "title": "Die Schuldlosen",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-109",
+      "author": "Thomas Brussig",
+      "title": "Das gibt’s in keinem Russenfilm",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-110",
+      "author": "Johannes Bühler",
+      "title": "Am Fusse der Festung",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-111",
+      "author": "Capus",
+      "title": "Der Fälscher, die Spionin und der Bombenbauer",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-112",
+      "author": "Capus",
+      "title": "Leon und Louise",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-113",
+      "author": "Claude Cueni",
+      "title": "Giganten",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-114",
+      "author": "Claude Cueni",
+      "title": "Script Avenue",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-115",
+      "author": "Laura Cwiertnia",
+      "title": "Auf der Straße heißen wir anders",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-116",
+      "author": "M.R. Dean",
+      "title": "Ein Koffer voller Wünsche",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-117",
+      "author": "Martin R. Dean",
+      "title": "Falsches Quartett",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-118",
+      "author": "Heimito von Doderer",
+      "title": "Die Strudlhofstiege",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-119",
+      "author": "Thea Dorn",
+      "title": "Die Unglückseligen",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-120",
+      "author": "Raphaela Edelbauer",
+      "title": "DAVE",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-121",
+      "author": "Raphaela Edelbauer",
+      "title": "Die Inkommensurablen",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-122",
+      "author": "Kaleb Erdmann",
+      "title": "Die Ausweichschule",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-123",
+      "author": "Jenny Erpenbeck",
+      "title": "Aller Tage Abend",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-124",
+      "author": "Jenny Erpenbeck",
+      "title": "Heimsuchung",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-125",
+      "author": "Urs Faes",
+      "title": "Fahrtenbuch",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-126",
+      "author": "Federspiel",
+      "title": "Die Ballade von der Typhoid Mary",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-127",
+      "author": "Florescu",
+      "title": "Jacob beschliesst zu lieben",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-128",
+      "author": "Franck",
+      "title": "Die Mittagsfrau",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-129",
+      "author": "Frisch",
+      "title": "Homo Faber",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-130",
+      "author": "Frisch",
+      "title": "Mein Name sei Gantenbein",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-131",
+      "author": "Frisch",
+      "title": "Stiller",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-132",
+      "author": "Arno Geiger",
+      "title": "Selbstporträt mit Flusspferd",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-133",
+      "author": "Roman Graf",
+      "title": "Der Niedergang",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-134",
+      "author": "Grass",
+      "title": "Beim Häuten der Zwiebel",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-135",
+      "author": "Grass",
+      "title": "Die Blechtrommel",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-136",
+      "author": "Günter Grass",
+      "title": "Ein weites Feld",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-137",
+      "author": "Grass",
+      "title": "Katz und Maus",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-138",
+      "author": "Olga Grjasnowa",
+      "title": "Der Russe ist einer, der Birken liebt",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-139",
+      "author": "Olga Grjasnowa",
+      "title": "Der verlorene Sohn",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-140",
+      "author": "Volker Hage",
+      "title": "Die freie Liebe",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-141",
+      "author": "Handke",
+      "title": "Die linkshändige Frau",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-142",
+      "author": "Nino Haratischwili",
+      "title": "Das mangelnde Licht",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-143",
+      "author": "Hartmann",
+      "title": "Abschied von Sansibar",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-144",
+      "author": "Hartmann",
+      "title": "Auf beiden Seiten",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-145",
+      "author": "Hartmann",
+      "title": "Die Deutsche im Dorf",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-146",
+      "author": "Hartmann",
+      "title": "Die Frau im Pelz",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-147",
+      "author": "Hartmann",
+      "title": "Die letzte Nacht der alten Zeit",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-148",
+      "author": "Hartmann",
+      "title": "Die Mohrin",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-149",
+      "author": "Hartmann",
+      "title": "Finsteres Glück",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-150",
+      "author": "Hartmann",
+      "title": "Pestalozzis Berg",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-151",
+      "author": "Hartmann",
+      "title": "Räuberleben",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-152",
+      "author": "Hasler",
+      "title": "Anna Göldin. Letzte Hexe",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-153",
+      "author": "Marlene Haushofer",
+      "title": "Die Wand",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-154",
+      "author": "Christoph Hein",
+      "title": "Das Narrenschiff",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-155",
+      "author": "Hein",
+      "title": "Landnahme",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-156",
+      "author": "Christoph Hein",
+      "title": "Trutz",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-157",
+      "author": "Wolfgang Herrndorf",
+      "title": "Tschick",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-158",
+      "author": "André Herzberg",
+      "title": "Alle Nähe fern",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-159",
+      "author": "Lukas Holliger",
+      "title": "Das kürzere Leben des Klaus Halm",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-160",
+      "author": "Beat Hüppin",
+      "title": "Asphalt",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-161",
+      "author": "Yael Inokai",
+      "title": "Die Auster",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-162",
+      "author": "Yael Inokai",
+      "title": "Ein simpler Eingriff",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-163",
+      "author": "Sabrina Janesch",
+      "title": "Sibir",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-164",
+      "author": "Flurin Jecker",
+      "title": "Lanz",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-165",
+      "author": "Uwe Johnson",
+      "title": "Jahrestage",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-166",
+      "author": "Kehlmann",
+      "title": "Die Vermessung der Welt",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-167",
+      "author": "Daniel Kehlmann",
+      "title": "Du hättest gehen sollen",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-168",
+      "author": "Kehlmann",
+      "title": "Ruhm",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-169",
+      "author": "Daniel Kehlmann",
+      "title": "Tyll",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-170",
+      "author": "Walter Kempowski",
+      "title": "Alles umsonst",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-171",
+      "author": "Julie von Kessel",
+      "title": "Die andern sind das weite Meer",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-172",
+      "author": "Behzad Karim Khani",
+      "title": "Hund, Wolf, Schakal",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-173",
+      "author": "Marc-Uwe Kling",
+      "title": "QualityLand",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-174",
+      "author": "Marc-Uwe Kling",
+      "title": "QualityLand 2.0",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-175",
+      "author": "Marc-Uwe Kling",
+      "title": "VIEWS",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-176",
+      "author": "Doris Knecht",
+      "title": "Besser",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-177",
+      "author": "Doris Knecht",
+      "title": "Wald",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-178",
+      "author": "Seraina Kobler",
+      "title": "Nachtschein",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-179",
+      "author": "Seraina Kobler",
+      "title": "Tal der Schwalben",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-180",
+      "author": "Michael Köhlmeier",
+      "title": "Abendland",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-181",
+      "author": "Michael Köhlmeier",
+      "title": "Bruder und Schwester Lenobel",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-182",
+      "author": "Michael Köhlmeier",
+      "title": "Die Abenteuer des Joel Spazierer",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-183",
+      "author": "Michael Köhlmeier",
+      "title": "Die Verdorbenen",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-184",
+      "author": "Michael Köhlmeier",
+      "title": "Frankie",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-185",
+      "author": "Michael Köhlmeier",
+      "title": "Idylle mit ertrinkendem Hund",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-186",
+      "author": "Michael Köhlmeier",
+      "title": "Madalyn",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-187",
+      "author": "Michael Köhlmeier",
+      "title": "Sunrise",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-188",
+      "author": "Michael Köhlmeier",
+      "title": "Zwei Herren am Strand",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-189",
+      "author": "Steffen Kopetzky",
+      "title": "Atom",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-190",
+      "author": "Steffen Kopetzky",
+      "title": "Damenopfer",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-191",
+      "author": "Steffen Kopetzky",
+      "title": "Grand Tour",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-192",
+      "author": "Steffen Kopetzky",
+      "title": "Risiko",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-193",
+      "author": "Christoph Kramer",
+      "title": "Das Leben fing im Sommer an",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-194",
+      "author": "Max Küng",
+      "title": "Wir kennen uns ja kaum",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-195",
+      "author": "Meral Kureyshi",
+      "title": "Elefanten im Garten",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-196",
+      "author": "Volker Kutscher",
+      "title": "Lunapark",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-197",
+      "author": "Volker Kutscher",
+      "title": "Märzgefallene",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-198",
+      "author": "Volker Kutscher",
+      "title": "Olympia",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-199",
+      "author": "Volker Kutscher",
+      "title": "Westend",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-200",
+      "author": "Simone Lappert",
+      "title": "Der Sprung",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-201",
+      "author": "Rolf Lappert",
+      "title": "Über den Winter",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-202",
+      "author": "Siegfried Lenz",
+      "title": "Deutschstunde",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-203",
+      "author": "Charles Lewinsky",
+      "title": "Andersen",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-204",
+      "author": "Charles Lewinsky",
+      "title": "Der Halbbart",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-205",
+      "author": "Charles Lewinsky",
+      "title": "Doppelpass",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-206",
+      "author": "Charles Lewinsky",
+      "title": "Eine andere Geschichte",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-207",
+      "author": "Charles Lewinsky",
+      "title": "Rauch und Schall",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-208",
+      "author": "Charles Lewinsky",
+      "title": "Sein Sohn",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-209",
+      "author": "Charles Lewinsky",
+      "title": "Täuschend echt",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-210",
+      "author": "Kim de l’Horizon",
+      "title": "Blutbuch",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-211",
+      "author": "Loher",
+      "title": "Bugatti taucht auf",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-212",
+      "author": "Joachim Lottmann",
+      "title": "„Alles Lüge\"",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-213",
+      "author": "Jonas Lüscher",
+      "title": "Kraft",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-214",
+      "author": "Jonas Lüscher",
+      "title": "Verzauberte Vorbestimmung",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-215",
+      "author": "Gila Lustiger",
+      "title": "Die Schuld der Anderen",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-216",
+      "author": "Lukas Maisel",
+      "title": "Wie ein Mann nichts tat und so die Welt rettete",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-217",
+      "author": "Thomas Mann",
+      "title": "Doktor Faustus",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-218",
+      "author": "Maron",
+      "title": "Flugasche",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-219",
+      "author": "Simone Meier",
+      "title": "Fleisch",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-220",
+      "author": "Thomas Melle",
+      "title": "Haus zur Sonne",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-221",
+      "author": "Robert Menasse",
+      "title": "Die Erweiterung",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-222",
+      "author": "Robert Menasse",
+      "title": "Die Hauptstadt",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-223",
+      "author": "Robert Menasse",
+      "title": "Die Vertreibung aus der Hölle",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-224",
+      "author": "Eva Menasse",
+      "title": "Dunkelblum",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-225",
+      "author": "Eva Menasse",
+      "title": "Vienna",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-226",
+      "author": "Clemens Meyer",
+      "title": "Die Projektoren",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-227",
+      "author": "Joachim Meyerhoff",
+      "title": "Ach, diese Lücke, diese entsetzliche Lücke",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-228",
+      "author": "Michelle Minelli",
+      "title": "Die Verlorene",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-229",
+      "author": "Terezia Mora",
+      "title": "Das Ungeheuer",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-230",
+      "author": "Herta Müller",
+      "title": "Atemschaukel",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-231",
+      "author": "Müller",
+      "title": "Atemwende",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-232",
+      "author": "Titus Müller",
+      "title": "Das zweite Geheimnis",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-233",
+      "author": "Titus Müller",
+      "title": "Der letzte Auftrag",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-234",
+      "author": "Titus Müller",
+      "title": "Der Tag X",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-235",
+      "author": "Titus Müller",
+      "title": "Die fremde Spionin",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-236",
+      "author": "Herta Müller",
+      "title": "Herztier",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-237",
+      "author": "Viktor Niedermayer",
+      "title": "Finsterland",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-238",
+      "author": "Philipp Oehmke",
+      "title": "Schönwald",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-239",
+      "author": "Alexander Osang",
+      "title": "Comeback",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-240",
+      "author": "Katja Petrowskaja",
+      "title": "Vielleicht Esther",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-241",
+      "author": "Andreas Pflüger",
+      "title": "Ritchie Girl",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-242",
+      "author": "Andreas Pflüger",
+      "title": "Wie Sterben geht",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-243",
+      "author": "Plenzdorf",
+      "title": "Die neuen Leiden des jungen W.",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-244",
+      "author": "Leif Randt",
+      "title": "Planet Magnon",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-245",
+      "author": "Regener",
+      "title": "Herr Lehmann",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-246",
+      "author": "Linus Reichlin",
+      "title": "In einem anderen Leben",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-247",
+      "author": "Erich Maria Remarque",
+      "title": "Die Nacht von Lissabon",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-248",
+      "author": "Peter Richter",
+      "title": "89/90",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-249",
+      "author": "Lukas Rietzschel",
+      "title": "Raumfahrer",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-250",
+      "author": "Ralf Rothmann",
+      "title": "Im Frühling sterben",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-251",
+      "author": "Eugen Ruge",
+      "title": "Pompeji oder Die fünf Reden des Jowna",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-252",
+      "author": "Werner Ryser",
+      "title": "Walliser Totentanz",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-253",
+      "author": "Tonio Schachinger",
+      "title": "Echtzeitalter",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-254",
+      "author": "Schlink",
+      "title": "Der Vorleser",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-255",
+      "author": "Schmid",
+      "title": "Der Zar von Brooklyn",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-256",
+      "author": "Schneider",
+      "title": "Schlafes Bruder",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-257",
+      "author": "Margrit Schriber",
+      "title": "Schwestern wie Tag und Nacht",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-258",
+      "author": "Alena Schröder",
+      "title": "Bei euch ist es immer so unheimlich still",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-259",
+      "author": "Ulrike Schweikert",
+      "title": "Die Charité",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-260",
+      "author": "Schweikert",
+      "title": "Ohio",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-261",
+      "author": "W. G. Sebald",
+      "title": "Austerlitz",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-262",
+      "author": "Robert Seethaler",
+      "title": "Die Straße",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-263",
+      "author": "Lutz Seiler",
+      "title": "Kruso",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-264",
+      "author": "Clemens J. Setz",
+      "title": "Monde vor der Landung",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-265",
+      "author": "Saša Stanišić",
+      "title": "Herkunft",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-266",
+      "author": "Sasa Stanisic",
+      "title": "Vor dem Fest",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-267",
+      "author": "Verena Stefan",
+      "title": "Die Befragung der Zeit",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-268",
+      "author": "Antje Rávik Strubel",
+      "title": "Der Einfluss der Fasane",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-269",
+      "author": "Süskind",
+      "title": "Das Parfum",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-270",
+      "author": "Martin Suter",
+      "title": "Elefant",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-271",
+      "author": "Martin Suter",
+      "title": "Montechristo",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-272",
+      "author": "Gabriele Tergit",
+      "title": "Effingers",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-273",
+      "author": "Timm",
+      "title": "Johannisnacht",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-274",
+      "author": "Ilija Trojanow",
+      "title": "Tausend und ein Morgen",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-275",
+      "author": "Valery Tscheplanowa",
+      "title": "Das Pferd im Brunnen",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-276",
+      "author": "Vanderbeke",
+      "title": "Das Muschelessen",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-277",
+      "author": "Caroline Wahl",
+      "title": "22 Bahnen",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-278",
+      "author": "Martin Walser",
+      "title": "Statt etwas oder der letzte Rank",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-279",
+      "author": "Walter",
+      "title": "Zeit des Fasans",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-280",
+      "author": "Benedict Wells",
+      "title": "Becks letzter Sommer",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-281",
+      "author": "Benedict Wells",
+      "title": "Das Ende der Einsamkeit",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-282",
+      "author": "M. Werner",
+      "title": "Der ägyptische Heinrich",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-283",
+      "author": "Widmer",
+      "title": "Im Kongo",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-284",
+      "author": "Chr. Wolf",
+      "title": "Nachdenken über Christa T.",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-285",
+      "author": "Christine Wunnicke",
+      "title": "Die Dame mit der bemalten Hand",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-286",
+      "author": "Takis Würger",
+      "title": "Für Polina",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-287",
+      "author": "Takis Würger",
+      "title": "Stella",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": true
+    },
+    {
+      "id": "matura-288",
+      "author": "Juli Zeh",
+      "title": "Leere Herzen",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-289",
+      "author": "Juli Zeh",
+      "title": "Spieltrieb",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-290",
+      "author": "Juli Zeh",
+      "title": "Unterleuten",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-291",
+      "author": "Peter Zeindler",
+      "title": "Die weisse Madonna",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-292",
+      "author": "Frédéric Zwicker",
+      "title": "Hier können Sie im Kreis gehen",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Epik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-293",
+      "author": "Bärfuss",
+      "title": "Alice Reise in die Schweiz",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-294",
+      "author": "Bärfuss",
+      "title": "Zwanzigtausend Seiten",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-295",
+      "author": "W. Bauer",
+      "title": "Magic Afternoon",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-296",
+      "author": "Bauersima",
+      "title": "norway.today",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-297",
+      "author": "Borchert",
+      "title": "Draussen vor der Tür (Theaterfassung)",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-298",
+      "author": "Dürrenmatt",
+      "title": "Der Besuch der alten Dame",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-299",
+      "author": "Dürrenmatt",
+      "title": "Die Physiker",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-300",
+      "author": "Eich",
+      "title": "Träume (Hörspiel)",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-301",
+      "author": "Frisch",
+      "title": "Biographie. Ein Spiel",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-302",
+      "author": "Janjic",
+      "title": "Gelbe Tage",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-303",
+      "author": "Daniel Kehlmann",
+      "title": "Vier Stücke",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-304",
+      "author": "Kipphardt",
+      "title": "In der Sache J. Robert Oppenheimer",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-305",
+      "author": "Loher",
+      "title": "Adams Geist",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-306",
+      "author": "Loher",
+      "title": "Leviathan",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-307",
+      "author": "Loher",
+      "title": "Olgas Raum",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-308",
+      "author": "Ferdinand von Schirach",
+      "title": "20. Juli",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-309",
+      "author": "Ferdinand von Schirach",
+      "title": "GOTT",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-310",
+      "author": "Ferdinand von Schirach",
+      "title": "Sie sagt. Er sagt.",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-311",
+      "author": "Ferdinand von Schirach",
+      "title": "Terror",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-312",
+      "author": "Laura de Weck",
+      "title": "Lieblingsmenschen",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-313",
+      "author": "Laura de Weck",
+      "title": "SumSum",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-314",
+      "author": "Weiss",
+      "title": "Marat/Sade",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-315",
+      "author": "U. Widmer",
+      "title": "Top Dogs",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Dramatik",
+      "romanMarked": false
+    },
+    {
+      "id": "matura-316",
+      "author": "Zuckmayer",
+      "title": "Des Teufels General",
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "genre": "Dramatik",
+      "romanMarked": false
+    }
+  ],
+  "poetry": [
+    {
+      "epoch": "1 Aufklärung",
+      "authors": "Brockes, Claudius, Gellert"
+    },
+    {
+      "epoch": "2 Empfindsamkeit, Sturm und Drang",
+      "authors": "Goethe, Schiller, J. Lenz, Schubart"
+    },
+    {
+      "epoch": "3 Klassik",
+      "authors": "Goethe, Schiller, Hölderlin"
+    },
+    {
+      "epoch": "4 Romantik",
+      "authors": "u. a. Novalis, Günderrode, Brentano, Chamisso, Eichendorff"
+    },
+    {
+      "epoch": "5 Biedermeier, Junges Deutschland",
+      "authors": "Heine, Droste, Mörike, Lenau"
+    },
+    {
+      "epoch": "6 Poetischer Realismus",
+      "authors": "Keller, Meyer, Storm"
+    },
+    {
+      "epoch": "7 Aufbruch der Moderne (= Naturalismus, Impressionismus, Symbolismus, Expressionismus, Dadaismus)",
+      "authors": "Rilke, Hofmannsthal, George, Morgenstern, Lasker-Schüler, Benn, G. Heym, Trakl, Ball & Arp [Texte von beiden + ev. von weiteren Dadaisten]"
+    },
+    {
+      "epoch": "8 20. Jahrhundert I (ca. 1920 bis 1945)",
+      "authors": "Brecht, Kaléko, Tucholsky, Kästner u. a."
+    },
+    {
+      "epoch": "9 20. Jahrhundert II (ab 1945) und 21. Jahrhundert",
+      "authors": "Kaschnitz, I. Bachmann, Celan, Eich, Krolow, Gwerder, Bobrowski, Lavant, Ausländer, Domin, Fried, Enzensberger, Jandl, K. Marti, Wondratschek, Rühmkorf, Theobaldy, Brinkmann, Kunert, Biermann, Grünbein, Ostermeier, Kling, Urweider — u. a."
+    }
+  ]
+}

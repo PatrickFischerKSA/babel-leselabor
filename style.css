@@ -51,3 +51,5 @@
 .quiz-known{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:8px;margin:14px 0}.quiz-known button{text-align:left;padding:12px}.quiz-known small{display:block;font-size:11px;margin-top:5px}.quiz-known [aria-pressed="true"]{background:#d9b66d;color:#211c13}.reading-quiz input,.reading-quiz select{max-width:100%;width:100%;margin-bottom:12px}.reading-quiz label{display:block;margin-top:12px}
 
 .understanding-bridge{border:2px solid #b39459;padding:16px;margin:20px 0;background:#e5d6ad55}.understanding-bridge li{margin-bottom:18px}.understanding-bridge ol{padding-left:22px}
+
+.matura-planner label{display:block;margin-top:12px}.matura-planner input,.matura-planner select{width:100%;margin-bottom:12px}.matura-planner a{display:block;margin:10px 0}.matura-planner [aria-pressed="true"]{background:#d9b66d;color:#211c13}
