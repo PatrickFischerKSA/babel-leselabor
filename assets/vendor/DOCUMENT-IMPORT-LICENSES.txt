@@ -1,0 +1,11 @@
+PDF.js / pdfjs-dist 6.4.299 (Mozilla), Apache-2.0.
+Official npm package: https://www.npmjs.com/package/pdfjs-dist
+Files: pdfjs/pdf.min.mjs, pdfjs/pdf.worker.min.mjs, pdfjs/cmaps/.
+License: pdfjs/LICENSE; individual cmap license notices are retained.
+
+Mammoth 1.13.0 (Michael Williamson), BSD-2-Clause.
+Official npm package: https://www.npmjs.com/package/mammoth
+File: mammoth/mammoth.browser.min.js, standalone browser build with dependencies.
+License: mammoth/LICENSE. See embedded notices for dependencies.
+
+Parsing files uses local copies of these libraries; document bytes are not uploaded.

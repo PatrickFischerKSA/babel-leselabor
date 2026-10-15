@@ -22,3 +22,11 @@ node tests/foliant-evidence.cjs
 node tests/foliant-salon.cjs
 
 tools/foliant-eval/evidence.html ist ein manueller lokaler Modelltest: acht Fälle, Kafka mit einem zusätzlichen Widerspruch; Temperatur 0,1, höchstens 650 Tokens, WebLLM-JSON-Schema. Nur bestandene Antwortformate gelangen in die nächste Runde. Ergebnisse müssen zusätzlich inhaltlich gelesen werden. Tools und Forschung werden nicht auf GitHub Pages ausgeliefert.
+
+## PDF- und Word-Import
+
+Die Sprechstunde liest PDF mit Textschicht sowie .docx lokal in einem kurzlebigen Web Worker aus. PDF.js 6.4.299 und Mammoth 1.13.0 liegen inklusive Lizenzen unter assets/vendor. Es gibt keinen Upload-Endpunkt. Dateiinhalt gelangt weder in eine Suchabfrage noch zu einem KI-Server. Nur der ausdrücklich übernommene Ausschnitt wird zur Gesprächsgrundlage; er unterliegt demselben Belegabgleich wie eingefügter Text.
+
+Grenzen: 25 MB, höchstens 500 PDF-Seiten und eine Million extrahierte Zeichen. Vorschau vor Übernahme; PDF-Seite wählen oder Stelle markieren. Über 4.500 Zeichen wird die Übernahme abgelehnt, niemals still gekürzt. Word erhält keine erfundene Seitenzählung. Bildscans benötigen vorgängige OCR, altes .doc eine Speicherung als .docx. Spalten, Tabellen, Fußnoten und Zeichenerkennung müssen am Original geprüft werden. Abbrechen/Schließen beendet den Parser-Worker. Kein HTML aus dem Word-Dokument wird gerendert (nur extractRawText).
+
+Browserprüfung: zweiseitige PDF ausgelesen, zweite Seite übernommen; DOCX mit zwei Absätzen ausgelesen, gezielt markierten Satz übernommen; Bild-PDF ohne Textschicht zeigt OCR-Hinweis. Tests: node tests/foliant-import.cjs.
