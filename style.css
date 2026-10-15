@@ -53,3 +53,4 @@
 .understanding-bridge{border:2px solid #b39459;padding:16px;margin:20px 0;background:#e5d6ad55}.understanding-bridge li{margin-bottom:18px}.understanding-bridge ol{padding-left:22px}
 
 .matura-planner label{display:block;margin-top:12px}.matura-planner input,.matura-planner select{width:100%;margin-bottom:12px}.matura-planner a{display:block;margin:10px 0}.matura-planner [aria-pressed="true"]{background:#d9b66d;color:#211c13}
+.daily-reading .calendar-date{font:italic 1.4rem Georgia,serif;border-bottom:2px solid #a48145;padding:.8rem 0;margin-bottom:1.6rem}.daily-reading h3{font-size:2.2rem}.daily-reading blockquote{margin:1.5rem 0;padding:1rem 1.3rem;border-left:4px solid #aa8546;line-height:1.8}.daily-reading label{display:block;margin-top:1.5rem}.daily-reading textarea{width:100%;box-sizing:border-box}.daily-days{display:flex;flex-wrap:wrap;gap:.5rem;margin:1.5rem 0}
