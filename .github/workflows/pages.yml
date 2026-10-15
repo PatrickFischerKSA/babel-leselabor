@@ -23,6 +23,8 @@ jobs:
         run: |
           node tests/foliant-audio.cjs
           node tests/reading-discussion.cjs
+          node tests/foliant-evidence.cjs
+          node tests/foliant-salon.cjs
       - name: Prepare public files only
         run: |
           mkdir _site

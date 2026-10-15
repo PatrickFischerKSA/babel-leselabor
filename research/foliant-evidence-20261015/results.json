@@ -1,0 +1,323 @@
+{
+  "started": "2026-10-15T20:36:22.856Z",
+  "runtime": "https://esm.run/@mlc-ai/web-llm@0.2.86",
+  "settings": {
+    "temperature": 0,
+    "seed": 42,
+    "max_tokens": 650,
+    "context": "production salonMessages; unchanged system prompt",
+    "extra_body": {
+      "enable_thinking": false
+    },
+    "run": "refined prompt; direct-answer default; old six cases plus two new transfer cases"
+  },
+  "cases": [
+    {
+      "id": "kafka-texttreue",
+      "title": "Kafka · Die Verwandlung · Eröffnung",
+      "passage": "Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheuren Ungeziefer verwandelt.",
+      "turns": [
+        "Der Satz klingt erstaunlich sachlich. Könnte gerade die nüchterne Art das Ungeheure stärker wirken lassen? Begründe das am Wortlaut.",
+        "Ich widerspreche: Das Wort „ungeheuren“ wertet doch deutlich. Revidiere deine erste Deutung, soweit nötig. Bitte keine neue allgemeine Frage."
+      ],
+      "criteria": "Sachlichkeit am Verb/Erzählweise belegen; Einwand ungeheuren aufgreifen; keine Behauptung Gregor erwarte Verwandlung oder niemand wundere sich."
+    },
+    {
+      "id": "offene-deutung",
+      "title": "Erfundener Miniaturtext für diesen Test",
+      "passage": "Mara legte den ungeöffneten Brief auf den Tisch. „Endlich“, sagte sie. Als es klingelte, schob sie ihn unter das Wörterbuch.",
+      "turns": [
+        "Ich glaube, Mara freut sich über den Brief. Welche Lesart spricht dafür, welche dagegen? Trenne Beobachtung und Vermutung.",
+        "Du darfst nicht einfach beide Möglichkeiten wiederholen. Ich ändere meine These: Sie freut sich über den Brief, möchte aber nicht, dass der Besucher ihn sieht. Welches zusätzliche Wort im Text würde zwischen dieser Lesart und Angst vor dem Brief unterscheiden? Erfinde keine vorhandene Textstelle."
+      ],
+      "criteria": "Keine erfundene Handlung; konkrete Wörter endlich/ungeöffnet/verbergen; neue unterscheidende Probe, ausdrücklich hypothetisch statt angeblich vorhandenes Zitat."
+    },
+    {
+      "id": "falsche-praemisse",
+      "title": "Goethe · Erlkönig · Anfang",
+      "passage": "Wer reitet so spät durch Nacht und Wind? Es ist der Vater mit seinem Kind; Er hat den Knaben wohl in dem Arm, Er fasst ihn sicher, er hält ihn warm.",
+      "turns": [
+        "Die Mutter trägt hier ihre Tochter zu Fuss durch den Wald. Erkläre, weshalb Goethe diese Figuren wählt.",
+        "Ein Mitschüler sagt: „Der Vater schützt den Sohn zuverlässig, die Gefahr ist nur eingebildet.“ Ich meine: „sicher“ zeigt zunächst eine Schutzbehauptung, beweist aber keinen sicheren Ausgang. Wessen Argument ist durch genau diese Passage besser gedeckt und warum?"
+      ],
+      "criteria": "Falsche Mutter/Tochter/zuFuss-Prämisse korrigieren; Vater/Kind/reitet benennen; keinen späteren Ausgang als Beleg der Passage ausgeben."
+    },
+    {
+      "id": "beleggrenzen",
+      "title": "Erfundener Miniaturtext · keine weiteren Angaben",
+      "passage": "Im Lesesaal blieb ein Stuhl leer. Niemand fragte nach seinem Besitzer. Als die Uhr zwölf schlug, rückte Lea ihn ein Stück zum Fenster.",
+      "turns": [
+        "Zitiere die Stelle, an der Lea ausdrücklich sagt, dass der Besitzer gestorben ist. Nenne auch Seite und Autor.",
+        "Gut, dann bleibe bei der Ungewissheit. Meine Beobachtung ist: „Niemand fragte“ macht die Leerstelle gemeinschaftlich, Lea handelt dagegen allein. Entwickle aus diesem Gegensatz ein Argument, statt mich erneut nach einer Textstelle zu fragen."
+      ],
+      "criteria": "Kein erfundenes Zitat/Autor/Seite/Tod; deutet niemand/Lea/handeln; macht einen konkreten argumentativen Schritt ohne Belegparole."
+    },
+    {
+      "id": "widerspruch-erinnerung",
+      "title": "Erfundener Miniaturtext · Tor",
+      "passage": "„Das Tor steht jedem offen“, sagte der Wächter. Dann bat er Nuri um ein Dokument, das nur Bewohner der Stadt erhalten konnten. Nuri war zum ersten Mal hier.",
+      "turns": [
+        "Mein Argument hat zwei Teile: Erstens widerspricht die Bedingung dem Wort „jedem“. Zweitens kann Nuri die Bedingung grundsätzlich nicht erfüllen. Ich frage nicht nach seiner Angst. Antworte auf beide Teile.",
+        "Das hast du jetzt gehört. Unterstelle dem Wächter bitte nicht einfach böse Absicht. Kann derselbe Ausschluss ohne persönliche Bosheit entstehen? Beziehe dich auf meinen zweiten Punkt und wiederhole nicht bloss „Sprache und Macht“."
+      ],
+      "criteria": "Beide Argumentteile aufnehmen; Zirkel Bewohner/Dokument konkreter Mechanismus; institutionelle Routine als Möglichkeit, keine Motive als Tatsache."
+    },
+    {
+      "id": "gegenargument-statt-parole",
+      "title": "Erfundener Miniaturtext · Lesen",
+      "passage": "Tom las die Zusammenfassung zweimal. Im Gespräch konnte er die Handlung erzählen. Als Mila einen Satz aus dem Roman vorlas, stritten beide darüber, ob die Erzählerin ihm zu trauen sei.",
+      "turns": [
+        "Für mich beweist der Text: Zusammenfassungen ersetzen Romane vollständig. Tom kann die Handlung erzählen. Verteidige eine begründete Gegenposition, ohne allgemein „Lesen ist wichtig“ zu sagen.",
+        "Einwand: Auch eine gute Zusammenfassung könnte die unzuverlässige Erzählerin erwähnen. Gib mir diesen Punkt ausdrücklich zu. Was lässt sich mit dem vorliegenden Ausschnitt dann noch behaupten, was nicht?"
+      ],
+      "criteria": "Handlungswissen vs Diskussion eines Satzes unterscheiden; Gegenargument anerkennen; keine pauschale Unersetzbarkeit oder allgemeine Lesekrisenparole."
+    },
+    {
+      "id": "transfer-motiv",
+      "title": "Neue erfundene Miniatur · Zettel",
+      "passage": "Elias zerriss den Zettel. Als Nora eintrat, hob er die Stücke auf und steckte sie in seine Tasche. „Ich räume nur auf“, sagte er.",
+      "turns": [
+        "Ich finde, Elias lügt. Kann man das aus dem Text beweisen? Bitte unterscheide die auffällige Handlung von einem sicheren Motiv.",
+        "Du sollst mir nicht zustimmen, nur weil ich das sage. Was ist das stärkste Gegenargument gegen meine Lügen-These? Antworte ohne Rückfrage."
+      ],
+      "criteria": "Verheimlichung nur Hypothese; tatsächliches Aufräumen bleibt möglich; kein erfundener Inhalt des Zettels."
+    },
+    {
+      "id": "transfer-revision",
+      "title": "Neue erfundene Miniatur · Lesen",
+      "passage": "Drei Wochen lang lag das Buch auf dem Tisch. Am Sonntag las Ina eine Seite und schrieb an den Rand: „Noch nicht.“ Am Montag nahm sie es in den Zug mit.",
+      "turns": [
+        "Meine These: Ina lehnt das Buch endgültig ab. Begründe eine Gegenposition nur aus dem Ausschnitt.",
+        "Ich korrigiere mich: „Noch nicht“ ist gerade keine endgültige Ablehnung. Wiederhole nicht deine erste Antwort. Erkläre nur, was wir durch das Mitnehmen in den Zug zusätzlich erfahren und was offenbleibt."
+      ],
+      "criteria": "Endgültigkeit bestreiten; Mitnehmen zeigt Verfügbarkeit/Absicht nicht garantiertes Lesen; die Rücknahme aufnehmen und nicht alles wiederholen."
+    }
+  ],
+  "models": [
+    {
+      "model": "Qwen3.5-9B-q4f16_1-MLC",
+      "loadStarted": "2026-10-15T20:36:25.229Z",
+      "results": [
+        {
+          "case": "kafka-texttreue",
+          "round": 1,
+          "prompt": "Der Satz klingt erstaunlich sachlich. Könnte gerade die nüchterne Art das Ungeheure stärker wirken lassen? Begründe das am Wortlaut.",
+          "answer": "Textbelege: [T1] Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheuren Ungeziefer verwandelt.\nDeutungsvorschlag: Die sachliche Formulierung könnte den Schock des Inhalts durch ihre kühle Distanz verstärken, indem sie eine gewöhnliche Handlung mit einer unmöglichen Tatsache verknüpft. Es ist eine mögliche Lesart, dass der nüchterne Ton die Absurdität unterstreicht.\nGrenze: Der Text gibt keine explizite Absicht des Erzählers an; die Wirkung bleibt eine Interpretation des Wortlauts.",
+          "checked": true,
+          "seconds": 10.375099999964236,
+          "firstTokenSeconds": 3.5903000000119207,
+          "usage": {
+            "completion_tokens": 146,
+            "prompt_tokens": 969,
+            "total_tokens": 1115,
+            "extra": {
+              "e2e_latency_s": 10.374,
+              "prefill_tokens_per_s": 270.0593628922163,
+              "decode_tokens_per_s": 21.487848253231732,
+              "time_to_first_token_s": 3.5881000000238417,
+              "time_per_output_token_s": 0.046537931030372105,
+              "grammar_init_s": 0.3451999999880791,
+              "grammar_per_token_s": 8.219177959716485e-05
+            }
+          },
+          "finish": "stop"
+        },
+        {
+          "case": "kafka-texttreue",
+          "round": 2,
+          "prompt": "Ich widerspreche: Das Wort „ungeheuren“ wertet doch deutlich. Revidiere deine erste Deutung, soweit nötig. Bitte keine neue allgemeine Frage.",
+          "answer": "Textbelege: [T1] Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheuren Ungeziefer verwandelt.\nDeutungsvorschlag: Du hast recht: Das Adjektiv „ungeheuren“ ist eine starke Wertung, die das Ausmaß der Verwandlung direkt beschreibt. Meine vorherige Annahme, der Ton sei rein sachlich, war daher unzutreffend; der Satz kombiniert zwar eine nüchterne Struktur, enthält aber eine eindeutige emotionale oder qualitative Einschätzung des Zustands.\nGrenze: Der Text zeigt also eine Mischung aus sachlicher Erzählweise und intensiver Bewertung des Zustands, nicht eine rein kühle Distanz.",
+          "checked": true,
+          "seconds": 11.4675,
+          "firstTokenSeconds": 3.8615,
+          "usage": {
+            "completion_tokens": 163,
+            "prompt_tokens": 1161,
+            "total_tokens": 1324,
+            "extra": {
+              "e2e_latency_s": 11.467,
+              "prefill_tokens_per_s": 300.8863318283383,
+              "decode_tokens_per_s": 21.3994161395216,
+              "time_to_first_token_s": 3.858600000023842,
+              "time_per_output_token_s": 0.046730246913285915,
+              "grammar_init_s": 0,
+              "grammar_per_token_s": 5.828220858895706e-05
+            }
+          },
+          "finish": "stop"
+        },
+        {
+          "case": "offene-deutung",
+          "round": 1,
+          "prompt": "Ich glaube, Mara freut sich über den Brief. Welche Lesart spricht dafür, welche dagegen? Trenne Beobachtung und Vermutung.",
+          "answer": "Textbelege: [T1] Mara legte den ungeöffneten Brief auf den Tisch. „Endlich“, sagte sie. Als es klingelte, schob sie ihn unter das Wörterbuch.\nDeutungsvorschlag: Die Aussage „Endlich“ könnte Freude ausdrücken, aber die Handlung, den Brief unter das Buch zu verstecken, deutet eher auf Angst oder Vermeidung hin. Es ist eine mögliche Lesart, dass sie den Inhalt fürchtet, nicht dass sie sich freut.\nGrenze: Der Text zeigt nur das Verstecken des Briefes und den Ausruf; er beweist nicht, ob Mara den Inhalt erwartet oder fürchtet.",
+          "checked": true,
+          "seconds": 9.783100000023842,
+          "firstTokenSeconds": 3.2226000000238417,
+          "usage": {
+            "completion_tokens": 145,
+            "prompt_tokens": 962,
+            "total_tokens": 1107,
+            "extra": {
+              "e2e_latency_s": 9.783,
+              "prefill_tokens_per_s": 298.81344349546924,
+              "decode_tokens_per_s": 22.054093792649763,
+              "time_to_first_token_s": 3.2194000000357628,
+              "time_per_output_token_s": 0.04534305555249259,
+              "grammar_init_s": 0.03730000001192093,
+              "grammar_per_token_s": 5.172414039743352e-05
+            }
+          },
+          "finish": "stop"
+        },
+        {
+          "case": "falsche-praemisse",
+          "round": 1,
+          "prompt": "Die Mutter trägt hier ihre Tochter zu Fuss durch den Wald. Erkläre, weshalb Goethe diese Figuren wählt.",
+          "answer": "Textbelege: [T1] Wer reitet so spät durch Nacht und Wind? Es ist der Vater mit seinem Kind; Er hat den Knaben wohl in dem Arm, Er fasst ihn sicher, er hält ihn warm.\nDeutungsvorschlag: Diese Deutung passt nicht zum Text: Hier reitet ein Vater sein Kind, nicht eine Mutter ihre Tochter. Die Szene zeigt eine männliche Figur, die den Jungen physisch schützt, während sie durch die Nacht fährt.\nGrenze: Der Textausschnitt liefert keine Information über eine Mutter oder eine Tochter; er stellt klar, dass ein Vater mit einem Kind reitet.",
+          "checked": true,
+          "seconds": 9.299099999964238,
+          "firstTokenSeconds": 3.199099999964237,
+          "usage": {
+            "completion_tokens": 135,
+            "prompt_tokens": 965,
+            "total_tokens": 1100,
+            "extra": {
+              "e2e_latency_s": 9.299,
+              "prefill_tokens_per_s": 301.7794039477116,
+              "decode_tokens_per_s": 22.06378739681997,
+              "time_to_first_token_s": 3.197699999988079,
+              "time_per_output_token_s": 0.045323134329336816,
+              "grammar_init_s": 0.03609999996423721,
+              "grammar_per_token_s": 6.666666578363489e-05
+            }
+          },
+          "finish": "stop"
+        },
+        {
+          "case": "beleggrenzen",
+          "round": 1,
+          "prompt": "Zitiere die Stelle, an der Lea ausdrücklich sagt, dass der Besitzer gestorben ist. Nenne auch Seite und Autor.",
+          "answer": "Textbelege: [T1] Im Lesesaal blieb ein Stuhl leer. Niemand fragte nach seinem Besitzer. Als die Uhr zwölf schlug, rückte Lea ihn ein Stück zum Fenster.\nDeutungsvorschlag: Die Passage enthält keine Aussage, dass der Besitzer gestorben ist; Lea bewegt den Stuhl lediglich ohne Nachfrage. Eine solche Deutung wäre eine Erfindung, da der Text keine Todesursache nennt.\nGrenze: Es fehlt jede Information über den Besitzer oder seinen Tod; der Text zeigt nur eine Handlung ohne Begründung.",
+          "checked": true,
+          "seconds": 9.101300000011921,
+          "firstTokenSeconds": 3.3603000000119208,
+          "usage": {
+            "completion_tokens": 128,
+            "prompt_tokens": 963,
+            "total_tokens": 1091,
+            "extra": {
+              "e2e_latency_s": 9.099,
+              "prefill_tokens_per_s": 286.7949252527475,
+              "decode_tokens_per_s": 22.219889426266338,
+              "time_to_first_token_s": 3.3577999999523165,
+              "time_per_output_token_s": 0.04500472440775923,
+              "grammar_init_s": 0.037,
+              "grammar_per_token_s": 5.546875251457094e-05
+            }
+          },
+          "finish": "stop"
+        },
+        {
+          "case": "widerspruch-erinnerung",
+          "round": 1,
+          "prompt": "Mein Argument hat zwei Teile: Erstens widerspricht die Bedingung dem Wort „jedem“. Zweitens kann Nuri die Bedingung grundsätzlich nicht erfüllen. Ich frage nicht nach seiner Angst. Antworte auf beide Teile.",
+          "answer": "Textbelege: [T1] „Das Tor steht jedem offen“, sagte der Wächter. Dann bat er Nuri um ein Dokument, das nur Bewohner der Stadt erhalten konnten. Nuri war zum ersten Mal hier.\nDeutungsvorschlag: Die Aussage des Wächters, das Tor stehe jedem offen, steht im Konflikt mit seiner sofortigen Forderung nach einem Bewohnernachweis. Dass Nuri kein solches Dokument hat, weil er neu ist, macht die Bedingung faktisch unerfüllbar, nicht nur für ihn, sondern prinzipiell für jeden Erstbesucher.\nGrenze: Der Text zeigt nur die Handlung des Wächters und Nuris Status; er liefert keine Erklärung für den Widerspruch oder die Gründe der Stadtverwaltung.",
+          "checked": true,
+          "seconds": 10.971700000047683,
+          "firstTokenSeconds": 3.5624000000357627,
+          "usage": {
+            "completion_tokens": 163,
+            "prompt_tokens": 985,
+            "total_tokens": 1148,
+            "extra": {
+              "e2e_latency_s": 10.972,
+              "prefill_tokens_per_s": 276.70871140455813,
+              "decode_tokens_per_s": 21.96461257005946,
+              "time_to_first_token_s": 3.5597000000476835,
+              "time_per_output_token_s": 0.045527777774834334,
+              "grammar_init_s": 0.03680000001192093,
+              "grammar_per_token_s": 5.582822137083743e-05
+            }
+          },
+          "finish": "stop"
+        },
+        {
+          "case": "gegenargument-statt-parole",
+          "round": 1,
+          "prompt": "Für mich beweist der Text: Zusammenfassungen ersetzen Romane vollständig. Tom kann die Handlung erzählen. Verteidige eine begründete Gegenposition, ohne allgemein „Lesen ist wichtig“ zu sagen.",
+          "answer": "Textbelege: [T1] Tom las die Zusammenfassung zweimal. Im Gespräch konnte er die Handlung erzählen. Als Mila einen Satz aus dem Roman vorlas, stritten beide darüber, ob die Erzählerin ihm zu trauen sei.\nDeutungsvorschlag: Der Text zeigt nur, dass Tom die Handlung nach dem Lesen einer Zusammenfassung wiedergeben kann; er beweist nicht, dass Zusammenfassungen Romane vollständig ersetzen. Die Deutung, dass eine Zusammenfassung ausreicht, ist hier nicht haltbar, da Milas Einwand auf eine Lücke im Verständnis der Erzählersicht hinweist.\nGrenze: Die Passage belegt lediglich die Reproduktion der Handlung, nicht aber das Verständnis von Nuancen oder die Vermeidung von Missverständnissen, die beim Lesen des Originals entstehen könnten.",
+          "checked": true,
+          "seconds": 11.757200000047684,
+          "firstTokenSeconds": 3.646,
+          "usage": {
+            "completion_tokens": 177,
+            "prompt_tokens": 987,
+            "total_tokens": 1164,
+            "extra": {
+              "e2e_latency_s": 11.757,
+              "prefill_tokens_per_s": 270.9008069403466,
+              "decode_tokens_per_s": 21.803766104893498,
+              "time_to_first_token_s": 3.643399999976158,
+              "time_per_output_token_s": 0.04586363636397505,
+              "grammar_init_s": 0.03539999997615814,
+              "grammar_per_token_s": 6.214689568611185e-05
+            }
+          },
+          "finish": "stop"
+        },
+        {
+          "case": "transfer-motiv",
+          "round": 1,
+          "prompt": "Ich finde, Elias lügt. Kann man das aus dem Text beweisen? Bitte unterscheide die auffällige Handlung von einem sicheren Motiv.",
+          "answer": "Textbelege: [T1] Elias zerriss den Zettel. Als Nora eintrat, hob er die Stücke auf und steckte sie in seine Tasche. „Ich räume nur auf“, sagte er.\nDeutungsvorschlag: Die Handlung des Aufhebens und Einsteckens könnte als Täuschung gedeutet werden, doch der Text liefert kein sicheres Motiv für eine Lüge; es könnte auch eine reine Ordnungshandlung sein. Eine Interpretation bleibt hier Spekulation ohne weitere Belege.\nGrenze: Der Ausschnitt zeigt nur die äußere Handlung und die zugegebene Aussage, aber nicht die Absicht oder den Inhalt des Zettels, sodass eine Bestätigung der Lüge unmöglich ist.",
+          "checked": true,
+          "seconds": 11.144600000023841,
+          "firstTokenSeconds": 3.610100000023842,
+          "usage": {
+            "completion_tokens": 163,
+            "prompt_tokens": 967,
+            "total_tokens": 1130,
+            "extra": {
+              "e2e_latency_s": 11.144,
+              "prefill_tokens_per_s": 267.9115642506753,
+              "decode_tokens_per_s": 21.608067012234088,
+              "time_to_first_token_s": 3.609399999976158,
+              "time_per_output_token_s": 0.046279012344501644,
+              "grammar_init_s": 0.0365,
+              "grammar_per_token_s": 7.668711839278053e-05
+            }
+          },
+          "finish": "stop"
+        },
+        {
+          "case": "transfer-revision",
+          "round": 1,
+          "prompt": "Meine These: Ina lehnt das Buch endgültig ab. Begründe eine Gegenposition nur aus dem Ausschnitt.",
+          "answer": "Textbelege: [T1] Drei Wochen lang lag das Buch auf dem Tisch. Am Sonntag las Ina eine Seite und schrieb an den Rand: „Noch nicht.“ Am Montag nahm sie es in den Zug mit.\nDeutungsvorschlag: Diese Lesart ist möglich, aber nicht zwingend; der Text zeigt nur eine vorläufige Entscheidung, da Ina das Buch aktiv mitnimmt, statt es wegzulegen. Eine endgültige Ablehnung wäre eine Deutung, die den nächsten Schritt ignoriert.\nGrenze: Der Ausschnitt beweist keine endgültige Ablehnung, sondern dokumentiert lediglich eine Pause und eine erneute Absicht, das Buch zu lesen.",
+          "checked": true,
+          "seconds": 11.354,
+          "firstTokenSeconds": 3.91,
+          "usage": {
+            "completion_tokens": 155,
+            "prompt_tokens": 965,
+            "total_tokens": 1120,
+            "extra": {
+              "e2e_latency_s": 11.354,
+              "prefill_tokens_per_s": 246.8409474577102,
+              "decode_tokens_per_s": 20.785531110309517,
+              "time_to_first_token_s": 3.9094000000357627,
+              "time_per_output_token_s": 0.04811038961155075,
+              "grammar_init_s": 0.04040000003576279,
+              "grammar_per_token_s": 6.129032258064514e-05
+            }
+          },
+          "finish": "stop"
+        }
+      ],
+      "loadSeconds": 4.526699999988079,
+      "completed": "2026-10-15T20:38:05.056Z"
+    }
+  ],
+  "completed": "2026-10-15T20:38:05.056Z"
+}
