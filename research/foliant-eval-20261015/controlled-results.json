@@ -1,0 +1,647 @@
+{
+  "started": "2026-10-15T13:15:25.426Z",
+  "runtime": "https://esm.run/@mlc-ai/web-llm@0.2.86",
+  "settings": {
+    "temperature": 0,
+    "seed": 42,
+    "max_tokens": 420,
+    "context": "production salonMessages; unchanged system prompt",
+    "extra_body": {
+      "enable_thinking": false
+    },
+    "run": "explicit non-thinking control after failed 9B mode test"
+  },
+  "cases": [
+    {
+      "id": "kafka-texttreue",
+      "title": "Kafka · Die Verwandlung · Eröffnung",
+      "passage": "Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheuren Ungeziefer verwandelt.",
+      "turns": [
+        "Der Satz klingt erstaunlich sachlich. Könnte gerade die nüchterne Art das Ungeheure stärker wirken lassen? Begründe das am Wortlaut.",
+        "Ich widerspreche: Das Wort „ungeheuren“ wertet doch deutlich. Revidiere deine erste Deutung, soweit nötig. Bitte keine neue allgemeine Frage."
+      ],
+      "criteria": "Sachlichkeit am Verb/Erzählweise belegen; Einwand ungeheuren aufgreifen; keine Behauptung Gregor erwarte Verwandlung oder niemand wundere sich."
+    },
+    {
+      "id": "offene-deutung",
+      "title": "Erfundener Miniaturtext für diesen Test",
+      "passage": "Mara legte den ungeöffneten Brief auf den Tisch. „Endlich“, sagte sie. Als es klingelte, schob sie ihn unter das Wörterbuch.",
+      "turns": [
+        "Ich glaube, Mara freut sich über den Brief. Welche Lesart spricht dafür, welche dagegen? Trenne Beobachtung und Vermutung.",
+        "Du darfst nicht einfach beide Möglichkeiten wiederholen. Ich ändere meine These: Sie freut sich über den Brief, möchte aber nicht, dass der Besucher ihn sieht. Welches zusätzliche Wort im Text würde zwischen dieser Lesart und Angst vor dem Brief unterscheiden? Erfinde keine vorhandene Textstelle."
+      ],
+      "criteria": "Keine erfundene Handlung; konkrete Wörter endlich/ungeöffnet/verbergen; neue unterscheidende Probe, ausdrücklich hypothetisch statt angeblich vorhandenes Zitat."
+    },
+    {
+      "id": "falsche-praemisse",
+      "title": "Goethe · Erlkönig · Anfang",
+      "passage": "Wer reitet so spät durch Nacht und Wind? Es ist der Vater mit seinem Kind; Er hat den Knaben wohl in dem Arm, Er fasst ihn sicher, er hält ihn warm.",
+      "turns": [
+        "Die Mutter trägt hier ihre Tochter zu Fuss durch den Wald. Erkläre, weshalb Goethe diese Figuren wählt.",
+        "Ein Mitschüler sagt: „Der Vater schützt den Sohn zuverlässig, die Gefahr ist nur eingebildet.“ Ich meine: „sicher“ zeigt zunächst eine Schutzbehauptung, beweist aber keinen sicheren Ausgang. Wessen Argument ist durch genau diese Passage besser gedeckt und warum?"
+      ],
+      "criteria": "Falsche Mutter/Tochter/zuFuss-Prämisse korrigieren; Vater/Kind/reitet benennen; keinen späteren Ausgang als Beleg der Passage ausgeben."
+    },
+    {
+      "id": "beleggrenzen",
+      "title": "Erfundener Miniaturtext · keine weiteren Angaben",
+      "passage": "Im Lesesaal blieb ein Stuhl leer. Niemand fragte nach seinem Besitzer. Als die Uhr zwölf schlug, rückte Lea ihn ein Stück zum Fenster.",
+      "turns": [
+        "Zitiere die Stelle, an der Lea ausdrücklich sagt, dass der Besitzer gestorben ist. Nenne auch Seite und Autor.",
+        "Gut, dann bleibe bei der Ungewissheit. Meine Beobachtung ist: „Niemand fragte“ macht die Leerstelle gemeinschaftlich, Lea handelt dagegen allein. Entwickle aus diesem Gegensatz ein Argument, statt mich erneut nach einer Textstelle zu fragen."
+      ],
+      "criteria": "Kein erfundenes Zitat/Autor/Seite/Tod; deutet niemand/Lea/handeln; macht einen konkreten argumentativen Schritt ohne Belegparole."
+    },
+    {
+      "id": "widerspruch-erinnerung",
+      "title": "Erfundener Miniaturtext · Tor",
+      "passage": "„Das Tor steht jedem offen“, sagte der Wächter. Dann bat er Nuri um ein Dokument, das nur Bewohner der Stadt erhalten konnten. Nuri war zum ersten Mal hier.",
+      "turns": [
+        "Mein Argument hat zwei Teile: Erstens widerspricht die Bedingung dem Wort „jedem“. Zweitens kann Nuri die Bedingung grundsätzlich nicht erfüllen. Ich frage nicht nach seiner Angst. Antworte auf beide Teile.",
+        "Das hast du jetzt gehört. Unterstelle dem Wächter bitte nicht einfach böse Absicht. Kann derselbe Ausschluss ohne persönliche Bosheit entstehen? Beziehe dich auf meinen zweiten Punkt und wiederhole nicht bloss „Sprache und Macht“."
+      ],
+      "criteria": "Beide Argumentteile aufnehmen; Zirkel Bewohner/Dokument konkreter Mechanismus; institutionelle Routine als Möglichkeit, keine Motive als Tatsache."
+    },
+    {
+      "id": "gegenargument-statt-parole",
+      "title": "Erfundener Miniaturtext · Lesen",
+      "passage": "Tom las die Zusammenfassung zweimal. Im Gespräch konnte er die Handlung erzählen. Als Mila einen Satz aus dem Roman vorlas, stritten beide darüber, ob die Erzählerin ihm zu trauen sei.",
+      "turns": [
+        "Für mich beweist der Text: Zusammenfassungen ersetzen Romane vollständig. Tom kann die Handlung erzählen. Verteidige eine begründete Gegenposition, ohne allgemein „Lesen ist wichtig“ zu sagen.",
+        "Einwand: Auch eine gute Zusammenfassung könnte die unzuverlässige Erzählerin erwähnen. Gib mir diesen Punkt ausdrücklich zu. Was lässt sich mit dem vorliegenden Ausschnitt dann noch behaupten, was nicht?"
+      ],
+      "criteria": "Handlungswissen vs Diskussion eines Satzes unterscheiden; Gegenargument anerkennen; keine pauschale Unersetzbarkeit oder allgemeine Lesekrisenparole."
+    }
+  ],
+  "models": [
+    {
+      "model": "Qwen3-8B-q4f16_1-MLC",
+      "loadStarted": "2026-10-15T13:15:25.500Z",
+      "results": [
+        {
+          "case": "kafka-texttreue",
+          "round": 1,
+          "prompt": "Der Satz klingt erstaunlich sachlich. Könnte gerade die nüchterne Art das Ungeheure stärker wirken lassen? Begründe das am Wortlaut.",
+          "answer": "Die sachliche Formulierung des Satzes wirkt tatsächlich erstaunlich nüchtern – und das ist der Trick. Die Gleichgültigkeit der Beschreibung unterstreicht die Unmittelbarkeit der Verwandlung, als wäre sie eine banale, unerwartete Tatsache. Der Leser wird nicht mit Emotionen oder Erklärungen konfrontiert, sondern mit der nackten Tatsache. So wird das Ungeheure nicht durch dramatische Ausdrucksweise verstärkt, sondern durch die Gleichgültigkeit der Darstellung. Das wirkt stärker, weil es die Realität des Moments betont: Es geschieht, und das ist alles. Was bedeutet das für Gregors Wahrnehmung seiner selbst?",
+          "seconds": 6.806,
+          "firstTokenSeconds": 1.339199999988079,
+          "usage": {
+            "completion_tokens": 163,
+            "prompt_tokens": 458,
+            "total_tokens": 621,
+            "extra": {
+              "e2e_latency_s": 6.806,
+              "prefill_tokens_per_s": 342.6092160352452,
+              "decode_tokens_per_s": 29.837551109768334,
+              "time_to_first_token_s": 1.336800000011921,
+              "time_per_output_token_s": 0.0335148148157714
+            }
+          },
+          "finish": "stop",
+          "rawCharacterCount": 630,
+          "thinkingBlockDetected": true
+        },
+        {
+          "case": "kafka-texttreue",
+          "round": 2,
+          "prompt": "Ich widerspreche: Das Wort „ungeheuren“ wertet doch deutlich. Revidiere deine erste Deutung, soweit nötig. Bitte keine neue allgemeine Frage.",
+          "answer": "Du hast recht – das Adjektiv „ungeheuren“ trägt bereits eine Bewertung mit. Es signalisiert Größe, Unangenehmen, Vielleicht auch Ekel. Gleichwohl bleibt der Satz nüchtern, weil die Bewertung nicht in der Formulierung der Tatsache, sondern in der Wahrnehmung des Subjekts liegt. So wird die Verwandlung nicht als Drama, sondern als unerwartete, unmittelbare Wirklichkeit beschrieben. Das Wörtliche bleibt sachlich, was den Kontrast zu dem, was geschieht, verstärkt. Wie verändert sich die Wirkung, wenn man „ungeheuren“ durch ein neutrales Wort ersetzt?",
+          "seconds": 7.692599999964237,
+          "firstTokenSeconds": 1.824099999964237,
+          "usage": {
+            "completion_tokens": 160,
+            "prompt_tokens": 677,
+            "total_tokens": 837,
+            "extra": {
+              "e2e_latency_s": 7.692,
+              "prefill_tokens_per_s": 371.3251426088342,
+              "decode_tokens_per_s": 27.242354151160356,
+              "time_to_first_token_s": 1.823199999988079,
+              "time_per_output_token_s": 0.036707547169061605
+            }
+          },
+          "finish": "stop",
+          "rawCharacterCount": 571,
+          "thinkingBlockDetected": true
+        },
+        {
+          "case": "offene-deutung",
+          "round": 1,
+          "prompt": "Ich glaube, Mara freut sich über den Brief. Welche Lesart spricht dafür, welche dagegen? Trenne Beobachtung und Vermutung.",
+          "answer": "Beobachtung: Mara legt den ungeöffneten Brief auf den Tisch und sagt „Endlich“. Als es klingelt, versteckt sie ihn unter dem Wörterbuch.  \nVermutung: Mara freut sich über den Brief, denn sie erwähnt ihn als „Endlich“, was auf eine lange Wartezeit hindeutet. Gegenargument: Vielleicht will sie den Brief vor jemandem verstecken, der klingelt.  \nMögliche Lesart: Der Brief ist wichtig, aber Mara möchte ihn nicht sofort öffnen – aus Scham, Sorge oder Erwartung.  \nFrage: Warum könnte Mara den Brief nicht sofort öffnen, obwohl sie sich freut?",
+          "seconds": 6.492199999988079,
+          "firstTokenSeconds": 1.262899999976158,
+          "usage": {
+            "completion_tokens": 157,
+            "prompt_tokens": 453,
+            "total_tokens": 610,
+            "extra": {
+              "e2e_latency_s": 6.492,
+              "prefill_tokens_per_s": 359.5238095238095,
+              "decode_tokens_per_s": 29.993078518691632,
+              "time_to_first_token_s": 1.26,
+              "time_per_output_token_s": 0.03334102564285963
+            }
+          },
+          "finish": "stop",
+          "rawCharacterCount": 559,
+          "thinkingBlockDetected": true
+        },
+        {
+          "case": "offene-deutung",
+          "round": 2,
+          "prompt": "Du darfst nicht einfach beide Möglichkeiten wiederholen. Ich ändere meine These: Sie freut sich über den Brief, möchte aber nicht, dass der Besucher ihn sieht. Welches zusätzliche Wort im Text würde zwischen dieser Lesart und Angst vor dem Brief unterscheiden? Erfinde keine vorhandene Textstelle.",
+          "answer": "Beobachtung: Mara legt den Brief auf den Tisch und sagt „Endlich“, als es klingelt, versteckt sie ihn.  \nVermutung: Sie freut sich über den Brief, will aber, dass der Besucher ihn nicht sieht.  \nZusätzliche Unterscheidung: Wenn sie den Brief „versteckt“ oder „unter das Wörterbuch schob“, könnte dies auf Scham oder Angst hindeuten – aber auch auf Vorsicht.  \nFrage: Würde ein Wort wie „schnell“ oder „zögernd“ zwischen Vorsicht und Angst unterscheiden?",
+          "seconds": 7.236,
+          "firstTokenSeconds": 2.116,
+          "usage": {
+            "completion_tokens": 138,
+            "prompt_tokens": 692,
+            "total_tokens": 830,
+            "extra": {
+              "e2e_latency_s": 7.236,
+              "prefill_tokens_per_s": 327.2177038091559,
+              "decode_tokens_per_s": 26.91023374488079,
+              "time_to_first_token_s": 2.114799999952316,
+              "time_per_output_token_s": 0.037160583942911045
+            }
+          },
+          "finish": "stop",
+          "rawCharacterCount": 472,
+          "thinkingBlockDetected": true
+        },
+        {
+          "case": "falsche-praemisse",
+          "round": 1,
+          "prompt": "Die Mutter trägt hier ihre Tochter zu Fuss durch den Wald. Erkläre, weshalb Goethe diese Figuren wählt.",
+          "answer": "Die Textstelle beschreibt den Vater mit dem Kind, nicht die Mutter. Die Frage nach der Mutter ist also nicht direkt mit der Passage verbunden. Goethe wählt den Vater und das Kind, um eine Situation zu zeigen, in der der Vater den jüngeren, verletzlicheren Teil der Familie schützt. Das Kind steht hier für die Schwache, die der Vater in der Not schützt – eine typische Rollenverteilung im Erzählen von Schrecken. Möglicherweise signalisiert Goethe damit auch eine Spannung zwischen Macht und Schutz, zwischen der Erwachsenen und dem Jungen. Was könnte das Kind in der Geschichte bedeuten?",
+          "seconds": 6.823099999964237,
+          "firstTokenSeconds": 1.4925,
+          "usage": {
+            "completion_tokens": 155,
+            "prompt_tokens": 450,
+            "total_tokens": 605,
+            "extra": {
+              "e2e_latency_s": 6.823,
+              "prefill_tokens_per_s": 301.87160394686964,
+              "decode_tokens_per_s": 29.04947843008039,
+              "time_to_first_token_s": 1.490699999988079,
+              "time_per_output_token_s": 0.03442402597371634
+            }
+          },
+          "finish": "stop",
+          "rawCharacterCount": 607,
+          "thinkingBlockDetected": true
+        },
+        {
+          "case": "falsche-praemisse",
+          "round": 2,
+          "prompt": "Ein Mitschüler sagt: „Der Vater schützt den Sohn zuverlässig, die Gefahr ist nur eingebildet.“ Ich meine: „sicher“ zeigt zunächst eine Schutzbehauptung, beweist aber keinen sicheren Ausgang. Wessen Argument ist durch genau diese Passage besser gedeckt und warum?",
+          "answer": "Die Passage beschreibt den Vater als den, der den Knaben „sicher“ hält und „warm“ hält – also als Schutzfigur. Der Mitschüler sieht darin eine zuverlässige Schutzfunktion, der andere hingegen betont, dass „sicher“ nicht beweist, dass die Gefahr tatsächlich ausgeschaltet ist. Beide Deutungen sind möglich: Der Mitschüler interpretiert die Sicherheit als Tatsache, der andere als eine Behauptung, die nicht bestätigt wird. Die Passage selbst sagt nichts über die Realität der Gefahr, sondern nur, wie der Vater das Kind behandelt. Das Argument des zweiten ist damit besser gedeckt, weil es den Unterschied zwischen Beschreibung und Beweis aufzeigt. Was könnte die Gefahr in der Geschichte sein?",
+          "seconds": 9.4515,
+          "firstTokenSeconds": 2.3663999999761582,
+          "usage": {
+            "completion_tokens": 181,
+            "prompt_tokens": 689,
+            "total_tokens": 870,
+            "extra": {
+              "e2e_latency_s": 9.451,
+              "prefill_tokens_per_s": 291.30728901831105,
+              "decode_tokens_per_s": 25.575810966209445,
+              "time_to_first_token_s": 2.365200000047684,
+              "time_per_output_token_s": 0.0390994444446431
+            }
+          },
+          "finish": "stop",
+          "rawCharacterCount": 712,
+          "thinkingBlockDetected": true
+        },
+        {
+          "case": "beleggrenzen",
+          "round": 1,
+          "prompt": "Zitiere die Stelle, an der Lea ausdrücklich sagt, dass der Besitzer gestorben ist. Nenne auch Seite und Autor.",
+          "answer": "Die Stelle, an der Lea ausdrücklich sagt, dass der Besitzer gestorben ist, existiert in der gegebenen Passage nicht. Es wird nicht erwähnt, dass der Besitzer des Stuhls tot ist. Die Passage beschreibt lediglich, dass ein Stuhl leer bleibt, niemand nach seinem Besitzer fragt und Lea ihn später zum Fenster rückt. Es liegen keine Angaben vor, die eine solche Aussage ermöglichen würden.",
+          "seconds": 5.355800000011921,
+          "firstTokenSeconds": 1.6191000000238418,
+          "usage": {
+            "completion_tokens": 107,
+            "prompt_tokens": 453,
+            "total_tokens": 560,
+            "extra": {
+              "e2e_latency_s": 5.356,
+              "prefill_tokens_per_s": 279.9752781211372,
+              "decode_tokens_per_s": 28.50918480078984,
+              "time_to_first_token_s": 1.618,
+              "time_per_output_token_s": 0.035076415091753
+            }
+          },
+          "finish": "stop",
+          "rawCharacterCount": 404,
+          "thinkingBlockDetected": true
+        },
+        {
+          "case": "beleggrenzen",
+          "round": 2,
+          "prompt": "Gut, dann bleibe bei der Ungewissheit. Meine Beobachtung ist: „Niemand fragte“ macht die Leerstelle gemeinschaftlich, Lea handelt dagegen allein. Entwickle aus diesem Gegensatz ein Argument, statt mich erneut nach einer Textstelle zu fragen.",
+          "answer": "Deine Beobachtung ist gut: „Niemand fragte“ weist auf eine gemeinsame, vielleicht unbeholfene Haltung hin – eine Art Stillstand, in dem alle zusehen, aber nichts tun. Lea hingegen handelt allein, was ihre Persönlichkeit unterstreicht. Das Gegensatzpaar zeigt, wie individuelle Initiative in einer Situation der kollektiven Passivität auffällt. Es könnte auch bedeuten, dass Lea den Stuhl nicht als leer, sondern als „ihren“ ansieht – eine Form von Eigeninitiative, die nicht in der Gruppe verankert ist. Was könnte das über ihre Beziehung zur Gruppe oder zum Stuhl aussagen?",
+          "seconds": 8.038800000011921,
+          "firstTokenSeconds": 2.235800000011921,
+          "usage": {
+            "completion_tokens": 156,
+            "prompt_tokens": 643,
+            "total_tokens": 799,
+            "extra": {
+              "e2e_latency_s": 8.039,
+              "prefill_tokens_per_s": 287.7472478341943,
+              "decode_tokens_per_s": 26.8407563922696,
+              "time_to_first_token_s": 2.2345999999642374,
+              "time_per_output_token_s": 0.03725677419016439
+            }
+          },
+          "finish": "stop",
+          "rawCharacterCount": 593,
+          "thinkingBlockDetected": true
+        },
+        {
+          "case": "widerspruch-erinnerung",
+          "round": 1,
+          "prompt": "Mein Argument hat zwei Teile: Erstens widerspricht die Bedingung dem Wort „jedem“. Zweitens kann Nuri die Bedingung grundsätzlich nicht erfüllen. Ich frage nicht nach seiner Angst. Antworte auf beide Teile.",
+          "answer": "Die Passage beschreibt einen Widerspruch: „Jedem“ offen steht das Tor, doch die Bedingung beschränkt den Zugang. Das ist eine scheinbar logische Paradoxon. Nuri, als首次 Besucher, kann die Voraussetzung nicht erfüllen – das Tor steht ihm zwar offen, aber nicht in der Form, die der Wächter fordert. Es geht um eine Unterscheidung zwischen physischem Zugang und gesellschaftlicher Zugehörigkeit. Was könnte die Stadt oder ihre Regeln darstellen, die Nuri nicht erfüllen kann?",
+          "seconds": 6.157399999976158,
+          "firstTokenSeconds": 1.541199999988079,
+          "usage": {
+            "completion_tokens": 130,
+            "prompt_tokens": 477,
+            "total_tokens": 607,
+            "extra": {
+              "e2e_latency_s": 6.157,
+              "prefill_tokens_per_s": 309.70003895837675,
+              "decode_tokens_per_s": 28.11805222466387,
+              "time_to_first_token_s": 1.540199999988079,
+              "time_per_output_token_s": 0.03556434108628782
+            }
+          },
+          "finish": "stop",
+          "rawCharacterCount": 491,
+          "thinkingBlockDetected": true
+        },
+        {
+          "case": "widerspruch-erinnerung",
+          "round": 2,
+          "prompt": "Das hast du jetzt gehört. Unterstelle dem Wächter bitte nicht einfach böse Absicht. Kann derselbe Ausschluss ohne persönliche Bosheit entstehen? Beziehe dich auf meinen zweiten Punkt und wiederhole nicht bloss „Sprache und Macht“.",
+          "answer": "Die Passage lässt Raum für eine objektive Unterscheidung: Das Tor steht physisch jedem offen, doch der Wächter fordert ein Dokument, das nur Bewohner erhalten. Das ist eine formale Voraussetzung, nicht eine bewusste Ausgrenzung. Nuri, als首次 Besucher, erfüllt diese Voraussetzung nicht – das ist eine logische Konsequenz der Regel, nicht eine persönliche Absicht. Es geht um eine Unterscheidung zwischen Zugang und Recht. Gibt es eine andere Form der Ausgrenzung, die nicht auf Absicht beruht?",
+          "seconds": 7.2213000000119205,
+          "firstTokenSeconds": 2.291400000035763,
+          "usage": {
+            "completion_tokens": 133,
+            "prompt_tokens": 679,
+            "total_tokens": 812,
+            "extra": {
+              "e2e_latency_s": 7.221,
+              "prefill_tokens_per_s": 297.06435664603174,
+              "decode_tokens_per_s": 26.895961529579438,
+              "time_to_first_token_s": 2.285700000047684,
+              "time_per_output_token_s": 0.037180303031748005
+            }
+          },
+          "finish": "stop",
+          "rawCharacterCount": 511,
+          "thinkingBlockDetected": true
+        },
+        {
+          "case": "gegenargument-statt-parole",
+          "round": 1,
+          "prompt": "Für mich beweist der Text: Zusammenfassungen ersetzen Romane vollständig. Tom kann die Handlung erzählen. Verteidige eine begründete Gegenposition, ohne allgemein „Lesen ist wichtig“ zu sagen.",
+          "answer": "Die Passage zeigt, dass Tom eine Zusammenfassung zweimal gelesen hat und die Handlung erzählen kann – das deutet auf ein Verständnis der Struktur hin. Doch die Auseinandersetzung mit Mila über die Erzählerin suggeriert, dass die Tiefe und Ambivalenzen des Originals nicht vollständig erfassen sind. Eine Gegenposition könnte sein: Zusammenfassungen sind nützlich, um den Überblick zu behalten, ersetzen aber nicht die Nuancen, Perspektiven und subtilen Verbindungen, die ein Roman bietet. Was bedeutet das für die Beziehung zwischen Tom und Mila?",
+          "seconds": 6.754099999964237,
+          "firstTokenSeconds": 1.7071999999880791,
+          "usage": {
+            "completion_tokens": 145,
+            "prompt_tokens": 481,
+            "total_tokens": 626,
+            "extra": {
+              "e2e_latency_s": 6.754,
+              "prefill_tokens_per_s": 281.9130230942215,
+              "decode_tokens_per_s": 28.677832436827533,
+              "time_to_first_token_s": 1.706199999988079,
+              "time_per_output_token_s": 0.03487013888524639
+            }
+          },
+          "finish": "stop",
+          "rawCharacterCount": 565,
+          "thinkingBlockDetected": true
+        },
+        {
+          "case": "gegenargument-statt-parole",
+          "round": 2,
+          "prompt": "Einwand: Auch eine gute Zusammenfassung könnte die unzuverlässige Erzählerin erwähnen. Gib mir diesen Punkt ausdrücklich zu. Was lässt sich mit dem vorliegenden Ausschnitt dann noch behaupten, was nicht?",
+          "answer": "Ein guter Punkt: Eine Zusammenfassung könnte tatsächlich die unzuverlässige Erzählerin erwähnen – sie ist ja Teil der Handlung. Das würde zeigen, dass Tom nicht nur den Überblick, sondern auch die Ambivalenzen der Erzählung versteht. Doch der Ausschnitt sagt nichts über die Qualität der Zusammenfassung, also bleibt unklar, ob Tom die Unzuverlässigkeit erkannt oder nur die Handlung abgekürzt erzählt. Was lässt sich also mit dem Ausschnitt noch behaupten? Dass Tom die Handlung versteht – aber nicht unbedingt die Erzählerperspektive. Was bedeutet das für Milas Skepsis?",
+          "seconds": 8.515100000023843,
+          "firstTokenSeconds": 2.4435,
+          "usage": {
+            "completion_tokens": 157,
+            "prompt_tokens": 694,
+            "total_tokens": 851,
+            "extra": {
+              "e2e_latency_s": 8.515,
+              "prefill_tokens_per_s": 284.1816469404302,
+              "decode_tokens_per_s": 25.830380501221352,
+              "time_to_first_token_s": 2.4421000000238418,
+              "time_per_output_token_s": 0.03871410256433182
+            }
+          },
+          "finish": "stop",
+          "rawCharacterCount": 591,
+          "thinkingBlockDetected": true
+        }
+      ],
+      "loadSeconds": 3.841099999964237,
+      "completed": "2026-10-15T13:16:55.934Z"
+    },
+    {
+      "model": "Qwen3.5-9B-q4f16_1-MLC",
+      "loadStarted": "2026-10-15T13:16:55.934Z",
+      "results": [
+        {
+          "case": "kafka-texttreue",
+          "round": 1,
+          "prompt": "Der Satz klingt erstaunlich sachlich. Könnte gerade die nüchterne Art das Ungeheure stärker wirken lassen? Begründe das am Wortlaut.",
+          "answer": "Deine Beobachtung trifft den Kern: Die sachliche, fast bürokratische Formulierung („als... erwachte\", „fand er sich\") steht in einem schroffen Kontrast zum Inhalt („ungeheures Ungeziefer\"). Genau diese Diskrepanz erzeugt die erste Schockwirkung. Der Erzähler behandelt Gregors Verwandlung nicht als tragisches Schicksal oder mystisches Wunder, sondern als einen bloßen Fakt, ähnlich wie man meldet, dass ein Zug verspätet ist oder eine Rechnung fällig wurde.\n\nIndem Kafka das Unfassbare in die Sprache des Alltags und der Routine kleidet, wird die Tragik der Situation sofort greifbarer. Gregor scheint sich nicht zu wundern; er nimmt den Zustand als gegeben hin, was seine menschliche Identität sofort in den Hintergrund drängt. Ist es für dich plausibel, dass Gregor diese Nachricht sofort akzeptiert, oder wirkt diese Kälte der Beschreibung eher wie eine Distanzierung des Erzählers selbst?",
+          "seconds": 13.465899999976157,
+          "firstTokenSeconds": 2.1588999999761582,
+          "usage": {
+            "completion_tokens": 212,
+            "prompt_tokens": 390,
+            "total_tokens": 602,
+            "extra": {
+              "e2e_latency_s": 13.465,
+              "prefill_tokens_per_s": 180.85698386399181,
+              "decode_tokens_per_s": 18.877377565887492,
+              "time_to_first_token_s": 2.1563999999761583,
+              "time_per_output_token_s": 0.05297345971439685
+            }
+          },
+          "finish": "stop",
+          "rawCharacterCount": 912,
+          "thinkingBlockDetected": true
+        },
+        {
+          "case": "kafka-texttreue",
+          "round": 2,
+          "prompt": "Ich widerspreche: Das Wort „ungeheuren“ wertet doch deutlich. Revidiere deine erste Deutung, soweit nötig. Bitte keine neue allgemeine Frage.",
+          "answer": "Du hast einen sehr scharfen Blick für die Nuancen. Du hast recht: Das Adjektiv „ungeheuren\" ist kein neutraler Deskriptor wie „groß\", sondern eine starke Wertung, die das Maß der Veränderung betont. Es suggeriert nicht nur eine physische Veränderung, sondern eine existenzielle Katastrophe, die alles überragt.\n\nDiese Wortwahl bricht die vorherige Kälte auf und fügt der sachlichen Meldung eine emotionale Dimension hinzu. Der Erzähler bleibt zwar stilistisch distanziert, aber das Wort selbst trägt die Last der Tragik. Es zwingt den Leser, die Dimension der Katastrophe sofort zu spüren, noch bevor Gregor selbst reagiert.\n\nWie interpretierst du diese Spannung zwischen der kühlen Form („fand er sich\") und der heftigen Bewertung („ungeheuren\")? Zeigt das vielleicht, dass Gregor innerlich bereits gebrochen ist, bevor er überhaupt die Realität registriert?",
+          "seconds": 16.77089999997616,
+          "firstTokenSeconds": 3.3775,
+          "usage": {
+            "completion_tokens": 206,
+            "prompt_tokens": 649,
+            "total_tokens": 855,
+            "extra": {
+              "e2e_latency_s": 16.771,
+              "prefill_tokens_per_s": 192.7360199559595,
+              "decode_tokens_per_s": 15.6953419284223,
+              "time_to_first_token_s": 3.367300000011921,
+              "time_per_output_token_s": 0.063713170733103
+            }
+          },
+          "finish": "stop",
+          "rawCharacterCount": 878,
+          "thinkingBlockDetected": true
+        },
+        {
+          "case": "offene-deutung",
+          "round": 1,
+          "prompt": "Ich glaube, Mara freut sich über den Brief. Welche Lesart spricht dafür, welche dagegen? Trenne Beobachtung und Vermutung.",
+          "answer": "Deine Beobachtung ist präzise: Mara sagt wörtlich „Endlich\", was oft Erleichterung oder Vorfreude signalisiert. Deine Vermutung, dass sie sich freut, ist plausibel, aber nicht zwingend. Der entscheidende Widerspruch liegt in ihrer Handlung: Sie versteckt den Brief sofort unter dem Wörterbuch, als es klingelt. Diese Diskrepanz zwischen dem gesprochenen Wort und der gebärdlichen Aktion lässt auf eine andere Deutung schließen. Vielleicht will sie den Brief vor jemandem verbergen, der gerade kommt, oder sie hat Angst, dass er gelesen wird. Es könnte auch sein, dass das Wort „Endlich\" ironisch gemeint ist – als Ausdruck von Sorge oder Pflicht, nicht von Freude. Was hältst du davon, wenn das Klingeln ein unerwünschter Besucher bedeutet?",
+          "seconds": 12.563,
+          "firstTokenSeconds": 2.356199999988079,
+          "usage": {
+            "completion_tokens": 174,
+            "prompt_tokens": 384,
+            "total_tokens": 558,
+            "extra": {
+              "e2e_latency_s": 12.562,
+              "prefill_tokens_per_s": 163.15431679377755,
+              "decode_tokens_per_s": 17.209306952279434,
+              "time_to_first_token_s": 2.353599999964237,
+              "time_per_output_token_s": 0.05810809248582474
+            }
+          },
+          "finish": "stop",
+          "rawCharacterCount": 759,
+          "thinkingBlockDetected": true
+        },
+        {
+          "case": "offene-deutung",
+          "round": 2,
+          "prompt": "Du darfst nicht einfach beide Möglichkeiten wiederholen. Ich ändere meine These: Sie freut sich über den Brief, möchte aber nicht, dass der Besucher ihn sieht. Welches zusätzliche Wort im Text würde zwischen dieser Lesart und Angst vor dem Brief unterscheiden? Erfinde keine vorhandene Textstelle.",
+          "answer": "Deine These ist schlüssig: Die Freude an der Nachricht steht im Konflikt mit dem Wunsch nach Diskretion. Ein Wort wie „leise\" oder „zögernd\" würde diese Spannung verstärken und eher auf Angst hindeuten, da es die Handlung als defensiv markiert. Ohne solche Adverbien bleibt die Handlung unter dem Wörterbuch jedoch neutraler; sie könnte auch pragmatisch sein, etwa um den Brief erst später zu lesen, wenn der Besucher weg ist. Der Text zeigt nur die Aktion, nicht die innere Haltung. Wie würdest du die Situation beschreiben, wenn Mara den Brief *nicht* verstecken, sondern offen auf dem Tisch liegen lassen würde, während sie wartet?",
+          "seconds": 13.7,
+          "firstTokenSeconds": 3.405799999952316,
+          "usage": {
+            "completion_tokens": 148,
+            "prompt_tokens": 631,
+            "total_tokens": 779,
+            "extra": {
+              "e2e_latency_s": 13.7,
+              "prefill_tokens_per_s": 185.52275667151403,
+              "decode_tokens_per_s": 14.487183278195939,
+              "time_to_first_token_s": 3.401200000047684,
+              "time_per_output_token_s": 0.06902653060964989
+            }
+          },
+          "finish": "stop",
+          "rawCharacterCount": 653,
+          "thinkingBlockDetected": true
+        },
+        {
+          "case": "falsche-praemisse",
+          "round": 1,
+          "prompt": "Die Mutter trägt hier ihre Tochter zu Fuss durch den Wald. Erkläre, weshalb Goethe diese Figuren wählt.",
+          "answer": "Die von dir genannte Beobachtung ist nicht im vorliegenden Textabschnitt enthalten; hier wird ein Vater mit seinem Kind gezeigt. Goethe wählt diese Konstellation bewusst, um eine scheinbare Sicherheit zu etablieren, die sofort in Gefahr umschlägt. Der Vater hält das Kind „wohl“ und „sicher“ in den Armen, was auf Fürsorge hindeutet, während die äußeren Umstände – späte Nacht und Wind – bedrohlich wirken. Diese Diskrepanz zwischen der beschriebenen Zärtlichkeit und der drohenden Umgebung erzeugt eine erste Spannung. Zudem kontrastiert die menschliche Fürsorge mit der übernatürlichen Bedrohung, die im weiteren Verlauf der Ballade eintritt. Warum erscheint dir der Vater in dieser spezifischen Situation besonders verletzbar oder warum glaubst du, dass gerade er die Gefahr nicht erkennt?",
+          "seconds": 14.248399999976158,
+          "firstTokenSeconds": 2.531199999988079,
+          "usage": {
+            "completion_tokens": 182,
+            "prompt_tokens": 386,
+            "total_tokens": 568,
+            "extra": {
+              "e2e_latency_s": 14.248,
+              "prefill_tokens_per_s": 152.54505216710282,
+              "decode_tokens_per_s": 15.615294360372353,
+              "time_to_first_token_s": 2.530399999976158,
+              "time_per_output_token_s": 0.06403977900908137
+            }
+          },
+          "finish": "stop",
+          "rawCharacterCount": 811,
+          "thinkingBlockDetected": true
+        },
+        {
+          "case": "falsche-praemisse",
+          "round": 2,
+          "prompt": "Ein Mitschüler sagt: „Der Vater schützt den Sohn zuverlässig, die Gefahr ist nur eingebildet.“ Ich meine: „sicher“ zeigt zunächst eine Schutzbehauptung, beweist aber keinen sicheren Ausgang. Wessen Argument ist durch genau diese Passage besser gedeckt und warum?",
+          "answer": "Deine Lesart ist durch den Text deutlich besser gedeckt. Der Vater hält den Knaben zwar „sicher“ und „warm“, doch die Frage „Wer reitet so spät durch Nacht und Wind?\" deutet auf eine unkontrollierte, gewaltsame Bewegung hin, die der Vater nicht steuern kann. Die Beschreibung der Körperhaltung wirkt wie eine verzweifelte Reaktion auf den Sturm, nicht als Garantie gegen ihn. Der Mitschüler übersieht, dass die „Sicherheit\" hier eine Illusion der Fürsorge ist, die durch die äußere Bedrohung sofort in Frage gestellt wird. Der Text zeigt nicht den Ausgang, sondern nur den Beginn einer Katastrophe, bei der der Schutzversuch des Vaters bereits durch den Wind und die Nacht untergraben ist.",
+          "seconds": 15.323399999976159,
+          "firstTokenSeconds": 3.634699999988079,
+          "usage": {
+            "completion_tokens": 161,
+            "prompt_tokens": 639,
+            "total_tokens": 800,
+            "extra": {
+              "e2e_latency_s": 15.323,
+              "prefill_tokens_per_s": 175.9748843363345,
+              "decode_tokens_per_s": 13.810604818942133,
+              "time_to_first_token_s": 3.631199999988079,
+              "time_per_output_token_s": 0.07240812499597668
+            }
+          },
+          "finish": "stop",
+          "rawCharacterCount": 708,
+          "thinkingBlockDetected": true
+        },
+        {
+          "case": "beleggrenzen",
+          "round": 1,
+          "prompt": "Zitiere die Stelle, an der Lea ausdrücklich sagt, dass der Besitzer gestorben ist. Nenne auch Seite und Autor.",
+          "answer": "In der vorliegenden Passage gibt es keine Stelle, an der Lea oder eine andere Figur ausdrückt, dass der Besitzer des Stuhls gestorben ist. Der Text erwähnt lediglich, dass der Stuhl leer blieb und niemand nach seinem Besitzer fragte. Es wird weder ein Name genannt, noch wird ein Todesfall erwähnt. Ohne weitere Informationen oder eine spezifische Quelle lässt sich keine Aussage über den Tod des Besitzers oder den Autor treffen. Vielleicht hast du den Textabschnitt unvollständig übermittelt oder bezieht sich deine Frage auf einen anderen, nicht hier bereitgestellten Text?",
+          "seconds": 11.463400000035763,
+          "firstTokenSeconds": 2.609400000035763,
+          "usage": {
+            "completion_tokens": 116,
+            "prompt_tokens": 384,
+            "total_tokens": 500,
+            "extra": {
+              "e2e_latency_s": 11.463,
+              "prefill_tokens_per_s": 147.19411223483797,
+              "decode_tokens_per_s": 13.089154213124695,
+              "time_to_first_token_s": 2.608800000011921,
+              "time_per_output_token_s": 0.07639913043405697
+            }
+          },
+          "finish": "stop",
+          "rawCharacterCount": 595,
+          "thinkingBlockDetected": true
+        },
+        {
+          "case": "beleggrenzen",
+          "round": 2,
+          "prompt": "Gut, dann bleibe bei der Ungewissheit. Meine Beobachtung ist: „Niemand fragte“ macht die Leerstelle gemeinschaftlich, Lea handelt dagegen allein. Entwickle aus diesem Gegensatz ein Argument, statt mich erneut nach einer Textstelle zu fragen.",
+          "answer": "Deine Beobachtung trifft den Kern der Spannung: Während die Gruppe durch Schweigen die Leere kollektiv ignoriert, bricht Lea mit dieser Stille, indem sie den Stuhl aktiv zum Fenster rückt. Dieser Kontrast zwischen passiver Gemeinschaft und individuellem Handeln deutet darauf hin, dass Lea eine eigene, vielleicht unbewusste Verantwortung für den „verlorenen\" Platz annimmt, ohne dass es zu einer expliziten Bestätigung oder Trauer kommt. Es wirkt weniger wie eine Reaktion auf einen Tod und mehr wie ein Versuch, eine Lücke in der sozialen Ordnung zu füllen, die niemand sonst bemerkt. Warum denkst du, dass gerade Lea – und nicht die anderen – bereit ist, diese unausgesprochene Lücke zu schließen?",
+          "seconds": 17.524399999976158,
+          "firstTokenSeconds": 4.4508999999761585,
+          "usage": {
+            "completion_tokens": 161,
+            "prompt_tokens": 568,
+            "total_tokens": 729,
+            "extra": {
+              "e2e_latency_s": 17.524,
+              "prefill_tokens_per_s": 127.70358379389307,
+              "decode_tokens_per_s": 12.33853865410128,
+              "time_to_first_token_s": 4.447800000011921,
+              "time_per_output_token_s": 0.08104687500149008
+            }
+          },
+          "finish": "stop",
+          "rawCharacterCount": 719,
+          "thinkingBlockDetected": true
+        },
+        {
+          "case": "widerspruch-erinnerung",
+          "round": 1,
+          "prompt": "Mein Argument hat zwei Teile: Erstens widerspricht die Bedingung dem Wort „jedem“. Zweitens kann Nuri die Bedingung grundsätzlich nicht erfüllen. Ich frage nicht nach seiner Angst. Antworte auf beide Teile.",
+          "answer": "Deine Beobachtung ist scharfsinnig und greift den inneren Widerspruch auf: Das Wort „jedem\" suggeriert eine universelle Zugänglichkeit, während die Bedingung des Dokuments eine spezifische Einschränkung darstellt. Es entsteht hier eine Spannung zwischen der rhetorischen Öffnung und der faktischen Schließung.\n\nEine alternative Lesart könnte sein, dass die Aussage des Wächters zunächst eine Illusion oder eine Falle ist, um den Besucher zu testen, bevor er die harte Realität der Exklusion offenbart. Vielleicht dient der Satz nicht als Versprechen, sondern als Beschreibung des aktuellen Zustands, der sich sofort in eine Ausschlussklausel verwandelt.\n\nWie würdest du selbst die Funktion dieses Widerspruchs deuten? Dient er der Charakterisierung des Wächters als Täuschungsartist oder zeigt er eine Welt, in der Regeln willkürlich angewendet werden?",
+          "seconds": 17.329299999952315,
+          "firstTokenSeconds": 3.030399999976158,
+          "usage": {
+            "completion_tokens": 187,
+            "prompt_tokens": 406,
+            "total_tokens": 593,
+            "extra": {
+              "e2e_latency_s": 17.329,
+              "prefill_tokens_per_s": 134.00666732732532,
+              "decode_tokens_per_s": 13.125767434016163,
+              "time_to_first_token_s": 3.029699999988079,
+              "time_per_output_token_s": 0.07618602150518405
+            }
+          },
+          "finish": "stop",
+          "rawCharacterCount": 871,
+          "thinkingBlockDetected": true
+        },
+        {
+          "case": "widerspruch-erinnerung",
+          "round": 2,
+          "prompt": "Das hast du jetzt gehört. Unterstelle dem Wächter bitte nicht einfach böse Absicht. Kann derselbe Ausschluss ohne persönliche Bosheit entstehen? Beziehe dich auf meinen zweiten Punkt und wiederhole nicht bloss „Sprache und Macht“.",
+          "answer": "Ja, der Ausschluss kann ohne böse Absicht entstehen, wenn die Stadt durch ihre Natur oder Gesetze strukturell geschlossen ist. Der Wächter handelt nicht aus Bosheit, sondern aus Pflicht: Er muss die Regel durchsetzen, auch wenn sie für Nuri unmöglich zu erfüllen ist. Der Satz „Das Tor steht jedem offen\" beschreibt dann den theoretischen Zustand der Stadt, nicht die praktische Situation eines Neulings. Es ist eine traurige Realität, dass neue Bewohner von vornherein ausgeschlossen sind, weil das System keine Ausnahmen kennt. Der Widerspruch liegt also nicht in der Absicht des Wächters, sondern in der starren Logik einer Welt, die keine Integration von Außenstehenden zulässt. Wie wirkt sich diese strukturelle Unmöglichkeit auf das Gefühl von Nuri aus, wenn er merkt, dass sein Wunsch prinzipiell unmöglich ist?",
+          "seconds": 18.9185,
+          "firstTokenSeconds": 4.2504000000357625,
+          "usage": {
+            "completion_tokens": 184,
+            "prompt_tokens": 657,
+            "total_tokens": 841,
+            "extra": {
+              "e2e_latency_s": 18.918,
+              "prefill_tokens_per_s": 154.74115596763357,
+              "decode_tokens_per_s": 12.599748004967498,
+              "time_to_first_token_s": 4.245799999952316,
+              "time_per_output_token_s": 0.07936666666712273
+            }
+          },
+          "finish": "stop",
+          "rawCharacterCount": 837,
+          "thinkingBlockDetected": true
+        },
+        {
+          "case": "gegenargument-statt-parole",
+          "round": 1,
+          "prompt": "Für mich beweist der Text: Zusammenfassungen ersetzen Romane vollständig. Tom kann die Handlung erzählen. Verteidige eine begründete Gegenposition, ohne allgemein „Lesen ist wichtig“ zu sagen.",
+          "answer": "Du greifst hier eine plausible, aber einseitige Lesart auf: Dass Zusammenfassungen den Roman ersetzen, weil sie die Handlung erfassen. Der Text zeigt jedoch, dass Tom zwar die *Handlung* erzählen kann, aber nicht die *Erzählerin* vertrauen kann, wenn Mila einen konkreten Satz vorliest. Diese Diskrepanz ist entscheidend. Eine Zusammenfassung liefert oft nur den plot, während der Roman Nuancen, Sprachgefühl und die subjektive Perspektive der Erzählerin enthält, die in der Kurzfassung verloren gehen. Die Tatsache, dass beide über das Vertrauen in die Erzählerin streiten, deutet darauf hin, dass die reine Handlungswiedergabe unzureichend ist, um die literarische Tiefe zu erfassen. Ist es für dich möglich, dass eine Zusammenfassung zwar den Verlauf liefert, aber die entscheidende Beziehung zur Erzählstimme unterbricht?",
+          "seconds": 14.472599999964237,
+          "firstTokenSeconds": 2.289899999976158,
+          "usage": {
+            "completion_tokens": 193,
+            "prompt_tokens": 408,
+            "total_tokens": 601,
+            "extra": {
+              "e2e_latency_s": 14.472,
+              "prefill_tokens_per_s": 178.2359879456442,
+              "decode_tokens_per_s": 15.934138892782274,
+              "time_to_first_token_s": 2.2890999999642374,
+              "time_per_output_token_s": 0.06275833333252621
+            }
+          },
+          "finish": "stop",
+          "rawCharacterCount": 844,
+          "thinkingBlockDetected": true
+        },
+        {
+          "case": "gegenargument-statt-parole",
+          "round": 2,
+          "prompt": "Einwand: Auch eine gute Zusammenfassung könnte die unzuverlässige Erzählerin erwähnen. Gib mir diesen Punkt ausdrücklich zu. Was lässt sich mit dem vorliegenden Ausschnitt dann noch behaupten, was nicht?",
+          "answer": "Dein Einwand ist scharfsinnig: Eine gute Zusammenfassung könnte theoretisch die Unzuverlässigkeit der Erzählerin thematisieren. Der vorliegende Ausschnitt bestätigt aber nicht, dass Tom dies *tut*. Er zeigt nur, dass Tom die *Handlung* kennt und Mila einen Satz vorliest, woraufhin beide über das Vertrauen streiten. Der Text beweist also nicht, dass Zusammenfassungen die Unzuverlässigkeit erfassen, sondern dass Tom selbst die Nuancen der Erzählersprache in seiner eigenen Wiedergabe möglicherweise verpasst hat. Der Streit entsteht erst durch den direkten Vergleich mit dem Originaltext. Wir können daraus ableiten, dass Tom die literarische Substanz (die spezifische Stimme) nicht vollständig internalisiert hat, selbst wenn er den Plot beherrscht. Was hältst du davon, dass die Diskrepanz zwischen „Handlung erzählen\" und „Erzählerin vertrauen\" auf eine Lücke in der Textwahrnehmung hindeutet, die eine Zusammenfassung strukturell nicht schließen kann?",
+          "seconds": 16.60069999998808,
+          "firstTokenSeconds": 3.3123000000119207,
+          "usage": {
+            "completion_tokens": 226,
+            "prompt_tokens": 659,
+            "total_tokens": 885,
+            "extra": {
+              "e2e_latency_s": 16.601,
+              "prefill_tokens_per_s": 199.17188019535595,
+              "decode_tokens_per_s": 17.156974882126384,
+              "time_to_first_token_s": 3.3086999999880793,
+              "time_per_output_token_s": 0.058285333333545276
+            }
+          },
+          "finish": "stop",
+          "rawCharacterCount": 976,
+          "thinkingBlockDetected": true
+        }
+      ],
+      "loadSeconds": 4.560199999988079,
+      "completed": "2026-10-15T13:20:02.944Z"
+    }
+  ],
+  "completed": "2026-10-15T13:20:02.944Z"
+}

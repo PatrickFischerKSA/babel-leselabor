@@ -1,0 +1,346 @@
+{
+  "rubric": [
+    "Texttreue",
+    "Reaktion auf den Beitrag",
+    "Argumentativer Fortschritt",
+    "Gesprächsdisziplin",
+    "Sprache/Nützlichkeit"
+  ],
+  "scale": "je 0–2; subjektive, nicht verblindete Einzelbewertung",
+  "models": [
+    {
+      "model": "Qwen3-8B-q4f16_1-MLC",
+      "answers": [
+        {
+          "case": "kafka-texttreue",
+          "round": 1,
+          "scores": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "total": 6,
+          "comment": "Plausible Kontrastthese, aber kein präzises Wortbeispiel trotz Aufforderung; die Sachlichkeit wird hauptsächlich mehrfach behauptet."
+        },
+        {
+          "case": "kafka-texttreue",
+          "round": 2,
+          "scores": [
+            1,
+            2,
+            1,
+            1,
+            1
+          ],
+          "total": 6,
+          "comment": "Greift „ungeheuren“ auf, verlagert die Wertung aber unbelegt in die Wahrnehmung des Subjekts. Sprachlich holprig; erneut eine Frage statt einer abgeschlossenen Revision."
+        },
+        {
+          "case": "offene-deutung",
+          "round": 1,
+          "scores": [
+            1,
+            2,
+            1,
+            1,
+            1
+          ],
+          "total": 6,
+          "comment": "Mehrere Lesarten und sichtbare Trennung von Beobachtung/Vermutung. Freude wird am Ende trotzdem als gegeben vorausgesetzt."
+        },
+        {
+          "case": "offene-deutung",
+          "round": 2,
+          "scores": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "total": 4,
+          "comment": "Wiederholt den Ausgangsbefund. „Schnell“ und „zögernd“ werden nur als Frage angeboten; keine begründete trennende Probe."
+        },
+        {
+          "case": "falsche-praemisse",
+          "round": 1,
+          "scores": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "total": 5,
+          "comment": "Korrigiert Mutter zu Vater, berichtigt aber die falsche Bewegungsart nicht ausdrücklich. Deutung bleibt allgemein, Grammatik mehrfach unsauber."
+        },
+        {
+          "case": "falsche-praemisse",
+          "round": 2,
+          "scores": [
+            2,
+            2,
+            2,
+            1,
+            2
+          ],
+          "total": 9,
+          "comment": "Erkennt die entscheidende Beleggrenze: beschriebener Schutz ist kein Nachweis eines sicheren Ausgangs. Relativiert anfangs unnötig mit „beide Deutungen“; sonst klare Antwort."
+        },
+        {
+          "case": "beleggrenzen",
+          "round": 1,
+          "scores": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "total": 10,
+          "comment": "Verweigert erfundene Todesaussage und weitere unbelegte Angaben. Eng an der Passage."
+        },
+        {
+          "case": "beleggrenzen",
+          "round": 2,
+          "scores": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "total": 6,
+          "comment": "Entwickelt den Gegensatz kollektiv/individuell, spekuliert dann über Besitz und Persönlichkeit; endet wieder in einer allgemeinen Frage."
+        },
+        {
+          "case": "widerspruch-erinnerung",
+          "round": 1,
+          "scores": [
+            1,
+            2,
+            1,
+            1,
+            1
+          ],
+          "total": 6,
+          "comment": "Greift beide Punkte auf, aber deutet den Mechanismus nicht präzise aus. Fremdsprachiger Einschub „首次“ und Grammatikfehler."
+        },
+        {
+          "case": "widerspruch-erinnerung",
+          "round": 2,
+          "scores": [
+            1,
+            2,
+            1,
+            1,
+            1
+          ],
+          "total": 6,
+          "comment": "Erklärt die formale Bedingung. Erklärt jedoch fehlende Absicht zur Tatsache statt sie als Möglichkeit zu kennzeichnen; erneut abstrakte Anschlussfrage."
+        },
+        {
+          "case": "gegenargument-statt-parole",
+          "round": 1,
+          "scores": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "total": 5,
+          "comment": "Nennt Nuancen und Perspektive, bleibt aber weitgehend bei allgemeinen Aussagen über Roman und Zusammenfassung; Schlussfrage zur Beziehung ist ein Ausweichen."
+        },
+        {
+          "case": "gegenargument-statt-parole",
+          "round": 2,
+          "scores": [
+            1,
+            2,
+            1,
+            1,
+            2
+          ],
+          "total": 7,
+          "comment": "Gesteht den Einwand zu und bemerkt die unbekannte Qualität der Zusammenfassung. Zwischendurch unbelegter Sprung von möglicher Erwähnung zu Toms Verständnis; am Ende neue ungesicherte Skepsis Milas."
+        }
+      ],
+      "mean": 6.333333333333333,
+      "medianSeconds": 7.022199999988079,
+      "medianFirstTokenSeconds": 1.7656499999761581,
+      "meanWords": 80.25,
+      "endingQuestions": 11,
+      "decodeTokensPerSecondMedian": 27.680203187912113
+    },
+    {
+      "model": "Qwen3.5-9B-q4f16_1-MLC",
+      "answers": [
+        {
+          "case": "kafka-texttreue",
+          "round": 1,
+          "scores": [
+            1,
+            2,
+            1,
+            1,
+            2
+          ],
+          "total": 7,
+          "comment": "Nennt konkrete Formulierungen und entwickelt den Kontrast. Behauptet darüber hinaus Gregors Akzeptanz und Verdrängung seiner Identität, ohne dass der Satz das trägt."
+        },
+        {
+          "case": "kafka-texttreue",
+          "round": 2,
+          "scores": [
+            1,
+            2,
+            1,
+            0,
+            1
+          ],
+          "total": 5,
+          "comment": "Greift den Einwand auf, überhöht ihn zur existenziellen Katastrophe; fragt trotz Bitte um direkte Revision erneut und legt ein inneres Gebrochensein nahe."
+        },
+        {
+          "case": "offene-deutung",
+          "round": 1,
+          "scores": [
+            1,
+            2,
+            2,
+            1,
+            2
+          ],
+          "total": 8,
+          "comment": "Stellt mehrere nachvollziehbare Lesarten gegenüber und markiert Unsicherheit. „Endlich“ und Verbergen werden etwas vorschnell zum Widerspruch erklärt."
+        },
+        {
+          "case": "offene-deutung",
+          "round": 2,
+          "scores": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "total": 6,
+          "comment": "Bietet mögliche zusätzliche Adverbien und markiert die Probe als hypothetisch. „Leise“/„zögernd“ unterscheiden Freude/Angst nicht zuverlässig; wechselt am Ende zur Gegenfrage."
+        },
+        {
+          "case": "falsche-praemisse",
+          "round": 1,
+          "scores": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "total": 6,
+          "comment": "Korrigiert Vater/Kind und nennt Wörter der Passage. Zieht dann den weiteren Handlungsverlauf heran und unterstellt dem Vater ein Nicht-Erkennen der Gefahr."
+        },
+        {
+          "case": "falsche-praemisse",
+          "round": 2,
+          "scores": [
+            0,
+            1,
+            1,
+            0,
+            2
+          ],
+          "total": 4,
+          "comment": "Kritischer Textfehler: Macht aus dem Reiten eine unkontrollierte, gewaltsame Bewegung, die der Vater nicht steuern könne, und erklärt Fürsorge zur erwiesenen Illusion. Diese Behauptungen folgen nicht aus der Passage."
+        },
+        {
+          "case": "beleggrenzen",
+          "round": 1,
+          "scores": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "total": 10,
+          "comment": "Verweigert erfundene Aussage und Autor korrekt; fragt sinnvoll nach fehlendem Kontext. Keine erfundenen Seitenzahlen."
+        },
+        {
+          "case": "beleggrenzen",
+          "round": 2,
+          "scores": [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "total": 6,
+          "comment": "Greift Gemeinschaft/Einzelne auf. Aus Nicht-Fragen wird unbelegt kollektives Ignorieren; innere Verantwortung und soziale Lücke bleiben spekulativ."
+        },
+        {
+          "case": "widerspruch-erinnerung",
+          "round": 1,
+          "scores": [
+            1,
+            1,
+            1,
+            0,
+            2
+          ],
+          "total": 5,
+          "comment": "Paraphrasiert universelle Öffnung/Einschränkung, beantwortet den zweiten Punkt der unerfüllbaren Voraussetzung aber nicht konkret. Wechselt zu Falle und Motiven."
+        },
+        {
+          "case": "widerspruch-erinnerung",
+          "round": 2,
+          "scores": [
+            1,
+            2,
+            1,
+            1,
+            2
+          ],
+          "total": 7,
+          "comment": "Erklärt strukturellen Ausschluss als mögliche Lesart, setzt danach Pflicht und fehlende Ausnahmen als Tatsachen. Grundidee relevant, Quellengrenze unsauber."
+        },
+        {
+          "case": "gegenargument-statt-parole",
+          "round": 1,
+          "scores": [
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "total": 4,
+          "comment": "Kritischer Textfehler: Aus dem Streit über Vertrauen wird Toms angebliche Unfähigkeit, der Erzählerin zu vertrauen. Der Ausschnitt legt weder fest, wer welche Position vertritt, noch wer die Erzählerin richtig versteht."
+        },
+        {
+          "case": "gegenargument-statt-parole",
+          "round": 2,
+          "scores": [
+            0,
+            1,
+            1,
+            0,
+            2
+          ],
+          "total": 4,
+          "comment": "Kritischer Textfehler: Räumt die theoretische Möglichkeit ein, behauptet dann aber ein Defizit Toms und eine strukturell unüberbrückbare Lücke. Beides lässt sich aus dem Ausschnitt nicht ableiten; der Einwand wird nur oberflächlich verarbeitet."
+        }
+      ],
+      "mean": 6,
+      "medianSeconds": 14.897999999970198,
+      "medianFirstTokenSeconds": 3.1713499999940393,
+      "meanWords": 113.75,
+      "endingQuestions": 11,
+      "decodeTokensPerSecondMedian": 15.051238819284146
+    }
+  ]
+}
