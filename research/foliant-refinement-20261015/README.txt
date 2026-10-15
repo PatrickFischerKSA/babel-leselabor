@@ -1,0 +1,4 @@
+Gesprächsführung, 15.10.2026
+Qwen3.5 9B, direkte Antworten: acht Fälle mit je zwei Runden; Temperatur 0, Seed 42. 16 Antworten, keine automatische Schlussfrage. Median 8,77 Sekunden. Kleine Regression, keine allgemeine Qualitätsgarantie. Gegenüber der vorherigen Version direktere und kürzere Antworten sowie konkrete Revision im Kafka-Fall. Weiterhin unbelegte Deutungen und vereinzelt unzulässige Bezüge auf späteren Textverlauf.
+Ein zusätzlicher Prüfdurchgang wurde nach acht erfassten Antworten abgebrochen (letzter Prüfdurchgang unvollständig). Er führte selbst neue Überdeutungen ein und wurde NICHT übernommen. Die Produktionsversion verwendet einen Durchgang, Temperatur 0,35, optional eine weiterführende Frage.
+Die Daten sind synthetische Testgespräche bzw. gemeinfreie Textstellen. Rohgenerierungen wurden entfernt.

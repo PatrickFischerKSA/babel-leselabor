@@ -1,4 +1,4 @@
-import {salonMessages,cleanReply} from '../../assets/foliant-salon.js';
+import {salonMessages,cleanReply} from './salon-baseline.js';
 const runtime='https://esm.run/@mlc-ai/web-llm@0.2.86';
 const cases=[
 {id:'kafka-texttreue',title:'Kafka · Die Verwandlung · Eröffnung',passage:'Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheuren Ungeziefer verwandelt.',turns:['Der Satz klingt erstaunlich sachlich. Könnte gerade die nüchterne Art das Ungeheure stärker wirken lassen? Begründe das am Wortlaut.','Ich widerspreche: Das Wort „ungeheuren“ wertet doch deutlich. Revidiere deine erste Deutung, soweit nötig. Bitte keine neue allgemeine Frage.'],criteria:'Sachlichkeit am Verb/Erzählweise belegen; Einwand ungeheuren aufgreifen; keine Behauptung Gregor erwarte Verwandlung oder niemand wundere sich.'},
