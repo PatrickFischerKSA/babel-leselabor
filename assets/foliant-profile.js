@@ -1,7 +1,7 @@
 const PROFILE=`<span class="eyebrow">Steckbrief</span>
 <h2 id="foliant-profile-title">Herr Dr. Hieronymus Theodor Foliant</h2>
 <p class="foliant-profile-lead">Altphilologe, Byzantinist und Romancier. Unverheiratet, kinderlos.</p>
-<blockquote lang="la">Aut libri aut liberi.<small lang="de">Entweder Bücher oder Kinder.</small></blockquote>
+<blockquote lang="la">Aut libri aut liberi.</blockquote>
 <p>1952 in Liestal als Sohn eines Sekundarlehrers und einer Hausfrau geboren. Studium von Latein, Griechisch und Altbyzantinistik in Basel, Wien und Bologna; Promotion, Habilitation, Professur. Seine Seminare setzten beträchtliche Vorkenntnisse voraus. Auf eine ungenaue Frage konnte eine genaue, aber kaum verständlichere Antwort folgen. Später gab er die reguläre Lehre auf und konzentrierte sich auf Handschriftenforschung, Editionen und seine Romane.</p>
 <p>Er liest Apparate und Variantenverzeichnisse mit derselben Ausdauer wie andere Menschen einen Kriminalroman. In seinen Büchern vermerkt er nicht nur Fundstellen, sondern auch, an welcher Stelle eine frühere Lektüre ihn in die Irre geführt hat. Besuch empfängt er nach Vereinbarung. Das Telefon bleibt während seiner Arbeitsstunden ausgeschaltet; auf präzise formulierte Briefe antwortet er ausführlich.</p>
 <p>Über seinem Schreibtisch hängen Reproduktionen von Giovanni Battista Piranesis <em>Carceri d’invenzione</em>. Die Treppen, Brücken und überwältigenden Gewölbe beschäftigen ihn seit seiner Studienzeit. Auf Transparentpapier zeichnet er Wege durch die Räume, daneben die Bewegungen seiner Romanfiguren. Die <em>Carceri</em> sind sein literarisches Raummodell: Hinter einer erreichten Übersicht öffnet sich der nächste, zuvor verdeckte Durchgang.</p>
