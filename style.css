@@ -62,3 +62,12 @@
 .librarian-profile-trigger{pointer-events:auto;position:absolute;left:0;bottom:-34px;max-width:170px;margin:0;font-size:.7rem}
 .foliant-profile blockquote small{display:block;margin-top:.3rem;font: .85rem/1.5 system-ui;font-style:normal}.foliant-sample{margin:.8rem 0;border:1px solid #ad925c;padding:.75rem 1rem}.foliant-sample summary{cursor:pointer;font-weight:600}.foliant-sample-text{max-width:38rem;margin:1rem auto}.foliant-sample-text p{font:1.05rem/1.9 Georgia,serif;text-indent:1.2em}.foliant-sample-text p:first-child{text-indent:0}
 .foliant-piranesi{margin:1.5rem 0}.foliant-piranesi img{display:block;width:100%;height:auto;border:1px solid #9b875f}.foliant-piranesi figcaption{font:.8rem/1.5 system-ui;color:#705b35;margin-top:.5rem}
+/* Paper dialogs need their own ink colors; the global details style targets dark panels. */
+.foliant-salon details p{color:#493b28}
+.foliant-profile .foliant-sample{background:#fff6e0;border-color:#9b8050}
+.foliant-profile .foliant-sample summary{color:#49331d;opacity:1}
+.foliant-profile .foliant-sample-text p{color:#302719;opacity:1;font-size:1.05rem;line-height:1.85}
+.foliant-profile .foliant-novel>span{color:#5c4327}
+.foliant-profile .foliant-piranesi{max-width:320px;margin:1.25rem auto;text-align:center}
+.foliant-profile .foliant-piranesi img{width:auto;max-width:100%;height:auto;max-height:340px;margin:0 auto;object-fit:contain}
+@media(max-width:600px){.foliant-profile .foliant-piranesi img{max-height:260px}}
