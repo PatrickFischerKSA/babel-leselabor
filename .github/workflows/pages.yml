@@ -26,6 +26,7 @@ jobs:
           node tests/foliant-evidence.cjs
           node tests/foliant-salon.cjs
           node tests/foliant-import.cjs
+          node tests/library-navigation.cjs
       - name: Prepare public files only
         run: |
           mkdir _site
